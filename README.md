@@ -54,7 +54,12 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 
 ## How to use the CSAFAP Config Package
 - **Step 1:**
-  Press one of the THREE KEY BINDS to access a RADIO WHEEL (default: H - instant flash, J - smokes, K - secondary smokes).
+  Press one of the THREE KEY BINDS to access a RADIO WHEEL
+
+  Default Keybinds:
+  -  **H**: Instant Flashes
+  -  **J**: Smokes & Wallbangs
+  -  **K**: Movement Configs
   
 - **Step 2:**
   Hover your mouse over the tile you want to use and PRESS THE SAME KEY AS IN STEP 1 again.
