@@ -25,6 +25,9 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Thera support (instant dropper, top mid and B main smokes for CT-side)
   - Overpass support (AWP wallbangs, mid runboost-incendiary)
 
+- ***New with version 1.4:***
+  - added Mirage AWP wallbangs
+  - improved user-friendly custimization options
 
 ## Installation
 - **Step 1:**
