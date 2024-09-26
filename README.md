@@ -229,7 +229,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > They are desubticked and work just like pre-patch 8/20/2024. Until the `echo | exec`-method gets patched again, disable any macros you might have set up for jumpthrows within your keyboard software.
 
 - Q16: How to uninstall the config package?
-  > Simply overwrite the keybinds used by this config package (`1, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
+  > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
 
 If any questions remain, join my discord and feel free to ask in the `#auto-lineup-config`-channel:
