@@ -26,9 +26,9 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Overpass support (AWP wallbangs, mid runboost-incendiary)
 
 - ***New with version 1.4:***
-  - added Mirage AWP wallbangs
-  - added keybind for default movement
-  - improved user-friendly custimization options
+  - Added Mirage AWP wallbangs
+  - Added keybind for default movement
+  - Improved user-friendly custimization options
 
 ## Installation
 - **Step 1:**
