@@ -172,7 +172,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > - Step 1:
   Within your own auto-exec, create a bind which opens the radio wheel, and switches between two phases (labels and commands):
   > ```
-  > bind J +wheel_1					// Keybind to custom wheel_1
+  > bind J +wheel_1						// Keybind to custom wheel_1
   >
   > alias +wheel_1 "exec CustomRadio/radio_labels"		// Call custom text			
   > alias -wheel_1 "+radialradio; bind J +wheel_2"		
