@@ -27,6 +27,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 
 - ***New with version 1.4:***
   - added Mirage AWP wallbangs
+  - added keybind for default movement
   - improved user-friendly custimization options
 
 ## Installation
