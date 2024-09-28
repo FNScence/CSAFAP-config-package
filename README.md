@@ -31,6 +31,10 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Bind for R to release middle click nades while also reloading
   - Improved user-friendly custimization options
 
+- ***New with version 1.5:***
+  - Two additional wheels accessable via mousewheel, when the smoke/flash wheel is already open
+  - Ancient: CT instant smokes for mid and B doors from all 5 spawns (open smoke wheel, then scroll mousewheel up/down)
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
