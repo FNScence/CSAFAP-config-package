@@ -35,6 +35,10 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Two additional wheels accessible via mouse wheel, when the smoke/flash wheel is already open
   - Ancient: CT instant smokes for mid and B doors from all 5 spawns (open smoke wheel, then scroll mouse wheel up/down)
 
+- ***New with version 1.6:***
+  - Auto sensitivity detection (you don't have to enter it anymore) (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
+  - Option for a specific strafing config to launch with the game
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
@@ -49,7 +53,8 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 - **Step 3:**
   Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choise (e.g. notepad++).
   
-  **IMPORTANT: EDIT LINE 6 TO ENTER YOUR PLAYING SENSITIVITY.** You can also change the keybinds in the following lines.
+  Change the keybinds to your preference.
+
   If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
 
 - **Step 4:**
