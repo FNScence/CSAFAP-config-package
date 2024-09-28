@@ -29,11 +29,11 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Additional AWP wallbangs for Mirage, Nuke and Overpass (thanks to [SneakyBikiMeh](https://github.com/sneakybikimeh))
   - Keybind for default movement
   - Bind for R to release middle click nades while also reloading
-  - Improved user-friendly custimization options
+  - Improved user-friendly customization options
 
 - ***New with version 1.5:***
-  - Two additional wheels accessable via mousewheel, when the smoke/flash wheel is already open
-  - Ancient: CT instant smokes for mid and B doors from all 5 spawns (open smoke wheel, then scroll mousewheel up/down)
+  - Two additional wheels accessible via mouse wheel, when the smoke/flash wheel is already open
+  - Ancient: CT instant smokes for mid and B doors from all 5 spawns (open smoke wheel, then scroll mouse wheel up/down)
 
 ## Installation
 - **Step 1:**
