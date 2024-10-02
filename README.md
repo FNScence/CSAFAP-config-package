@@ -148,13 +148,16 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   >
   > `..\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg` ✅
 
-- Q6: Which movement (strafing) config should I use?
+- Q6: Why does my sensitivity change to 1.0 and doesn't switch back my playing sens?
+  > Make sure you're NOT using the command `host_writeconfig` within your autoexec.
+
+- Q7: Which movement (strafing) config should I use?
   > They all have their up- and downsides. It's best to try them out yourself and see which ones you prefer.
   >
   > Personally, I would recommend `autostop AD`, which is simple and effective. Even if you counter-strafe yourself, which you should, it will correct basically any mistakes.
   > If you're confident in your own counter-strafing, you can try `autostop WS nulls AD`, which will help when getting caught in diagonal movement and the nulls help a little extra.
   
-- Q7: How to calculate yaw/pitch values?
+- Q8: How to calculate yaw/pitch values?
   > $$ X = \frac{a}{s \cdot m\\_yaw} $$
 
   > X ... desired yaw/pitch value
@@ -165,18 +168,18 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   >
   > m_yaw ... adjust your mouse sensitivity only on the X axis (we're using m_yaw = 0.022)
 
-- Q8: The radio tiles are empty. How to get the text working?
+- Q9: The radio tiles are empty. How to get the text working?
   > Make sure to place "platform_english.txt" in the correct folder and use the english language in-game. Edits to this file require a game-restart to take effect.
   > 
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
 
-- Q9: Why do I stop running when using the jumpthrow binds?
+- Q10: Why do I stop running when using the jumpthrow binds?
   > Autostop configs interfer with (W-)JT binds. Make sure to use default movement (for JT), or movement configs with default W-bind (for W-JT).
 
-- Q10: Why does my quickswitch (or whatever you bound Q to) not work anymore?
+- Q11: Why does my quickswitch (or whatever you bound Q to) not work anymore?
   > The instant window flash on Anubis overwrites the keybind of Q. If you don't want to use it, search for it in MAIN.cfg (CTRL+F) and change/delete it.
 
-- Q11: How to bind custom commands to the radiowheel (without using the config package?
+- Q12: How to bind custom commands to the radiowheel (without using the config package?
   > You can find the most basic set of configs to bind your own radio commands on my Discord in the ***pinned messages*** of the `#auto-lineup-config`-channel.
   > Join the **CS AFAP DISCORD SERVER** [HERE](https://discord.gg/cs-as-fast-as-possible-992407294866370681).
   > - Step 1:
@@ -210,7 +213,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > 
   > `cl_radial_radio_tab_0_text_1 cmd";do_something;`
 
-- Q12: How to create custom binds bypassing `cl_allow_multi_input 0` (bypassing the patch of 8/20/2024) without using the package?
+- Q13: How to create custom binds bypassing `cl_allow_multi_input 0` (bypassing the patch of 8/20/2024) without using the package?
   >
   > Video explaination by [Leiti](https://www.youtube.com/@xLeiti) [HERE](https://www.youtube.com/watch?v=spEEtXVFwLM).
   > - Step 1:
@@ -225,21 +228,21 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > bind KEY do_something
   > ```
 
-- Q13: Can my viewmodel influence the instant flash line-ups?
+- Q14: Can my viewmodel influence the instant flash line-ups?
   > No, the only settings that can influence auto line-ups are `sensitivity` and `m_yaw`, which you should enter at the top of `CSAFAP/MAIN.cfg`.
 
-- Q14: How to practice instant spawns? Where can I find teleport commands to those spawns?
+- Q15: How to practice instant spawns? Where can I find teleport commands to those spawns?
   > The free way of doing it is going offline with bots, setting `mp_randomspawn 0` and `bind m "mp_restartgame 1"`. You can save a position by taking the first two values from `getpos` and the thrid from `getpos_exact`.
   > You can also find `setpos`-commands to every spawn in the description of videos, where I show instant smokes.
   > [Youtube playlists](https://www.youtube.com/@FNScence/playlists) sorted by maps.
   > Here are examples for Ancient [CT-side](https://youtu.be/fd6gRZDOCps?si=qLWsm4GrhhVyXXpC&t=7) and [T-side](https://youtu.be/klyGW-IUca4?si=dRQ8qaAShzDSY0GG&t=3), Dust2 [T-side](https://youtu.be/XGQDTpFwkKM?si=oTVD5aypaWxZqgrz&t=55), Nuke [CT-side](https://youtu.be/v204dZrtFbo?si=lLB9Z4ohute6-8rq&t=84) and [T-side](https://youtu.be/tImJDxKe70o?si=mAKxnBdTGIZ9TUrH&t=17), Anubis [CT-side](https://youtu.be/fullFlkzB0U?si=MYDkPpzPqFDqqEbj&t=55) and [T-side](https://youtu.be/wURJvMSSbF0?si=Bd7TZ9BmWbJOAVsD&t=164), Inferno [CT-side](https://youtu.be/5MzQnaHtjl4?si=dymht4z6wghpO1EE&t=8), Mirage [T-side](https://youtu.be/klBqOVbdckQ?si=GendkMN1315tFBTf&t=53).
 
-- Q15: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
+- Q16: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
   > The config version.
   >
   > They are desubticked and work just like pre-patch 8/20/2024. Until the `echo | exec`-method gets patched again, disable any macros you might have set up for jumpthrows within your keyboard software.
 
-- Q16: How to uninstall the config package?
+- Q17: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
 
