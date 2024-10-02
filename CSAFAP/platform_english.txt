@@ -138,6 +138,7 @@
 	"CFG_MOVEMENT_AUTOSTOP_WS_NULL_AD"                    "AUTO COUNTER-STRAFE \n W + S \n \n NULLS / SNAP-TAP \n A + D \n  \n  \n  \n  \n "
 	"CFG_MOVEMENT_NULL_AD"                    "NULLS / SNAP-TAP \n A + D \n  \n  \n  \n  \n "
 	"CFG_MOVEMENT_AUTOSTOP_WASD"                    "AUTO COUNTER-STRAFE \n W+A+S+D \n  \n  \n  \n  \n "
+	"CFG_MOVEMENT_DESUBTICK"                    "DEWSUBTICK \n W+A+S+D \n  \n  \n  \n  \n "
 
 
 	"CFG_MAP_NOT_SUPPORTED"                    "MAP NOT SUPPORTED \n  \n  \n  \n  \n "
