@@ -40,7 +40,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Option for a specific strafing config to launch with the game
 
 - ***New with version 1.7:***
-  - Removed instant flash featue ([patched on 2nd of October](https://www.counter-strike.net/newsentry/4674264042200250912))
+  - Removed instant flash feature ([patched on 2nd of October](https://www.counter-strike.net/newsentry/4674264042200250912))
   - Split wheels into CT and T line-ups
 
 ## Installation
