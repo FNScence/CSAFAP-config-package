@@ -8,7 +8,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 ## Features & Version History
 - ***Base features (version 1.0):***
   - Automatic Smoke line-ups
-  - Instant Flash line-ups
+  - <s>Instant Flash line-ups</s>
   - Movement Configs (auto counter-strafe and nulls)
 
 - ***New with version 1.1:***
@@ -39,6 +39,10 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Auto sensitivity detection (you don't have to enter it anymore) (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
   - Option for a specific strafing config to launch with the game
 
+- ***New with version 1.7:***
+  - Removed instant flash featue ([patched on 2nd of October](https://www.counter-strike.net/newsentry/4674264042200250912))
+  - Split wheels into CT and T line-ups
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
@@ -67,8 +71,8 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   Press one of the THREE KEY BINDS to access a RADIO WHEEL
 
   Default Keybinds:
-  -  **H**: Instant Flashes
-  -  **J**: Smokes & Wallbangs
+  -  **H**: CT Line-ups (Smokes & Wallbangs)
+  -  **J**: T Line-ups (Smokes & Wallbangs)
   -  **K**: Movement Configs
   
 - **Step 2:**
@@ -76,10 +80,6 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 
 - **Step 3:**
   Throw your line-up.
-
-- **(Step 4):**
-  When using INSTANT BUG FLASHES (default keybind: H), immediatelly after releasing MOUSE1, PRESS 1 (or 2) to switch to your gun.
-  This will automatically turn away from the flash and pre-aim enemy positions.
 
 
 ## Customization
@@ -176,10 +176,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 - Q10: Why do I stop running when using the jumpthrow binds?
   > Autostop configs interfer with (W-)JT binds. Make sure to use default movement (for JT), or movement configs with default W-bind (for W-JT).
 
-- Q11: Why does my quickswitch (or whatever you bound Q to) not work anymore?
-  > The instant window flash on Anubis overwrites the keybind of Q. If you don't want to use it, search for it in MAIN.cfg (CTRL+F) and change/delete it.
-
-- Q12: How to bind custom commands to the radiowheel (without using the config package?
+- Q11: How to bind custom commands to the radiowheel (without using the config package?
   > You can find the most basic set of configs to bind your own radio commands on my Discord in the ***pinned messages*** of the `#auto-lineup-config`-channel.
   > Join the **CS AFAP DISCORD SERVER** [HERE](https://discord.gg/cs-as-fast-as-possible-992407294866370681).
   > - Step 1:
@@ -213,7 +210,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > 
   > `cl_radial_radio_tab_0_text_1 cmd";do_something;`
 
-- Q13: How to create custom binds bypassing `cl_allow_multi_input 0` (bypassing the patch of 8/20/2024) without using the package?
+- Q12: How to create custom binds bypassing `cl_allow_multi_input 0` (bypassing the patch of 8/20/2024) without using the package?
   >
   > Video explaination by [Leiti](https://www.youtube.com/@xLeiti) [HERE](https://www.youtube.com/watch?v=spEEtXVFwLM).
   > - Step 1:
@@ -228,21 +225,21 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > bind KEY do_something
   > ```
 
-- Q14: Can my viewmodel influence the instant flash line-ups?
+- Q13: Can my viewmodel influence the instant flash line-ups?
   > No, the only settings that can influence auto line-ups are `sensitivity` and `m_yaw`, which you should enter at the top of `CSAFAP/MAIN.cfg`.
 
-- Q15: How to practice instant spawns? Where can I find teleport commands to those spawns?
+- Q14: How to practice instant spawns? Where can I find teleport commands to those spawns?
   > The free way of doing it is going offline with bots, setting `mp_randomspawn 0` and `bind m "mp_restartgame 1"`. You can save a position by taking the first two values from `getpos` and the thrid from `getpos_exact`.
   > You can also find `setpos`-commands to every spawn in the description of videos, where I show instant smokes.
   > [Youtube playlists](https://www.youtube.com/@FNScence/playlists) sorted by maps.
   > Here are examples for Ancient [CT-side](https://youtu.be/fd6gRZDOCps?si=qLWsm4GrhhVyXXpC&t=7) and [T-side](https://youtu.be/klyGW-IUca4?si=dRQ8qaAShzDSY0GG&t=3), Dust2 [T-side](https://youtu.be/XGQDTpFwkKM?si=oTVD5aypaWxZqgrz&t=55), Nuke [CT-side](https://youtu.be/v204dZrtFbo?si=lLB9Z4ohute6-8rq&t=84) and [T-side](https://youtu.be/tImJDxKe70o?si=mAKxnBdTGIZ9TUrH&t=17), Anubis [CT-side](https://youtu.be/fullFlkzB0U?si=MYDkPpzPqFDqqEbj&t=55) and [T-side](https://youtu.be/wURJvMSSbF0?si=Bd7TZ9BmWbJOAVsD&t=164), Inferno [CT-side](https://youtu.be/5MzQnaHtjl4?si=dymht4z6wghpO1EE&t=8), Mirage [T-side](https://youtu.be/klBqOVbdckQ?si=GendkMN1315tFBTf&t=53).
 
-- Q16: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
+- Q15: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
   > The config version.
   >
   > They are desubticked and work just like pre-patch 8/20/2024. Until the `echo | exec`-method gets patched again, disable any macros you might have set up for jumpthrows within your keyboard software.
 
-- Q17: How to uninstall the config package?
+- Q16: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
 
