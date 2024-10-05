@@ -226,7 +226,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > ```
 
 - Q13: Can my viewmodel influence the instant flash line-ups?
-  > No, the only settings that can influence auto line-ups are `sensitivity` and `m_yaw`, which you should enter at the top of `CSAFAP/MAIN.cfg`.
+  > No, the only settings that can influence auto line-ups are `sensitivity` and `m_yaw`, which are set by the config automatically.
 
 - Q14: How to practice instant spawns? Where can I find teleport commands to those spawns?
   > The free way of doing it is going offline with bots, setting `mp_randomspawn 0` and `bind m "mp_restartgame 1"`. You can save a position by taking the first two values from `getpos` and the thrid from `getpos_exact`.
