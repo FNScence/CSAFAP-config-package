@@ -152,10 +152,19 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > Make sure you're NOT using the command `host_writeconfig` within your autoexec.
 
 - Q7: Which movement (strafing) config should I use?
-  > They all have their up- and downsides. It's best to try them out yourself and see which ones you prefer.
+  > They all have their up- and downsides. It's best to try them out yourself and see which ones you prefer, but here is a detailed list of what they do:
   >
-  > Personally, I would recommend `autostop AD`, which is simple and effective. Even if you counter-strafe yourself, which you should, it will correct basically any mistakes.
-  > If you're confident in your own counter-strafing, you can try `autostop WS nulls AD`, which will help when getting caught in diagonal movement and the nulls help a little extra.
+  > **- autostopAD:** Counter-strafes automatically when letting go of initial strafe key and also stopps fast when overlapping both strafe keys. **I consider this the best option**, because it corrects any imperfect counter-strafes from you and works the same if you still counter-strafe manually (which you should do).
+ 
+  > **- nullAD:** After holding down the initial strafe key, pressing the opposite strafe key will deactivate the initial one. For counter-strafing, this only corrects the human error of not letting go of the initial strafe key, but you still have to release the opposite one at the correct timing. It is good for extremely fast jiggles (holding down one strafe key and quickly tapping the opposite one), not too useful in CS though (maybe for pistol round AD spam).
+
+  > **- autonullAD:** Combines the previous two, so it will auto counter-strafe when releasing the initial strafe key, but it will work the same as nulls/snap-tap when pressing both at the same time.
+
+  > **- autostopWS_nullAD:** This version auto counter-strafes your forward/backward movement, so it will help immensely if you get caught in +W or diagonal movement, while the nulls help with AD counter-strafing. This might be the best version if you're very confident in your own AD counter-strafing (and like the null functionality).
+
+  > **- autostopWASD:** Counter-strafes automatically in 8 directions. On some occasions (pressing W+A, then releasing A and only running forward without moving the mouse in between before also letting go of W) will result in a faulty sidestep. Because of this reason, **I don't recommend using this version**.
+
+  > **- desubtick:** Very similar to default movement, but the WASD movement inputs will wait for the next tick to register instead of being subticked and registered immediatelly. Some users report a more cs:go-like movement feel.
   
 - Q8: How to calculate yaw/pitch values?
   > $$ X = \frac{a}{s \cdot m\\_yaw} $$
