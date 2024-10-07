@@ -165,6 +165,8 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > **- autostopWASD:** Counter-strafes automatically in 8 directions. On some occasions (pressing W+A, then releasing A and only running forward without moving the mouse in between before also letting go of W) will result in a faulty sidestep. Because of this reason, **I don't recommend using this version**.
 
   > **- desubtick:** Very similar to default movement, but the WASD movement inputs will wait for the next tick to register instead of being subticked and registered immediatelly. Some users report a more cs:go-like movement feel.
+
+  > I showcased the key inputs for each of these at [this timestamp of the video](https://youtu.be/G9hAaifu2H0?si=ZAl2vxdoX8eZ_Ktn&t=63).
   
 - Q8: How to calculate yaw/pitch values?
   > $$ X = \frac{a}{s \cdot m\\_yaw} $$
