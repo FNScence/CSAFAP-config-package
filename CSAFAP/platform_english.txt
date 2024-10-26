@@ -23,10 +23,12 @@
 	"CFG_MAP_Inferno"             "INFERNO  \n  \n  \n  \n  \n "
 	"CFG_MAP_Mirage"             "MIRAGE  \n  \n  \n  \n  \n "
 	"CFG_MAP_Vertigo"             "VERTIGO  \n  \n  \n  \n  \n "
-	"CFG_MAP_Thera"             "THERA  \n  \n  \n  \n  \n "
 	"CFG_MAP_Dust2"             "DUST2  \n  \n  \n  \n  \n "
 	"CFG_MAP_Nuke"             "NUKE  \n  \n  \n  \n  \n "
 	"CFG_MAP_Ancient"             "ANCIENT  \n  \n  \n  \n  \n "
+	
+	"CFG_MAP_Thera"             "THERA  \n  \n  \n  \n  \n "
+	"CFG_MAP_Overpass"             "OVERPASS  \n  \n  \n  \n  \n "
 	
 	"CFG_CHOOSE_MAP_T"             "NO MAP SELECTED  \n  \n  \n  \n  \n "
 	"CFG_CHOOSE_MAP_L"             "SELECT MAP \n ↘ PRESS M ↘ \n  \n  \n  \n  \n " // ↓
@@ -128,5 +130,6 @@
 	"CFG_MAP_NOT_SUPPORTED"                    "MAP NOT SUPPORTED \n  \n  \n  \n  \n "
 	"CFG_MORE_NOT_SUPPORTED"                    "NOT ADDITIONAL \n LINE-UPS SUPPORTED \n YET \n  \n  \n  \n  \n "
 	"CFG_SCROLL"                    "USE MWHEEL \n ↓↓ TO GET BACK ↑↑ \n  \n  \n  \n  \n "
+	"CFG_SCROLL_MAPS"                    "USE MWHEEL \n ↓↓ FOR MORE MAPS ↑↑ \n  \n  \n  \n  \n "
 	
 }
