@@ -21,17 +21,12 @@
 
 	
 	"CFG_INFERNO_SMOKE_BOTMID"                    "CT \n INSTANT ☁ smoke \n BOTTOM MID \n BEST MID SPAWN \n  \n  \n  \n  \n "
-	"CFG_INFERNO_FLASH_1"                    "CT \n INSTANT ⚡ FLASH \n \n A FLOWER \n  \n  \n  \n  \n "
-	"CFG_INFERNO_FLASH_2"                    "CT \n INSTANT ⚡ FLASH \n \n A new LONG CUBBY \n  \n  \n  \n  \n "
-	"CFG_INFERNO_FLASH_3"                    "CT \n INSTANT ⚡ FLASH \n \n B 2nd ORANGES \n  \n  \n  \n  \n "
-	"CFG_INFERNO_FLASH_4"                    "CT \n INSTANT ⚡ FLASH \n \n BANANA CAR \n  \n  \n  \n  \n "
 	
 	"CFG_NUKE_SMOKE_1"                    "T \n INSTANT ☁ smoke \n VENT RUSH \n  \n  \n  \n  \n "
 	"CFG_NUKE_SMOKE_2"                    "T \n INSTANT ☁ smoke \n HEAVEN \n  \n  \n  \n  \n "
 	"CFG_NUKE_SMOKE_3"                    "CT \n INSTANT ☁ smoke \n LOBBY \n SPAWN 3 \n  \n  \n  \n  \n "
 	"CFG_NUKE_SMOKE_4"                    "CT \n INSTANT ☁ smoke \n LOBBY \n SPAWN 4 \n  \n  \n  \n  \n "
 	"CFG_NUKE_SMOKE_5"                    "CT \n INSTANT ☁ smoke \n LOBBY \n SPAWN 5 \n  \n  \n  \n  \n "
-	"CFG_NUKE_FLASH_1"                    "CT \n INSTANT ⚡ FLASH \n \n A SITE \n  \n  \n  \n  \n "
 	"CFG_NUKE_WALLBANG_1"                    "CT \n WALLBANG \n GARAGE to T-RED \n  \n  \n  \n  \n "
 	
 	"CFG_DUST2_SMOKE_1"                    "T \n INSTANT ☁ smoke \n MID \n SPAWN 1 \n  \n  \n  \n  \n "
@@ -42,10 +37,6 @@
 	"CFG_DUST2_SMOKE_14"                    "T \n INSTANT ☁ smoke \n MID \n SPAWN 14 \n  \n  \n  \n  \n "
 	"CFG_DUST2_SMOKE_15"                    "T \n INSTANT ☁ smoke \n MID \n SPAWN 15 \n  \n  \n  \n  \n "
 	"CFG_DUST2_SMOKE_B"                    "T \n INSTANT ☁ smoke \n B DOORS \n  \n  \n  \n  \n "
-	"CFG_DUST2_FLASH_1"                    "CT \n INSTANT ⚡ FLASH \n \n  A LONG CAR \n  \n  \n  \n  \n "
-	"CFG_DUST2_FLASH_2"                    "CT \n INSTANT ⚡ FLASH \n \n B DOORS \n  \n  \n  \n  \n "
-	"CFG_DUST2_FLASH_3"                    "T \n INSTANT ⚡ FLASH \n \n  B CAR \n  \n  \n  \n  \n "
-	"CFG_DUST2_FLASH_4"                    "CT \n INSTANT ⚡ FLASH \n \n  B PLATEAU \n  \n  \n  \n  \n "
 	
 	"CFG_ANCIENT_SMOKE_1"                    "T \n INSTANT ☁ smoke \n MID EXTINGUISH \n SPAWN 1 \n  \n  \n  \n  \n "
 	"CFG_ANCIENT_SMOKE_4"                    "T \n INSTANT ☁ smoke \n MID EXTINGUISH \n SPAWN 4 \n  \n  \n  \n  \n "
@@ -63,14 +54,6 @@
 	"CFG_ANCIENT_CTSMOKE_B_3"                    "CT \n INSTANT ☁ smoke \n B DOORS \n SPAWN 3 \n  \n  \n  \n  \n "
 	"CFG_ANCIENT_CTSMOKE_B_4"                    "CT \n INSTANT ☁ smoke \n B DOORS \n SPAWN 4 \n  \n  \n  \n  \n "
 	"CFG_ANCIENT_CTSMOKE_B_5"                    "CT \n INSTANT ☁ smoke \n B DOORS \n SPAWN 5 \n  \n  \n  \n  \n "
-	"CFG_ANCIENT_FLASH_1"                    "CT \n INSTANT ⚡ FLASH \n \n A TEMPLE \n  \n  \n  \n  \n "
-	"CFG_ANCIENT_FLASH_2"                    "CT \n INSTANT ⚡ FLASH \n \n MID CUBBY \n  \n  \n  \n  \n "
-	"CFG_ANCIENT_FLASH_3"                    "CT \n INSTANT ⚡ FLASH \n \n B LONG / STAIRS \n  \n  \n  \n  \n "
-	"CFG_ANCIENT_FLASH_4"                    "CT \n INSTANT ⚡ FLASH \n \n B CAVE \n  \n  \n  \n  \n "
-	"CFG_ANCIENT_FLASH_5"                    "T \n INSTANT ⚡ FLASH \n \n T-MID ELBOW \n  \n  \n  \n  \n "
-	"CFG_ANCIENT_FLASH_6"                    "T \n INSTANT ⚡ FLASH \n \n B TOP RAMP \n  \n  \n  \n  \n "
-	"CFG_ANCIENT_FLASH_7"                    "T \n INSTANT ⚡ FLASH \n \n B RAMP \n SAVE corner \n  \n  \n  \n  \n "
-	"CFG_ANCIENT_FLASH_8"                    "CT \n INSTANT ⚡ FLASH \n \n HEAVEN / HIGHWAY \n  \n  \n  \n  \n "
 
 	"CFG_MIRAGE_SMOKE_1"                    "T \n INSTANT ☁ smoke \n WINDOW \n SPAWN 1 \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_SMOKE_2"                    "T \n INSTANT ☁ smoke \n WINDOW \n SPAWN 2 \n  \n  \n  \n  \n "
@@ -92,18 +75,11 @@
 	"CFG_MIRAGE_SMOKE_TOPCON_3"                    "T \n INSTANT ☁ smoke \n TOP CON \n SPAWN 3 \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_SMOKE_TOPCON_4"                    "T \n INSTANT ☁ smoke \n TOP CON \n SPAWN 4 \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_SMOKE_TOPCON_5"                    "T \n INSTANT ☁ smoke \n TOP CON \n SPAWN 5 \n  \n  \n  \n  \n "
-	"CFG_MIRAGE_FLASH_1"                    "CT \n INSTANT ⚡ FLASH \n \n A UNDER BALCONY \n  \n  \n  \n  \n "
-	"CFG_MIRAGE_FLASH_2"                    "CT \n INSTANT ⚡ FLASH \n \n B SHORT PILLAR \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_WALLBANG_1"                    "CT \n WALLBANG \n WINDOW to TOP MID \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_WALLBANG_2"                    "CT \n WALLBANG \n LEFT-SIDE WINDOW \n to CAT \n  \n  \n  \n  \n "
 	
 	"CFG_VERTIGO_SMOKE_1"                    "CT \n MID ☁ smoke \n  \n  \n  \n  \n "
 	"CFG_VERTIGO_MOLLY_1"                    "CT \n MID MOLOTOV \n  \n  \n  \n  \n "
-	"CFG_VERTIGO_FLASH_1"                    "CT \n INSTANT ⚡ FLASH \n \n MID SANDBAGS \n  \n  \n  \n  \n "
-	"CFG_VERTIGO_FLASH_2"                    "CT \n INSTANT ⚡ FLASH \n \n A GAP \n  \n  \n  \n  \n "
-	"CFG_VERTIGO_FLASH_3"                    "CT \n INSTANT ⚡ FLASH \n \n A SANDBAGS \n  \n  \n  \n  \n "
-	"CFG_VERTIGO_FLASH_4"                    "T \n INSTANT ⚡ FLASH \n \n A GEN \n  \n  \n  \n  \n "
-	"CFG_VERTIGO_FLASH_5"                    "CT \n INSTANT ⚡ FLASH \n \n A 51 \n  \n  \n  \n  \n "
 	
 	"CFG_ANUBIS_SMOKE_1"                    "CT \n INSTANT ☁ smoke \n T-stairs \n SPAWN 2 \n  \n  \n  \n  \n "
 	"CFG_ANUBIS_SMOKE_2"                    "CT \n INSTANT ☁ smoke \n T-stairs \n SPAWN 3 \n  \n  \n  \n  \n "
@@ -113,10 +89,6 @@
 	"CFG_ANUBIS_SMOKE_6"                    "CT \n INSTANT ☁ smoke \n RUGS \n SPAWN 3 \n  \n  \n  \n  \n "
 	"CFG_ANUBIS_SMOKE_7"                    "CT \n INSTANT ☁ smoke \n RUGS \n SPAWN 4 \n  \n  \n  \n  \n "
 	"CFG_ANUBIS_SMOKE_8"                    "CT \n INSTANT ☁ smoke \n RUGS \n SPAWN 5 \n  \n  \n  \n  \n "
-	"CFG_ANUBIS_FLASH_1"                    "CT \n INSTANT ⚡ FLASH \n \n MID BRIDGE \n  \n  \n  \n  \n "
-	"CFG_ANUBIS_FLASH_2"                    "CT \n INSTANT ⚡ FLASH \n \n MID WINDOW \n  \n  \n  \n  \n "
-	"CFG_ANUBIS_FLASH_3"                    "CT \n INSTANT ⚡ FLASH \n \n MID WINDOW + REVEAL \n  \n  \n  \n  \n "
-	"CFG_ANUBIS_FLASH_4"                    "CT \n INSTANT ⚡ FLASH \n \n B PLATEAU \n  \n  \n  \n  \n "
 	
 	"CFG_THERA_SMOKE_1"                    "CT \n INSTANT ☁ smoke \n DROPPER \n SPAWN 1 \n  \n  \n  \n  \n "
 	"CFG_THERA_SMOKE_2"                    "CT \n INSTANT ☁ smoke \n DROPPER \n SPAWN 2 \n  \n  \n  \n  \n "
@@ -140,9 +112,7 @@
 	"CFG_MOVEMENT_AUTOSTOP_WASD"                    "AUTO COUNTER-STRAFE \n W+A+S+D \n  \n  \n  \n  \n "
 	"CFG_MOVEMENT_DESUBTICK"                    "DEWSUBTICK \n W+A+S+D \n  \n  \n  \n  \n "
 
-
 	"CFG_MAP_NOT_SUPPORTED"                    "MAP NOT SUPPORTED \n  \n  \n  \n  \n "
-	"CFG_FLASH_NOT_SUPPORTED"                    "NO FLASHES SUPPORTED \n YET \n  \n  \n  \n  \n "
 	"CFG_MORE_NOT_SUPPORTED"                    "NOT ADDITIONAL \n LINE-UPS SUPPORTED \n YET \n  \n  \n  \n  \n "
 	"CFG_SCROLL"                    "USE MWHEEL \n ↓↓ TO GET BACK ↑↑ \n  \n  \n  \n  \n "
 	

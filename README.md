@@ -39,6 +39,10 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Auto sensitivity detection (you don't have to enter it anymore) (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
   - Option for a specific strafing config to launch with the game
 
+- ***New with version 1.7:***
+  - Removed instant flash feature ([patched on 2nd of October](https://www.counter-strike.net/newsentry/4674264042200250912))
+  - Split wheels into CT and T line-ups
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
