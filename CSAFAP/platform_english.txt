@@ -19,6 +19,19 @@
 	"SFUI_Vote_Surrender_PWA"                    "Surrender?<br>(<font color='#00FF00'>Need all players agree</font>)"
 	"SFUI_Vote_Surrender_Passed_PWA"             "Vote Passed! <font color='#00FF00'>Surrendered</font>"
 
+	"CFG_MAP_Anubis"             "ANUBIS  \n  \n  \n  \n  \n "
+	"CFG_MAP_Inferno"             "INFERNO  \n  \n  \n  \n  \n "
+	"CFG_MAP_Mirage"             "MIRAGE  \n  \n  \n  \n  \n "
+	"CFG_MAP_Vertigo"             "VERTIGO  \n  \n  \n  \n  \n "
+	"CFG_MAP_Thera"             "THERA  \n  \n  \n  \n  \n "
+	"CFG_MAP_Dust2"             "DUST2  \n  \n  \n  \n  \n "
+	"CFG_MAP_Nuke"             "NUKE  \n  \n  \n  \n  \n "
+	"CFG_MAP_Ancient"             "ANCIENT  \n  \n  \n  \n  \n "
+	
+	"CFG_CHOOSE_MAP_T"             "NO MAP SELECTED  \n  \n  \n  \n  \n "
+	"CFG_CHOOSE_MAP_L"             "SELECT MAP \n ↘ PRESS M ↘ \n  \n  \n  \n  \n " // ↓
+	"CFG_CHOOSE_MAP_R"             "SELECT MAP \n ↙ PRESS M ↙ \n  \n  \n  \n  \n " // ↓
+	"CFG_CHOOSE_MAP_B"             "SELECT MAP \n ↓ PRESS M ↓ \n  \n  \n  \n  \n "
 	
 	"CFG_INFERNO_SMOKE_BOTMID"                    "CT \n INSTANT ☁ smoke \n BOTTOM MID \n BEST MID SPAWN \n  \n  \n  \n  \n "
 	
