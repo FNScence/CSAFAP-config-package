@@ -12,7 +12,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Movement Configs (auto counter-strafe and nulls)
 
 - ***New with version 1.1:***
-  - Automatic Map Detection (credit and thanks to [-Cap1taL-](https://github.com/eLecCap1taL))
+  - <s>Automatic Map Detection</s> (credit and thanks to [-Cap1taL-](https://github.com/eLecCap1taL))
 
 - ***New with version 1.2:*** (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
   - (W-) Jumpthrow-binds (desubticked; exactly like pre-patch 8/20/2024)
@@ -42,6 +42,9 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 - ***New with version 1.7:***
   - Removed instant flash feature ([patched on 2nd of October](https://www.counter-strike.net/newsentry/4674264042200250912))
   - Split wheels into CT and T line-ups
+
+- ***New with version 1.8:***
+  - Reverted to manual map selection (default bind: M), since the command `dumpparticlelist` is now locked behind `sv_cheats`
 
 ## Installation
 - **Step 1:**
