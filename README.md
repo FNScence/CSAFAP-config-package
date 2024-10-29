@@ -251,7 +251,13 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   >
   > For W-Jumpthrows, use the radialradio version (which is implemented in the CSAFAP config package; default bind `N`), as mixing de-subticked `+forward` binds with macros will result in a different forward speed everytime.
 
-- Q14: How to uninstall the config package?
+- Q14: I can't jump!1!! How to reset jumping binds?
+  > The recent [update of 28th of October 2024](https://steamcommunity.com/games/CSGO/announcements/detail/4522269457743085933) patched our multi-input methods, meaning only the first action of a bind will be issued and the rest ignored.
+  > That means, using a pre-patch de-subtick jump bind now will use `+jump` but NOT issue `-jump`, resulting in you not being able to jump anymore afterwards. Typing `-jump` into the console will fix this issue, but you might need to use it multiple times, if you spammed the old-dated jumping bind multiple times: `-jump; -jump; -jump; -jump; -jump; -jump`.
+
+  > Now use working jump binds, by either resetting your binds to default (`bind mwheeldown +jump`) or by using the newest version of the CSAFAP config package.
+
+- Q15: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
 
