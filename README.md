@@ -15,11 +15,11 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - <s>Automatic Map Detection</s> (credit and thanks to [-Cap1taL-](https://github.com/eLecCap1taL))
 
 - ***New with version 1.2:*** (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
-  - (W-) Jumpthrow-binds (desubticked; exactly like pre-patch 8/20/2024)
+  - <s>(W-) Jumpthrow-binds (desubticked; exactly like pre-patch 8/20/2024)</s>
   - Desubticked movement binds (mwheel-jump for bhop, WASD, etc.)
-  - Longjump Bind (aka Crouch-/Duck Jump)
-  - Jump-bug Bind
-  - Auto stop defuse when shooting
+  - <s>Longjump Bind (aka Crouch-/Duck Jump)</s>
+  - <s>Jump-bug Bind</s>
+  - <s>Auto stop defuse when shooting</s>
 
 - ***New with version 1.3:***
   - Thera support (instant dropper, top mid and B main smokes for CT-side)
