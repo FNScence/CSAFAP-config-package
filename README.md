@@ -230,36 +230,25 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > 
   > `cl_radial_radio_tab_0_text_1 cmd";do_something;`
 
-- Q12: How to create custom binds bypassing `cl_allow_multi_input 0` (bypassing the patch of 8/20/2024) without using the package?
-  >
-  > Video explaination by [Leiti](https://www.youtube.com/@xLeiti) [HERE](https://www.youtube.com/watch?v=spEEtXVFwLM).
-  > - Step 1:
-  Create a separate config containing the commands you want to bind to the key, e.g.: `jumpthrow.cfg`:
-  >
-  > `+jump;-attack;-attack2;-jump`
-  > - Step 2:
-  Within your own autoexec, create an alias (calling the config from the previous step in a special way) and bind it to a key:
-  >
-  > ```
-  > alias do_something "echo "jumpthrow" | exec;"
-  > bind KEY do_something
-  > ```
-
-- Q13: Can my viewmodel influence the instant flash line-ups?
-  > No, the only settings that can influence auto line-ups are `sensitivity` and `m_yaw`, which are set by the config automatically.
-
-- Q14: How to practice instant spawns? Where can I find teleport commands to those spawns?
+- Q12: How to practice instant spawns? Where can I find teleport commands to those spawns?
   > The free way of doing it is going offline with bots, setting `mp_randomspawn 0` and `bind m "mp_restartgame 1"`. You can save a position by taking the first two values from `getpos` and the thrid from `getpos_exact`.
   > You can also find `setpos`-commands to every spawn in the description of videos, where I show instant smokes.
   > [Youtube playlists](https://www.youtube.com/@FNScence/playlists) sorted by maps.
   > Here are examples for Ancient [CT-side](https://youtu.be/fd6gRZDOCps?si=qLWsm4GrhhVyXXpC&t=7) and [T-side](https://youtu.be/klyGW-IUca4?si=dRQ8qaAShzDSY0GG&t=3), Dust2 [T-side](https://youtu.be/XGQDTpFwkKM?si=oTVD5aypaWxZqgrz&t=55), Nuke [CT-side](https://youtu.be/v204dZrtFbo?si=lLB9Z4ohute6-8rq&t=84) and [T-side](https://youtu.be/tImJDxKe70o?si=mAKxnBdTGIZ9TUrH&t=17), Anubis [CT-side](https://youtu.be/fullFlkzB0U?si=MYDkPpzPqFDqqEbj&t=55) and [T-side](https://youtu.be/wURJvMSSbF0?si=Bd7TZ9BmWbJOAVsD&t=164), Inferno [CT-side](https://youtu.be/5MzQnaHtjl4?si=dymht4z6wghpO1EE&t=8), Mirage [T-side](https://youtu.be/klBqOVbdckQ?si=GendkMN1315tFBTf&t=53).
 
-- Q15: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
-  > The config version.
+- Q13: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
+  > The ones from the config are desubticked, but only trigger on button release. The macro version is instant, but not pixelperfect, as they are not de-subticked (inconsistent).
   >
-  > They are desubticked and work just like pre-patch 8/20/2024. Until the `echo | exec`-method gets patched again, disable any macros you might have set up for jumpthrows within your keyboard software.
+  > A combination would be the best option. Use macros like shown in [THIS VIDEO](https://youtu.be/yqtJZFQSF_U) using desubticked actions from the config package, like so:
+  ```
+	bind "n" "echo "CSAFAP/addons/+forward" | exec;"
+	bind "f4" +jump_
+	bind "f8" "echo "CSAFAP/addons/-attack" | exec;"
+	bind "f9" "echo "CSAFAP/addons/-attack2" | exec;"
+  ```
 
-- Q16: How to uninstall the config package?
+
+- Q14: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
 
