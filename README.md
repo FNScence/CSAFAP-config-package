@@ -249,8 +249,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 	bind "f9" "echo "CSAFAP/addons/-attack2" | exec;"
   ```
   >
-  > For W-Jumpthrows, use the radialradio version (which is implemented in the CSAFAP config package), as mixing de-subticked +forward binds with macros will result in a different forward speed everytime.
-
+  > For W-Jumpthrows, use the radialradio version (which is implemented in the CSAFAP config package; default bind `N`), as mixing de-subticked `+forward` binds with macros will result in a different forward speed everytime.
 
 - Q14: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
