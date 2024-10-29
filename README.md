@@ -28,7 +28,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 - ***New with version 1.4:***
   - Additional AWP wallbangs for Mirage, Nuke and Overpass (thanks to [SneakyBikiMeh](https://github.com/sneakybikimeh))
   - Keybind for default movement
-  - Bind for R to release middle click nades while also reloading
+  - <s>Bind for R to release middle click nades while also reloading</s>
   - Improved user-friendly customization options
 
 - ***New with version 1.5:***
