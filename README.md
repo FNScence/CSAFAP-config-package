@@ -239,13 +239,17 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 - Q13: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
   > The ones from the config are desubticked, but only trigger on button release. The macro version is instant, but not pixelperfect, as they are not de-subticked (inconsistent).
   >
-  > A combination would be the best option. Use macros like shown in [THIS VIDEO](https://youtu.be/yqtJZFQSF_U) using desubticked actions from the config package, like so:
+  > For normal Jumpthrows, a combination would be the best option. Use macros like shown in [THIS VIDEO](https://youtu.be/yqtJZFQSF_U) using desubticked actions from the config package, like so:
   ```
-	bind "n" "echo "CSAFAP/addons/+forward" | exec;"
-	bind "f4" +jump_
+	alias +jump_ "echo "CSAFAP/addons/+jump" | exec;"
+	alias -jump_ "echo "CSAFAP/addons/-jump" | exec;"
+
+	bind "space" +jump_
 	bind "f8" "echo "CSAFAP/addons/-attack" | exec;"
 	bind "f9" "echo "CSAFAP/addons/-attack2" | exec;"
   ```
+  >
+  > For W-Jumpthrows, use the radialradio version (which is implemented in the CSAFAP config package), as mixing de-subticked +forward binds with macros will result in a different forward speed everytime.
 
 
 - Q14: How to uninstall the config package?
