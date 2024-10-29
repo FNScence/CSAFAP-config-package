@@ -46,6 +46,12 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 - ***New with version 1.8:***
   - Reverted to manual map selection (default bind: M), since the command `dumpparticlelist` is now locked behind `sv_cheats`
 
+- ***New with version 1.9:***
+  - Removed multi-input binds ([patched on 28th of October](https://steamcommunity.com/games/CSGO/announcements/detail/4522269457743085933)]
+    (de-subtick movement binds are still available)
+  - Reverted back to JT and WJT binds using radialradio methods
+  - Fixed 15 smoke line-ups, which were broken by the recent update to jumping
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
