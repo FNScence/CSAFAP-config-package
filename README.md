@@ -257,7 +257,16 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 
   > Now use working jump binds, by either resetting your binds to default (`bind mwheeldown +jump`) or by using the newest version of the CSAFAP config package.
 
-- Q15: How to uninstall the config package?
+- Q15: Why can't I stop moving forward after W-Jumpthrow?
+  > When using the W-JT bind from version 1.9, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
+  > 
+  > Switching to your knife by pressing `3` or moving your crosshair should reset this action. If not, you might have issued `+forward` multiple times without canceling it multiple times.
+  >
+  > **Short term fix:** Use this in console: `forward -999 0 0`
+  > 
+  > **Long term fix:** Make sure the same command is saved in `CSAFAP/addons/-forward.cfg`, which should be called by an alias bound to the key `3`, as well as `mouse_x` and `mouse_y` after using the WJT bind.
+  
+- Q16: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
 
