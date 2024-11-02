@@ -258,6 +258,8 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > Now use working jump binds, by either resetting your binds to default (`bind mwheeldown +jump`) or by using the newest version of the CSAFAP config package.
 
 - Q15: Why can't I stop moving forward after W-Jumpthrow?
+  > The (W-)Jumpthrow binds (based on radiowheels) have anti-synergy with autostop configs, so don't use autostopWASD together with W-JT (autstopAD would be fine for example, since it doesn't mess with the W bind).
+  > 
   > When using the W-JT bind from version 1.9, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
   > 
   > Switching to your knife by pressing `3` or moving your crosshair should reset this action. If not, you might have issued `+forward` multiple times without canceling it multiple times.
