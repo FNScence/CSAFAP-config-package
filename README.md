@@ -272,6 +272,6 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
 
-If any questions remain, join my discord and feel free to ask in the `#auto-lineup-config`-channel:
+If any questions remain, join my discord and feel free to ask in the `#auto-lineup-config`- or `help`-channel:
 
 > Join the **CS AFAP DISCORD SERVER** [HERE](https://discord.gg/cs-as-fast-as-possible-992407294866370681).
