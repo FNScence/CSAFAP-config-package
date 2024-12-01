@@ -257,7 +257,21 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 
   > Now use working jump binds, by either resetting your binds to default (`bind mwheeldown +jump`) or by using the newest version of the CSAFAP config package.
 
-- Q15: Why can't I stop moving forward after W-Jumpthrow?
+- Q15: How to fix the console getting spammed with this `Unknown command: Mouse_If_SetIMStopWS`?
+  > This occures when you used autostopWASD before, but now didn't exec the config without resetting the keybinds changed by it. They will point to alias, which the game doesn't know anymore.
+  > Set default movement again and you should be fine. These are the manual commands set by `movement_default.cfg`
+  > ```
+  > bind w +forward;
+  > bind a +left;
+  > bind s +back;
+  > bind d +right;
+  > bind mouse_x yaw;
+  > bind mouse_y pitch;
+  > rightleft 0 0 0;
+  > forwardback 0 0 0;
+  > ```
+  
+- Q16: Why can't I stop moving forward after W-Jumpthrow?
   > The (W-)Jumpthrow binds (based on radiowheels) have anti-synergy with autostop configs, so don't use autostopWASD together with W-JT (autstopAD would be fine for example, since it doesn't mess with the W bind).
   > 
   > When using the W-JT bind from version 1.9, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
@@ -268,7 +282,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > 
   > **Long term fix:** Make sure the same command is saved in `CSAFAP/addons/-forward.cfg`, which should be called by an alias bound to the key `3`, as well as `mouse_x` and `mouse_y` after using the WJT bind.
   
-- Q16: How to uninstall the config package?
+- Q17: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
 
