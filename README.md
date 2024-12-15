@@ -3,9 +3,37 @@ This .cfg-framework enables CS2 players to utilize advanced features and customi
 
 Installation and usage is very easy and also shown here ↓↓
 
-Video tutorial: https://youtu.be/G9hAaifu2H0
+Video tutorial (version 1.0): https://youtu.be/G9hAaifu2H0
 
-## Features & Version History
+Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
+
+## Features
+- **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
+- **Automatic line-ups** (instant smokes + wallbangs)
+- **Snap-Tap** / Null-bind movement input
+- **De-subticked Jump** (better bhopping)
+- **(W-)Jumpthrow binds** (de-subticked, more consistent than manual throws)
+- **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
+
+All features are accessible via the in-game radio wheels, by using the four keybinds set in `csafap/main.cfg`.
+
+## Screenshots
+![guide](https://github.com/user-attachments/assets/8a3bee1b-2d5b-43a9-90a6-044e9bbe8fc3)
+↑ Map Guides featured on ALL MAPS
+
+![guide2](https://github.com/user-attachments/assets/76a7ecba-2f97-445e-a179-7eeaa18f7f81)
+↑ Try 1.000+ line-ups and other tricks in-game
+
+![practice](https://github.com/user-attachments/assets/008dbfb1-8247-470a-865b-1d1bd9a5236c)
+↑ Quick access to practice commands (scroll mwheel for more options)
+
+![autolineups](https://github.com/user-attachments/assets/d7240c14-75a1-47eb-991b-9effd9997612)
+↑ Automatically line-up smokes on official servers
+
+![snaptap](https://github.com/user-attachments/assets/3c414e50-e07a-4af8-ae70-d5793f6a69a3)
+↑ Snap-Tap (null binds) input option - does NOT trigger a kick
+
+## Version History
 - ***Base features (version 1.0):***
   - Automatic Smoke line-ups
   - <s>Instant Flash line-ups</s>
@@ -40,17 +68,31 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   - Option for a specific strafing config to launch with the game
 
 - ***New with version 1.7:***
-  - Removed instant flash feature ([patched on 2nd of October](https://www.counter-strike.net/newsentry/4674264042200250912))
+  - Removed instant flash feature ([patched on 2nd of October 2024](https://www.counter-strike.net/newsentry/4674264042200250912))
   - Split wheels into CT and T line-ups
 
 - ***New with version 1.8:***
   - Reverted to manual map selection (default bind: M), since the command `dumpparticlelist` is now locked behind `sv_cheats`
 
 - ***New with version 1.9:***
-  - Removed multi-input binds ([patched on 28th of October](https://steamcommunity.com/games/CSGO/announcements/detail/4522269457743085933)]
+  - Removed multi-input binds ([patched on 28th of October 2024](https://steamcommunity.com/games/CSGO/announcements/detail/4522269457743085933))
     (de-subtick movement binds are still available)
   - Reverted back to JT and WJT binds using radialradio methods
   - Fixed 15 smoke line-ups, which were broken by the recent update to jumping
+
+- ***New with version 2.0:***
+  - Added new Practice Mode (accessible via map-wheel)
+    - Includes in-game map guides for all 9 competitive maps (loaded dynamically, thanks to [Leiti](https://github.com/xLeiti/Annotations-Chunk-Loader-Cs2))
+    - Map wheel becomes changelevel commands + disable practice mode button
+    - CT wheel becomes spawn point teleports
+    - T wheel becomes practice commands
+  - Added Train support (T-side instant smokes)
+  - Added Inferno instant FaZe smoke support
+  - Added viewmodel options
+  - General QoL improvements
+  - Removed STYKO wallbang ([patched on 14th of November 2024](https://store.steampowered.com/news/app/730/view/4458095069430284352))
+  - Removed autostop configs ([patched on 24th of November 2024](https://store.steampowered.com/news/app/730/view/6500469346429581891))
+
 
 ## Installation
 - **Step 1:**
@@ -59,9 +101,9 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
 
 - **Step 2:**
-  Place the modified language file `platform_english.txt` in the resource folder, at this path:
+  Inside the `CSAFAP`-directory, copy the `csgo`-folder and paste it at this path:
 
-		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource
+		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\
 
 - **Step 3:**
   Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choise (e.g. notepad++).
@@ -73,7 +115,7 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 - **Step 4:**
   Run the main config in-game. Either type `exec CSAFAP/main` directly into the console, use the same line in a config you already use, or use launch option `+exec CSAFAP/MAIN`.
 
-  **Done!**
+- **Done!**
 
 ## How to use the CSAFAP Config Package
 - **Step 1:**
@@ -82,12 +124,16 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   Default Keybinds:
   -  **H**: CT Line-ups (Smokes & Wallbangs)
   -  **J**: T Line-ups (Smokes & Wallbangs)
-  -  **K**: Movement Configs
+  -  **K**: Snap-Tap and Viewmodel Settings
+  -  **M**: Map Selection + Practice Mode
   
 - **Step 2:**
-  Hover your mouse over the tile you want to use and PRESS THE SAME KEY AS IN STEP 1 again.
+  Open the map wheel and select your current map.
 
 - **Step 3:**
+  Hover your mouse over the tile you want to use and PRESS THE SAME KEY AS IN STEP 1 again.
+
+- **Step 4:**
   Throw your line-up.
 
 
@@ -159,23 +205,16 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
 
 - Q6: Why does my sensitivity change to 1.0 and doesn't switch back my playing sens?
   > Make sure you're NOT using the command `host_writeconfig` within your autoexec.
+  > The config reads your current sensitivity when you `exec csafap/main`. Make sure not do re-exec the whole config while a radiowheel is open. Re-execing is also a good way to reset after entering your own sensitivity again.
 
-- Q7: Which movement (strafing) config should I use?
-  > They all have their up- and downsides. It's best to try them out yourself and see which ones you prefer, but here is a detailed list of what they do:
+- Q7: What is Snap-Tap/Nulls? Should I use it? Will I get kicked for using it?
+  > It's best to try them it yourself and see if you prefer it over default movement.
   >
-  > **- autostopAD:** Counter-strafes automatically when letting go of initial strafe key and also stopps fast when overlapping both strafe keys. **I consider this the best option**, because it corrects any imperfect counter-strafes from you and works the same if you still counter-strafe manually (which you should do).
- 
-  > **- nullAD:** After holding down the initial strafe key, pressing the opposite strafe key will deactivate the initial one. For counter-strafing, this only corrects the human error of not letting go of the initial strafe key, but you still have to release the opposite one at the correct timing. It is good for extremely fast jiggles (holding down one strafe key and quickly tapping the opposite one), not too useful in CS though (maybe for pistol round AD spam).
-
-  > **- autonullAD:** Combines the previous two, so it will auto counter-strafe when releasing the initial strafe key, but it will work the same as nulls/snap-tap when pressing both at the same time.
-
-  > **- autostopWS_nullAD:** This version auto counter-strafes your forward/backward movement, so it will help immensely if you get caught in +W or diagonal movement, while the nulls help with AD counter-strafing. This might be the best version if you're very confident in your own AD counter-strafing (and like the null functionality).
-
-  > **- autostopWASD:** Counter-strafes automatically in 8 directions. On some occasions (pressing W+A, then releasing A and only running forward without moving the mouse in between before also letting go of W) will result in a faulty sidestep. Because of this reason, **I don't recommend using this version**.
+  > **- nullWASD:** After holding down the initial strafe key, pressing the opposite strafe key will deactivate the initial one. For counter-strafing, this only corrects the human error of not letting go of the initial strafe key, but you still have to release the opposite one at the correct timing. It is good for extremely fast jiggles (holding down one strafe key and quickly tapping the opposite one), not too useful in CS though (maybe for pistol round AD spam).
 
   > **- desubtick:** Very similar to default movement, but the WASD movement inputs will wait for the next tick to register instead of being subticked and registered immediatelly. Some users report a more cs:go-like movement feel.
 
-  > I showcased the key inputs for each of these at [this timestamp of the video](https://youtu.be/G9hAaifu2H0?si=ZAl2vxdoX8eZ_Ktn&t=63).
+  > I showcased the key inputs for each of these at [this timestamp of the video](https://youtu.be/G9hAaifu2H0?si=ZAl2vxdoX8eZ_Ktn&t=63). Note that auto counter-strafe configs were patched and don't work anymore!
   
 - Q8: How to calculate yaw/pitch values?
   > $$ X = \frac{a}{s \cdot m\\_yaw} $$
@@ -189,14 +228,46 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > m_yaw ... adjust your mouse sensitivity only on the X axis (we're using m_yaw = 0.022)
 
 - Q9: The radio tiles are empty. How to get the text working?
-  > Make sure to place "platform_english.txt" in the correct folder and use the english language in-game. Edits to this file require a game-restart to take effect.
+  > Make sure to place "../csafap/csgo/recource/platform_english.txt" in the correct folder and use the english language in-game. Edits to this file require a game-restart to take effect.
   > 
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
 
 - Q10: Why do I stop running when using the jumpthrow binds?
-  > Autostop configs interfer with (W-)JT binds. Make sure to use default movement (for JT), or movement configs with default W-bind (for W-JT).
+  > This is caused by the W-bind of NullWASD. Make sure to use default movement (for JT), or change `csafap/movement/nullWASD.cfg` to use `bind W +forward` instead. I recommend using a Macro for Jumpthrow and the bind from this config for WJT. Here is how to set up a JT macro: https://youtu.be/yqtJZFQSF_U
 
-- Q11: How to bind custom commands to the radiowheel (without using the config package?
+- Q11: Why can't I stop moving forward after W-Jumpthrow?
+  > The (W-)Jumpthrow binds (based on radiowheels) have anti-synergy with autostop configs, so don't use autostopWASD together with W-JT (autstopAD would be fine for example, since it doesn't mess with the W bind).
+  > 
+  > When using the W-JT bind from version 1.9, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
+  > 
+  > Switching to your knife by pressing `3` or moving your crosshair should reset this action. If not, you might have issued `+forward` multiple times without canceling it multiple times.
+  >
+  > **Short term fix:** Use this in console: `forward -999 0 0`
+  > 
+  > **Long term fix:** Make sure the same command is saved in `CSAFAP/addons/-forward.cfg`, which should be called by an alias bound to the key `3`, as well as `mouse_x` and `mouse_y` after using the WJT bind.
+
+- Q12: I can't jump!!1! How to reset jumping binds?
+  > The recent [update of 28th of October 2024](https://steamcommunity.com/games/CSGO/announcements/detail/4522269457743085933) patched our multi-input methods, meaning only the first action of a bind will be issued and the rest ignored.
+  > That means, using a pre-patch de-subtick jump bind now will use `+jump` but NOT issue `-jump`, resulting in you not being able to jump anymore afterwards. Typing `-jump` into the console will fix this issue, but you might need to use it multiple times, if you spammed the old-dated jumping bind multiple times: `jump -999 0 0`.
+
+  > Now use working jump binds, by either resetting your binds to default (`bind mwheeldown +jump`) or by using the newest version of the CSAFAP config package.
+
+- Q13: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
+  > The ones from the config are desubticked, but only trigger on button release. The macro version is instant, but not pixelperfect, as they are not de-subticked (inconsistent).
+  >
+  > For normal Jumpthrows, a combination would be the best option. Use macros like shown in [THIS VIDEO](https://youtu.be/yqtJZFQSF_U) using desubticked actions from the config package, like so:
+  ```
+	alias +jump_ "echo "CSAFAP/addons/+jump" | exec;"
+	alias -jump_ "echo "CSAFAP/addons/-jump" | exec;"
+
+	bind "space" +jump_
+	bind "f8" "echo "CSAFAP/addons/-attack" | exec;"
+	bind "f9" "echo "CSAFAP/addons/-attack2" | exec;"
+  ```
+  >
+  > For W-Jumpthrows, use the radialradio version (which is implemented in the CSAFAP config package; default bind `N`), as mixing de-subticked `+forward` binds with macros will result in a different forward speed everytime.
+
+- Q14: How to bind custom commands to the radiowheel (without using the config package?
   > You can find the most basic set of configs to bind your own radio commands on my Discord in the ***pinned messages*** of the `#auto-lineup-config`-channel.
   > Join the **CS AFAP DISCORD SERVER** [HERE](https://discord.gg/cs-as-fast-as-possible-992407294866370681).
   > - Step 1:
@@ -230,34 +301,13 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > 
   > `cl_radial_radio_tab_0_text_1 cmd";do_something;`
 
-- Q12: How to practice instant spawns? Where can I find teleport commands to those spawns?
+- Q15: How to practice instant spawns? Where can I find teleport commands to those spawns?
   > The free way of doing it is going offline with bots, setting `mp_randomspawn 0` and `bind m "mp_restartgame 1"`. You can save a position by taking the first two values from `getpos` and the thrid from `getpos_exact`.
   > You can also find `setpos`-commands to every spawn in the description of videos, where I show instant smokes.
   > [Youtube playlists](https://www.youtube.com/@FNScence/playlists) sorted by maps.
   > Here are examples for Ancient [CT-side](https://youtu.be/fd6gRZDOCps?si=qLWsm4GrhhVyXXpC&t=7) and [T-side](https://youtu.be/klyGW-IUca4?si=dRQ8qaAShzDSY0GG&t=3), Dust2 [T-side](https://youtu.be/XGQDTpFwkKM?si=oTVD5aypaWxZqgrz&t=55), Nuke [CT-side](https://youtu.be/v204dZrtFbo?si=lLB9Z4ohute6-8rq&t=84) and [T-side](https://youtu.be/tImJDxKe70o?si=mAKxnBdTGIZ9TUrH&t=17), Anubis [CT-side](https://youtu.be/fullFlkzB0U?si=MYDkPpzPqFDqqEbj&t=55) and [T-side](https://youtu.be/wURJvMSSbF0?si=Bd7TZ9BmWbJOAVsD&t=164), Inferno [CT-side](https://youtu.be/5MzQnaHtjl4?si=dymht4z6wghpO1EE&t=8), Mirage [T-side](https://youtu.be/klBqOVbdckQ?si=GendkMN1315tFBTf&t=53).
 
-- Q13: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
-  > The ones from the config are desubticked, but only trigger on button release. The macro version is instant, but not pixelperfect, as they are not de-subticked (inconsistent).
-  >
-  > For normal Jumpthrows, a combination would be the best option. Use macros like shown in [THIS VIDEO](https://youtu.be/yqtJZFQSF_U) using desubticked actions from the config package, like so:
-  ```
-	alias +jump_ "echo "CSAFAP/addons/+jump" | exec;"
-	alias -jump_ "echo "CSAFAP/addons/-jump" | exec;"
-
-	bind "space" +jump_
-	bind "f8" "echo "CSAFAP/addons/-attack" | exec;"
-	bind "f9" "echo "CSAFAP/addons/-attack2" | exec;"
-  ```
-  >
-  > For W-Jumpthrows, use the radialradio version (which is implemented in the CSAFAP config package; default bind `N`), as mixing de-subticked `+forward` binds with macros will result in a different forward speed everytime.
-
-- Q14: I can't jump!!1! How to reset jumping binds?
-  > The recent [update of 28th of October 2024](https://steamcommunity.com/games/CSGO/announcements/detail/4522269457743085933) patched our multi-input methods, meaning only the first action of a bind will be issued and the rest ignored.
-  > That means, using a pre-patch de-subtick jump bind now will use `+jump` but NOT issue `-jump`, resulting in you not being able to jump anymore afterwards. Typing `-jump` into the console will fix this issue, but you might need to use it multiple times, if you spammed the old-dated jumping bind multiple times: `jump -999 0 0`.
-
-  > Now use working jump binds, by either resetting your binds to default (`bind mwheeldown +jump`) or by using the newest version of the CSAFAP config package.
-
-- Q15: How to fix the console getting spammed with this `Unknown command: Mouse_If_SetIMStopWS`?
+- Q16: How to fix the console getting spammed with this `Unknown command: Mouse_If_SetIMStopWS`?
   > This occures when you used autostopWASD before, but now didn't exec the config without resetting the keybinds changed by it. They will point to alias, which the game doesn't know anymore.
   > Set default movement again and you should be fine. These are the manual commands set by `movement_default.cfg`
   > ```
@@ -270,21 +320,9 @@ Video tutorial: https://youtu.be/G9hAaifu2H0
   > rightleft 0 0 0;
   > forwardback 0 0 0;
   > ```
-  
-- Q16: Why can't I stop moving forward after W-Jumpthrow?
-  > The (W-)Jumpthrow binds (based on radiowheels) have anti-synergy with autostop configs, so don't use autostopWASD together with W-JT (autstopAD would be fine for example, since it doesn't mess with the W bind).
-  > 
-  > When using the W-JT bind from version 1.9, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
-  > 
-  > Switching to your knife by pressing `3` or moving your crosshair should reset this action. If not, you might have issued `+forward` multiple times without canceling it multiple times.
-  >
-  > **Short term fix:** Use this in console: `forward -999 0 0`
-  > 
-  > **Long term fix:** Make sure the same command is saved in `CSAFAP/addons/-forward.cfg`, which should be called by an alias bound to the key `3`, as well as `mouse_x` and `mouse_y` after using the WJT bind.
-  
+
 - Q17: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
-
 
 If any questions remain, join my discord and feel free to ask in the `#auto-lineup-config`- or `help`-channel:
 
