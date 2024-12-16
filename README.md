@@ -202,6 +202,8 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   > `..\steamapps\common\Counter-Strike Global Offensive\csgo\cfg` ❌ 
   >
   > `..\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg` ✅
+  >
+  > If you are on Liunx, make sure you wrote `exec CSAFAP/MAIN` correctly, as it is case sensitive.
 
 - Q6: Why does my sensitivity change to 1.0 and doesn't switch back my playing sens?
   > Make sure you're NOT using the command `host_writeconfig` within your autoexec.
