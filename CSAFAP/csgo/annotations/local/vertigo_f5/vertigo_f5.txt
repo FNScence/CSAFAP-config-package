@@ -13,7 +13,7 @@
 		Position = [ -656.032104, -1016.96875, 11648.03125 ]
 		Angles = [ 0.0, 149.398254, 0.0 ]
 		VisiblePfx = true
-		Color = [ 160, 230, 50 ]
+		Color = [ 70, 170, 10 ]
 		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -663,7 +663,7 @@
 		Position = [ -880.02832, -1295.96875, 11648.03125 ]
 		Angles = [ 0.0, 34.266357, 0.0 ]
 		VisiblePfx = true
-		Color = [ 160, 230, 50 ]
+		Color = [ 70, 170, 10 ]
 		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -957,7 +957,7 @@
 		Position = [ -462.87793, -1136.030396, 11712.407227 ]
 		Angles = [ 0.0, 43.250763, 0.0 ]
 		VisiblePfx = true
-		Color = [ 160, 230, 50 ]
+		Color = [ 70, 170, 10 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -1055,7 +1055,7 @@
 		Position = [ -462.87793, -1136.030396, 11712.407227 ]
 		Angles = [ 0.0, 43.250763, 0.0 ]
 		VisiblePfx = true
-		Color = [ 160, 230, 50 ]
+		Color = [ 70, 170, 10 ]
 		TextPositionOffset = [ 0.0, 0.0, 50.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -1283,7 +1283,7 @@
 		Position = [ -656.03125, -1016.96814, 11648.03125 ]
 		Angles = [ 0.0, 156.754639, 0.0 ]
 		VisiblePfx = true
-		Color = [ 160, 230, 50 ]
+		Color = [ 70, 170, 10 ]
 		TextPositionOffset = [ 0.0, 0.0, 80.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"

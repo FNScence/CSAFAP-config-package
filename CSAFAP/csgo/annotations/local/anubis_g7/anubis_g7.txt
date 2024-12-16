@@ -1197,7 +1197,7 @@
 		Title = 
 		{
 			Text = "A Main Molotov"
-			FontSize = 125
+			FontSize = 100
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true

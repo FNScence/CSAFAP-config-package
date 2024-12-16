@@ -209,7 +209,7 @@
 		Position = [ -896.160889, -788.968628, -221.96875 ]
 		Angles = [ 0.0, 91.1474, 0.0 ]
 		VisiblePfx = true
-		Color = [ 160, 230, 50 ]
+		Color = [ 70, 170, 10 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -601,7 +601,7 @@
 		Position = [ -801.967773, -788.966797, -261.96875 ]
 		Angles = [ 0.0, 160.958984, 0.0 ]
 		VisiblePfx = true
-		Color = [ 160, 230, 50 ]
+		Color = [ 70, 170, 10 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
