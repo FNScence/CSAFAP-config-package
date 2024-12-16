@@ -15,7 +15,7 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **(W-)Jumpthrow binds** (de-subticked, more consistent than manual throws)
 - **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
 
-All features are accessible via the in-game radio wheels, by using the four keybinds set in `csafap/main.cfg`.
+All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`.
 
 ## Screenshots
 ![guide](https://github.com/user-attachments/assets/8a3bee1b-2d5b-43a9-90a6-044e9bbe8fc3)
