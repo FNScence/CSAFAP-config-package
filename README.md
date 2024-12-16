@@ -106,7 +106,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\
 
 - **Step 3:**
-  Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choise (e.g. notepad++).
+  Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).
   
   Change the keybinds to your preference.
 
