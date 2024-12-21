@@ -279,7 +279,7 @@
 		Title = 
 		{
 			Text = "A Long Smoke"
-			FontSize = 10
+			FontSize = 100
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
