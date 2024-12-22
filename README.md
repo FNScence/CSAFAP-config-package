@@ -205,7 +205,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   >
   > If you are on Liunx, make sure you wrote `exec CSAFAP/MAIN` correctly, as it is case sensitive.
 
-- Q6: How to make the binds work on azerty (frensh) keyboard layout?
+- Q6: How to make the binds work on azerty (french) keyboard layout?
   > Make sure to use scancode binds instead of letters when adjusting the binds in `CSAFAP/MAIN.cfg`.
   > 
   > Here are [all qwerty keys and their respective scancodes](https://github.com/libsdl-org/SDL/blob/main/include/SDL3/SDL_scancode.h#L218) and this is a [scancode bind converter](https://totalcsgo.com/binds/converter) which might be helpful.
