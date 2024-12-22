@@ -205,11 +205,16 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   >
   > If you are on Liunx, make sure you wrote `exec CSAFAP/MAIN` correctly, as it is case sensitive.
 
-- Q6: Why does my sensitivity change to 1.0 and doesn't switch back my playing sens?
+- Q6: How to make the binds work on azerty (frensh) keyboard layout?
+  > Make sure to use scancode binds instead of letters when adjusting the binds in `CSAFAP/MAIN.cfg`.
+  > 
+  > Here are [all qwerty keys and their respective scancodes](https://github.com/libsdl-org/SDL/blob/main/include/SDL3/SDL_scancode.h#L218) and this is a [scancode bind converter](https://totalcsgo.com/binds/converter) which might be helpful.
+  
+- Q7: Why does my sensitivity change to 1.0 and doesn't switch back my playing sens?
   > Make sure you're NOT using the command `host_writeconfig` within your autoexec.
   > The config reads your current sensitivity when you `exec csafap/main`. Make sure not do re-exec the whole config while a radiowheel is open. Re-execing is also a good way to reset after entering your own sensitivity again.
 
-- Q7: What is Snap-Tap/Nulls? Should I use it? Will I get kicked for using it?
+- Q8: What is Snap-Tap/Nulls? Should I use it? Will I get kicked for using it?
   > It's best to try them it yourself and see if you prefer it over default movement.
   >
   > **- nullWASD:** After holding down the initial strafe key, pressing the opposite strafe key will deactivate the initial one. For counter-strafing, this only corrects the human error of not letting go of the initial strafe key, but you still have to release the opposite one at the correct timing. It is good for extremely fast jiggles (holding down one strafe key and quickly tapping the opposite one), not too useful in CS though (maybe for pistol round AD spam).
@@ -218,7 +223,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 
   > I showcased the key inputs for each of these at [this timestamp of the video](https://youtu.be/G9hAaifu2H0?si=ZAl2vxdoX8eZ_Ktn&t=63). Note that auto counter-strafe configs were patched and don't work anymore!
   
-- Q8: How to calculate yaw/pitch values?
+- Q9: How to calculate yaw/pitch values?
   > $$ X = \frac{a}{s \cdot m\\_yaw} $$
 
   > X ... desired yaw/pitch value
@@ -229,15 +234,15 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   >
   > m_yaw ... adjust your mouse sensitivity only on the X axis (we're using m_yaw = 0.022)
 
-- Q9: The radio tiles are empty. How to get the text working?
+- Q10: The radio tiles are empty. How to get the text working?
   > Make sure to place "../csafap/csgo/recource/platform_english.txt" in the correct folder and use the english language in-game. Edits to this file require a game-restart to take effect.
   > 
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
 
-- Q10: Why do I stop running when using the jumpthrow binds?
+- Q11: Why do I stop running when using the jumpthrow binds?
   > This is caused by the W-bind of NullWASD. Make sure to use default movement (for JT), or change `csafap/movement/nullWASD.cfg` to use `bind W +forward` instead. I recommend using a Macro for Jumpthrow and the bind from this config for WJT. Here is how to set up a JT macro: https://youtu.be/yqtJZFQSF_U
 
-- Q11: Why can't I stop moving forward after W-Jumpthrow?
+- Q12: Why can't I stop moving forward after W-Jumpthrow?
   > The (W-)Jumpthrow binds (based on radiowheels) have anti-synergy with autostop configs, so don't use autostopWASD together with W-JT (autstopAD would be fine for example, since it doesn't mess with the W bind).
   > 
   > When using the W-JT bind from version 1.9, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
@@ -248,13 +253,13 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   > 
   > **Long term fix:** Make sure the same command is saved in `CSAFAP/addons/-forward.cfg`, which should be called by an alias bound to the key `3`, as well as `mouse_x` and `mouse_y` after using the WJT bind.
 
-- Q12: I can't jump!!1! How to reset jumping binds?
+- Q13: I can't jump!!1! How to reset jumping binds?
   > The recent [update of 28th of October 2024](https://steamcommunity.com/games/CSGO/announcements/detail/4522269457743085933) patched our multi-input methods, meaning only the first action of a bind will be issued and the rest ignored.
   > That means, using a pre-patch de-subtick jump bind now will use `+jump` but NOT issue `-jump`, resulting in you not being able to jump anymore afterwards. Typing `-jump` into the console will fix this issue, but you might need to use it multiple times, if you spammed the old-dated jumping bind multiple times: `jump -999 0 0`.
 
   > Now use working jump binds, by either resetting your binds to default (`bind mwheeldown +jump`) or by using the newest version of the CSAFAP config package.
 
-- Q13: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
+- Q14: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
   > The ones from the config are desubticked, but only trigger on button release. The macro version is instant, but not pixelperfect, as they are not de-subticked (inconsistent).
   >
   > For normal Jumpthrows, a combination would be the best option. Use macros like shown in [THIS VIDEO](https://youtu.be/yqtJZFQSF_U) using desubticked actions from the config package, like so:
@@ -269,7 +274,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   >
   > For W-Jumpthrows, use the radialradio version (which is implemented in the CSAFAP config package; default bind `N`), as mixing de-subticked `+forward` binds with macros will result in a different forward speed everytime.
 
-- Q14: How to bind custom commands to the radiowheel (without using the config package?
+- Q15: How to bind custom commands to the radiowheel (without using the config package?
   > You can find the most basic set of configs to bind your own radio commands on my Discord in the ***pinned messages*** of the `#auto-lineup-config`-channel.
   > Join the **CS AFAP DISCORD SERVER** [HERE](https://discord.gg/cs-as-fast-as-possible-992407294866370681).
   > - Step 1:
@@ -303,13 +308,13 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   > 
   > `cl_radial_radio_tab_0_text_1 cmd";do_something;`
 
-- Q15: How to practice instant spawns? Where can I find teleport commands to those spawns?
+- Q16: How to practice instant spawns? Where can I find teleport commands to those spawns?
   > The free way of doing it is going offline with bots, setting `mp_randomspawn 0` and `bind m "mp_restartgame 1"`. You can save a position by taking the first two values from `getpos` and the thrid from `getpos_exact`.
   > You can also find `setpos`-commands to every spawn in the description of videos, where I show instant smokes.
   > [Youtube playlists](https://www.youtube.com/@FNScence/playlists) sorted by maps.
   > Here are examples for Ancient [CT-side](https://youtu.be/fd6gRZDOCps?si=qLWsm4GrhhVyXXpC&t=7) and [T-side](https://youtu.be/klyGW-IUca4?si=dRQ8qaAShzDSY0GG&t=3), Dust2 [T-side](https://youtu.be/XGQDTpFwkKM?si=oTVD5aypaWxZqgrz&t=55), Nuke [CT-side](https://youtu.be/v204dZrtFbo?si=lLB9Z4ohute6-8rq&t=84) and [T-side](https://youtu.be/tImJDxKe70o?si=mAKxnBdTGIZ9TUrH&t=17), Anubis [CT-side](https://youtu.be/fullFlkzB0U?si=MYDkPpzPqFDqqEbj&t=55) and [T-side](https://youtu.be/wURJvMSSbF0?si=Bd7TZ9BmWbJOAVsD&t=164), Inferno [CT-side](https://youtu.be/5MzQnaHtjl4?si=dymht4z6wghpO1EE&t=8), Mirage [T-side](https://youtu.be/klBqOVbdckQ?si=GendkMN1315tFBTf&t=53).
 
-- Q16: How to fix the console getting spammed with this `Unknown command: Mouse_If_SetIMStopWS`?
+- Q17: How to fix the console getting spammed with this `Unknown command: Mouse_If_SetIMStopWS`?
   > This occures when you used autostopWASD before, but now didn't exec the config without resetting the keybinds changed by it. They will point to alias, which the game doesn't know anymore.
   > Set default movement again and you should be fine. These are the manual commands set by `movement_default.cfg`
   > ```
@@ -323,7 +328,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   > forwardback 0 0 0;
   > ```
 
-- Q17: How to uninstall the config package?
+- Q18: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
 If any questions remain, join my discord and feel free to ask in the `#auto-lineup-config`- or `help`-channel:
