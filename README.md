@@ -235,7 +235,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   > m_yaw ... adjust your mouse sensitivity only on the X axis (we're using m_yaw = 0.022)
 
 - Q10: The radio tiles are empty. How to get the text working?
-  > Make sure to place "../csafap/csgo/recource/platform_english.txt" in the correct folder and use the english language in-game. Edits to this file require a game-restart to take effect.
+  > Make sure to place "../csafap/csgo/resource/platform_english.txt" in the correct folder and use the english language in-game. Edits to this file require a game-restart to take effect.
   > 
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
 
