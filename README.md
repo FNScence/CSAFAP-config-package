@@ -331,6 +331,6 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - Q18: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
 
-If any questions remain, join my discord and feel free to ask in the `#csafap-config`- or `help`-channel:
+If any questions remain, join my discord and feel free to ask in the `#csafap-config`- or `#help`-channel:
 
 > Join the **CS AFAP DISCORD SERVER** [HERE](https://discord.gg/cs-as-fast-as-possible-992407294866370681).
