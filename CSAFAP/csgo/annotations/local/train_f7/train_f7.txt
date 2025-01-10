@@ -770,4 +770,221 @@
 		MasterNodeId = "23584512-3e6f-4811-bf18-0912b1f955f1"
 		DistanceThreshold = 80.0
 	}
+	MapAnnotationNode25 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "9a431626-7744-4b8c-bfd2-3f4ca5b2f4d5"
+		SubType = "main"
+		Position = [ -573.72699, 510.3172, 16.03125 ]
+		Angles = [ 0.0, 1.834717, 0.0 ]
+		VisiblePfx = true
+		Color = [ 240, 170, 70 ]
+		TextPositionOffset = [ 0.0, 0.0, 20.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Wallbangs"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode26 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "20ca9d73-be85-4adc-9f4c-a6d742847d52"
+		SubType = "main"
+		Position = [ -573.72699, 510.3172, 16.03125 ]
+		Angles = [ 0.0, 1.834717, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 255, 255 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode27 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "ffcfdb0a-b122-43e9-9fe3-fdbc2c0a5446"
+		SubType = "aim_target"
+		Position = [ -489.810547, 513.005554, 66.536903 ]
+		Angles = [ 9.024272, 1.834885, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "20ca9d73-be85-4adc-9f4c-a6d742847d52"
+	}
+	MapAnnotationNode28 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "9a5b2bbe-c8da-4af6-8122-4fb73642caa8"
+		SubType = "main"
+		Position = [ -573.72699, 510.317169, 16.03125 ]
+		Angles = [ 0.0, -11.008636, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 255, 255 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode29 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "15bb6f71-78c5-4dbd-bb40-b0d6e889b9da"
+		SubType = "aim_target"
+		Position = [ -494.693237, 494.942047, 67.748627 ]
+		Angles = [ 8.562298, -11.00875, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "9a5b2bbe-c8da-4af6-8122-4fb73642caa8"
+	}
+	MapAnnotationNode30 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "640ef6a4-6449-4819-a357-aabc56be95fa"
+		SubType = "main"
+		Position = [ -573.72699, 510.3172, 16.03125 ]
+		Angles = [ 0.0, -29.226715, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 255, 255 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode31 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "b449524d-3a4c-4a29-af88-14392006df0f"
+		SubType = "aim_target"
+		Position = [ -501.387817, 469.843597, 66.523628 ]
+		Angles = [ 9.147495, -29.226885, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "640ef6a4-6449-4819-a357-aabc56be95fa"
+	}
 }
