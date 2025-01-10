@@ -93,6 +93,12 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   - Removed STYKO wallbang ([patched on 14th of November 2024](https://store.steampowered.com/news/app/730/view/4458095069430284352))
   - Removed autostop configs ([patched on 24th of November 2024](https://store.steampowered.com/news/app/730/view/6500469346429581891))
 
+- ***New with version 2.1:***
+  - Adjusted to new TRAIN map changes
+  	- updated instant smoke line-ups (practice mode & auto line-up)
+  	- updated spawn teleports (practice mode)
+    	- updated Ivy Solo Flash (they closed the cubby at back 6)
+     	- added wallbangs from white halls to ivy, gate and bombtrain
 
 ## Installation
 - **Step 1:**
