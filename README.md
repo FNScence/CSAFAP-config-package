@@ -100,6 +100,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 		- updated Ivy Solo Flash (they closed the cubby at back 6)
 		- added wallbangs from white halls to ivy, gate and bombtrain
 
+- ***New with version 2.2:***
+	- Added a few T-side line-ups for Train (after the first pro matches on the map)	
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
