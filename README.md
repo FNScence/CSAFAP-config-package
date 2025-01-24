@@ -283,7 +283,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   >
   > For W-Jumpthrows, use the radialradio version (which is implemented in the CSAFAP config package; default bind `N`), as mixing de-subticked `+forward` binds with macros will result in a different forward speed everytime.
 
-- Q15: How to bind custom commands to the radiowheel (without using the config package?
+- Q15: How to bind custom commands to the radiowheel (without using the config package)?
   > You can find the most basic set of configs to bind your own radio commands on my Discord in the ***pinned messages*** of the `#auto-lineup-config`-channel.
   > Join the **CS AFAP DISCORD SERVER** [HERE](https://discord.gg/cs-as-fast-as-possible-992407294866370681).
   > - Step 1:
