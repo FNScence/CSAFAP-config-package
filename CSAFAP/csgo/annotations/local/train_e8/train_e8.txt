@@ -749,7 +749,7 @@
 			Text = "Instant Gate Smoke"
 			FontSize = 100
 			FadeInDist = 600.0
-			FadeOutDist = 150.0
+			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
@@ -1420,13 +1420,13 @@
 		Position = [ -1849.466064, 1405.299194, -53.549 ]
 		Angles = [ -33.079182, -37.435215, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextPositionOffset = [ 0.0, -27.0, -12.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Instant Bombtrain Smoke #2"
+			Text = "Bombtrain Smoke #2"
 			FontSize = 100
 			FadeInDist = 10.0
 			FadeOutDist = -1.0
@@ -1434,7 +1434,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing Jumpthrow"
+			Text = ""
 			FontSize = 60
 			FadeInDist = 10.0
 			FadeOutDist = -1.0
@@ -1518,13 +1518,13 @@
 		Position = [ -1855.610962, 1417.245972, -38.607758 ]
 		Angles = [ -44.043953, -32.846012, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextPositionOffset = [ 0.0, -27.0, -12.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Instant Bombtrain Smoke #1"
+			Text = "Bombtrain Smoke #1"
 			FontSize = 100
 			FadeInDist = 10.0
 			FadeOutDist = -1.0

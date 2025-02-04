@@ -3582,4 +3582,102 @@
 			ShowBackground = true
 		}
 	}
+	MapAnnotationNode111 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "355efefc-8cd1-4122-b802-7304abdc0bdc"
+		SubType = "main"
+		Position = [ 539.967773, -182.96875, 152.654755 ]
+		Angles = [ 0.0, 129.401428, 0.0 ]
+		VisiblePfx = true
+		Color = [ 250, 230, 3 ]
+		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "B Solo Flash"
+			FontSize = 100
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "flash"
+	}
+	MapAnnotationNode112 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "5b5050b3-18e6-4c59-ad08-52d4d7b50e06"
+		SubType = "aim_target"
+		Position = [ 459.046021, -130.099091, 242.116333 ]
+		Angles = [ -14.84564, 146.84169, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "B Solo Flash"
+			FontSize = 100
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "standing throw"
+			FontSize = 60
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "355efefc-8cd1-4122-b802-7304abdc0bdc"
+	}
+	MapAnnotationNode113 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "921c8ebc-1ab9-429e-8ab9-24dd4311f3ba"
+		SubType = "destination"
+		Position = [ 589.83313, 155.23497, 142.440155 ]
+		Angles = [ -14.84564, 146.84169, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "355efefc-8cd1-4122-b802-7304abdc0bdc"
+		DistanceThreshold = 80.0
+	}
 }

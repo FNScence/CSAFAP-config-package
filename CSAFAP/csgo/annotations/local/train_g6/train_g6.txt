@@ -1110,4 +1110,133 @@
 		}
 		MasterNodeId = "6b2f2938-87c8-440f-826d-eb2a0fb153e5"
 	}
+	MapAnnotationNode36 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "92e21094-7023-469c-ba8f-7d6efeb61659"
+		SubType = "main"
+		Position = [ 135.030304, -961.048828, -310.358276 ]
+		Angles = [ 0.0, -177.257202, 0.0 ]
+		VisiblePfx = true
+		Color = [ 50, 220, 190 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Brown Halls Flash"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "standing instructions"
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "flash"
+	}
+	MapAnnotationNode37 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "6a1095ca-7eb0-4d32-b30a-2d8c7860cc67"
+		SubType = "aim_target"
+		Position = [ 35.147102, -965.834167, -246.311188 ]
+		Angles = [ -0.381185, -177.257217, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, -25.0, -12.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Brown Halls Flash"
+			FontSize = 100
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "standing Jumpthrow"
+			FontSize = 60
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "92e21094-7023-469c-ba8f-7d6efeb61659"
+	}
+	MapAnnotationNode38 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "4b2e67ba-fc3d-4fa9-a082-fbc9580be3b2"
+		SubType = "destination"
+		Position = [ -968.886597, -1013.930542, -0.927979 ]
+		Angles = [ -0.381185, -177.257217, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "92e21094-7023-469c-ba8f-7d6efeb61659"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode39 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "b703250d-bcd8-450e-9be2-5dd60cf129ee"
+		SubType = "main"
+		Position = [ 447.471893, -901.572266, -318.96875 ]
+		Angles = [ 0.0, 5.178345, 0.0 ]
+		VisiblePfx = true
+		Color = [ 60, 150, 230 ]
+		TextPositionOffset = [ 0.0, 0.0, 20.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Lower B Runboost"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
 }
