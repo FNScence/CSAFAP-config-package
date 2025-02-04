@@ -101,7 +101,12 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 		- added wallbangs from white halls to ivy, gate and bombtrain
 
 - ***New with version 2.2:***
-	- Added a few T-side line-ups for Train (after the first pro matches on the map)	
+	- Added a few T-side line-ups for Train (after the first pro matches on the map)
+
+- ***New with version 2.3:***
+	- Fixed a few T-side line-ups for Train (pop dog to gate, T-stairs to lower B)
+ 	- Exchanged radio tile position of Vertigo with Train
+  	- Added Ancient Cave to B site solo god flash
 
 ## Installation
 - **Step 1:**
