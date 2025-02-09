@@ -787,7 +787,7 @@
 		Title = 
 		{
 			Text = "Wallbangs"
-			FontSize = 125
+			FontSize = 120
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 			ShowBackground = true
@@ -1182,5 +1182,191 @@
 		}
 		MasterNodeId = "2e96630f-767c-4f48-9369-128fccee6d4d"
 		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode38 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "1ca757a3-142f-4f88-b0c0-4b4f20a4399d"
+		SubType = "main"
+		Position = [ -516.033142, 571.96875, 66.151169 ]
+		Angles = [ 0.0, -84.353027, 0.0 ]
+		VisiblePfx = true
+		Color = [ 240, 170, 70 ]
+		TextPositionOffset = [ 0.0, 0.0, 20.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Pop Dog \n Wallbang"
+			FontSize = 120
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode39 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "0e3b295e-931c-4279-a2d2-1618ec2638a7"
+		SubType = "main"
+		Position = [ -516.033142, 571.96875, 66.151169 ]
+		Angles = [ 0.0, -84.353027, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 255, 255 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode40 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "e3c4de08-8a6d-4d48-a56b-20f7c3ed7258"
+		SubType = "aim_target"
+		Position = [ -506.622131, 476.267487, 94.986496 ]
+		Angles = [ 15.92351, -84.383743, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "0e3b295e-931c-4279-a2d2-1618ec2638a7"
+	}
+	MapAnnotationNode41 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "2a5be94e-6f18-48f0-a836-e0317780a549"
+		SubType = "main"
+		Position = [ -649.96637, 207.388489, 16.03125 ]
+		Angles = [ 0.0, -11.973389, 0.0 ]
+		VisiblePfx = true
+		Color = [ 240, 170, 70 ]
+		TextPositionOffset = [ 0.0, 0.0, 20.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Bombtrain Wallbang"
+			FontSize = 120
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode42 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "299b3096-5384-44cf-a1ee-28206e1ce8dc"
+		SubType = "main"
+		Position = [ -649.96637, 207.388489, 16.03125 ]
+		Angles = [ 0.0, -11.973389, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 255, 255 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode43 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "eb19db3a-b26f-48e2-ac11-6dc8f8e0068f"
+		SubType = "aim_target"
+		Position = [ -553.492676, 186.929184, 63.310806 ]
+		Angles = [ 9.532349, -11.973389, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "299b3096-5384-44cf-a1ee-28206e1ce8dc"
 	}
 }

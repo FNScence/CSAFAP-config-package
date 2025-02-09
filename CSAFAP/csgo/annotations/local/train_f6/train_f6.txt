@@ -672,4 +672,97 @@
 		MasterNodeId = "c03914f3-10b6-4740-beb8-28c86653759a"
 		DistanceThreshold = 80.0
 	}
+	MapAnnotationNode21 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "acc8f2d4-0946-4f6f-ab48-9e6d2d4e85d8"
+		SubType = "main"
+		Position = [ -568.046936, -341.089233, -213.46875 ]
+		Angles = [ 0.0, -24.975708, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 255, 255 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode22 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "7fb8d15b-ecdd-4b23-a422-f787f8517ea3"
+		SubType = "aim_target"
+		Position = [ -477.710236, -383.167297, -141.339203 ]
+		Angles = [ -4.75502, -24.975708, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "acc8f2d4-0946-4f6f-ab48-9e6d2d4e85d8"
+	}
+	MapAnnotationNode23 = 
+	{
+		Enabled = true
+		Type = "position"
+		Id = "eed143a4-9a0b-4fc9-ba22-9ecbff37891b"
+		SubType = "main"
+		Position = [ -568.046936, -341.089233, -213.46875 ]
+		Angles = [ 0.0, -24.975708, 0.0 ]
+		VisiblePfx = true
+		Color = [ 240, 170, 70 ]
+		TextPositionOffset = [ 0.0, 0.0, 20.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Connector Wallbang"
+			FontSize = 120
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+	}
 }

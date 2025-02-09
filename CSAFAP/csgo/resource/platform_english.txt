@@ -238,7 +238,10 @@
 	"CFG_TRAIN_SMOKE_6"                    "T \n INSTANT ☁ smoke \n RIGHT SMOKEWALL \n SPAWN 3 \n  \n  \n  \n  \n "
 	"CFG_TRAIN_SMOKE_7"                    "T \n INSTANT ☁ smoke \n GATE \n SPAWN 4 \n  \n  \n  \n  \n "
 	"CFG_TRAIN_SMOKE_8"                    "T \n INSTANT ☁ smoke \n GATE \n SPAWN 5 \n  \n  \n  \n  \n "
-	
+	"CFG_TRAIN_SMOKE_9"                    "T \n INSTANT ☁ smoke \n SANDWICH \n SPAWN 2 \n  \n  \n  \n  \n "
+	"CFG_TRAIN_SMOKE_10"                    "T \n INSTANT ☁ smoke \n SANDWICH \n SPAWN 3 \n  \n  \n  \n  \n "
+	"CFG_TRAIN_SMOKE_11"                    "T \n INSTANT ☁ smoke \n SANDWICH \n SPAWN 5 \n  \n  \n  \n  \n "
+	"CFG_TRAIN_SMOKE_12"                    "T \n INSTANT ☁ smoke \n SANDWICH \n SPAWN 6 \n  \n  \n  \n  \n "
 	
 	"CFG_OVERPASS_WALLBANG_1"                    "CT \n WALLBANG \n FLOWER to T-STAIRS \n \n SHOOT AT 1:49 \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_WALLBANG_2"                    "T \n WALLBANG \n T-STAIRS to HEAVEN \n \n SHOOT AT 1:48 \n  \n  \n  \n  \n "
