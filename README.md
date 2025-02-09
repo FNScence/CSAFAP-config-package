@@ -108,6 +108,11 @@ All features are accessible via the in-game radio wheels, by using the four keyb
  	- Exchanged radio tile position of Vertigo with Train
   	- Added Ancient Cave to B site solo god flash
 
+- ***New with version 2.4:***
+  	- Added Train Instant Sandwich Smokes to Instant-Lineups
+  	- Added ~10 new line-ups to various maps in practice mode
+  	- Default radio messages are now supported (`bind key +radialradio; bind key +radialradio2; bind key +radialradio3`)
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
