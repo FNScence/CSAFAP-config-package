@@ -133,7 +133,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - **Step 3:**
   Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).
   
-  Change the keybinds to your preference.
+  ENTER YOUR SENSITIVITY AT THE TOP! Change the keybinds to your preference.
 
   If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
 
