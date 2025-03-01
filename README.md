@@ -114,7 +114,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   	- Default radio messages are now supported (`bind key +radialradio; bind key +radialradio2; bind key +radialradio3`)
 
 - ***New with version 2.5:***
-  	- Fixed Practice Mode (removed chunk_loader; added manual map selection; split annotations into CT- and T-Side)
+  	- Fixed Practice Mode (removed chunk_loader and automatic map detection, [broken by Valve on 27nd of February 2025](https://store.steampowered.com/news/app/730/view/529839807839339585); split annotations into CT- and T-Side)
 	- Fixed de-subtick binds (thanks to [Leiti](https://www.youtube.com/@xLeiti))
 	- Re-added manual sensitivity entry within `CSAFAP/main.cfg`
  
