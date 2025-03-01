@@ -102,9 +102,9 @@
 	"CFG_PRAC_SPREAD"             "SHOW \n GUN ACCURACY \n (toggle) \n  \n  \n  \n  \n "
 	"CFG_PRAC_BOMB"             "SHOW \n BOMB BLAST RADIUS \n  \n  \n  \n  \n "
 	"CFG_PRAC_GUIDE_ON"             "MAP GUIDE \n [currently: ON] \n  \n  \n  \n  \n "
-	"CFG_PRAC_GUIDE_OFF"             "MAP GUIDE \n [currently: OFF] \n  \n  \n  \n  \n "
-	"CFG_PRAC_GUIDE_CT"             "MAP GUIDE \n [currently: CT only] \n  \n  \n  \n  \n "
-	"CFG_PRAC_GUIDE_T"             "MAP GUIDE \n [currently: T only] \n  \n  \n  \n  \n "
+	"CFG_PRAC_GUIDE_OFF"             "MAP GUIDE \n [currently: OFF] \n ❌ \n  \n  \n  \n  \n "
+	"CFG_PRAC_GUIDE_CT"             "MAP GUIDE \n [currently: CT-SIDE] \n ✔ \n  \n  \n  \n  \n "
+	"CFG_PRAC_GUIDE_T"             "MAP GUIDE \n [currently: T-SIDE] \n ✔ \n  \n  \n  \n  \n "
 	
 	
 	"CFG_PRAC_BOTPLACE"             "PLACE BOT \n  \n  \n  \n  \n "
@@ -139,6 +139,21 @@
 	"CFG_PRAC_KNIFE_20"             "FALCION \n  \n  \n  \n  \n "
 	"CFG_PRAC_KNIFE_21"             "DEFAULT \n KNIFE \n  \n  \n  \n  \n "
 	"CFG_PRAC_KNIFE_0"             "BURNING KNIFE \n  \n  \n  \n  \n "
+	
+	"CFG_PRAC_CHOOSE_MAP"             "WHICH MAP \n are you currently on? \n  \n  \n  \n  \n "
+	"CFG_MAP_PRAC_Anubis"             "PRACTICE \n on \n ANUBIS  \n  \n  \n  \n  \n "
+	"CFG_MAP_PRAC_Inferno"             "PRACTICE \n on \n INFERNO  \n  \n  \n  \n  \n "
+	"CFG_MAP_PRAC_Mirage"             "PRACTICE \n on \n MIRAGE  \n  \n  \n  \n  \n "
+	"CFG_MAP_PRAC_Vertigo"             "PRACTICE \n on \n VERTIGO  \n  \n  \n  \n  \n "
+	"CFG_MAP_PRAC_Dust2"             "PRACTICE \n on \n DUST2  \n  \n  \n  \n  \n "
+	"CFG_MAP_PRAC_Nuke"             "PRACTICE \n on \n NUKE  \n  \n  \n  \n  \n "
+	"CFG_MAP_PRAC_Ancient"             "PRACTICE \n on \n ANCIENT  \n  \n  \n  \n  \n "
+	"CFG_MAP_PRAC_Overpass"             "PRACTICE \n on \n OVERPASS  \n  \n  \n  \n  \n "
+	"CFG_MAP_PRAC_Train"             "PRACTICE \n on \n TRAIN  \n  \n  \n  \n  \n "
+	
+	"CFG_PRAC_CHOOSE_SIDE"             "WHICH SIDE \n do you want? \n  \n  \n  \n  \n "
+	"CFG_SIDE_PRAC_CT"             "CT-SIDE  \n  \n  \n  \n  \n "
+	"CFG_SIDE_PRAC_T"             "T-SIDE  \n  \n  \n  \n  \n "
 
 	"CFG_CHOOSE_MAP_T"             "NO MAP SELECTED  \n  \n  \n  \n  \n "
 	"CFG_CHOOSE_MAP_L"             "SELECT MAP \n ↘ PRESS M ↘ \n  \n  \n  \n  \n " // ↓
