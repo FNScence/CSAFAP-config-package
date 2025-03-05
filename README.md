@@ -64,7 +64,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   - Ancient: CT instant smokes for mid and B doors from all 5 spawns (open smoke wheel, then scroll mouse wheel up/down)
 
 - ***New with version 1.6:***
-  - Auto sensitivity detection (you don't have to enter it anymore) (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
+  - <s>Auto sensitivity detection (you don't have to enter it anymore)</s> (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
   - Option for a specific strafing config to launch with the game
 
 - ***New with version 1.7:***
@@ -113,6 +113,12 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   	- Added ~10 new line-ups to various maps in practice mode
   	- Default radio messages are now supported (`bind key +radialradio; bind key +radialradio2; bind key +radialradio3`)
 
+- ***New with version 2.5:***
+  	- Fixed Practice Mode (removed chunk_loader and automatic map detection, [broken by Valve on 27nd of February 2025](https://store.steampowered.com/news/app/730/view/529839807839339585); split annotations into CT- and T-Side)
+	- Fixed de-subtick binds (thanks to [Leiti](https://www.youtube.com/@xLeiti))
+	- Re-added manual sensitivity entry within `CSAFAP/main.cfg`
+ 
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
@@ -127,7 +133,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - **Step 3:**
   Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).
   
-  Change the keybinds to your preference.
+  ENTER YOUR SENSITIVITY AT THE TOP! Change the keybinds to your preference.
 
   If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
 
@@ -230,8 +236,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   > Here are [all qwerty keys and their respective scancodes](https://github.com/libsdl-org/SDL/blob/main/include/SDL3/SDL_scancode.h#L218) and this is a [scancode bind converter](https://totalcsgo.com/binds/converter) which might be helpful.
   
 - Q7: Why does my sensitivity change to 1.0 and doesn't switch back my playing sens?
-  > Make sure you're NOT using the command `host_writeconfig` within your autoexec.
-  > The config reads your current sensitivity when you `exec csafap/main`. Make sure not do re-exec the whole config while a radiowheel is open. Re-execing is also a good way to reset after entering your own sensitivity again.
+  > Set your sensitivity at the top of `exec CSAFAP/main`. Auto sensitivity detection got patched by Valve.
 
 - Q8: What is Snap-Tap/Nulls? Should I use it? Will I get kicked for using it?
   > It's best to try them it yourself and see if you prefer it over default movement.
