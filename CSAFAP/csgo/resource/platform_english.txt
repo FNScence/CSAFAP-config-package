@@ -201,6 +201,7 @@
 	"CFG_ANCIENT_CTSMOKE_B_3"                    "CT \n INSTANT ☁ smoke \n B DOORS \n SPAWN 3 \n  \n  \n  \n  \n "
 	"CFG_ANCIENT_CTSMOKE_B_4"                    "CT \n INSTANT ☁ smoke \n B DOORS \n SPAWN 4 \n  \n  \n  \n  \n "
 	"CFG_ANCIENT_CTSMOKE_B_5"                    "CT \n INSTANT ☁ smoke \n B DOORS \n SPAWN 5 \n  \n  \n  \n  \n "
+	"CFG_ANCIENT_MOLLY_B"                    "T \n INSTANT molly \n B CAVE \n  \n  \n  \n  \n "
 
 	"CFG_MIRAGE_SMOKE_1"                    "T \n INSTANT ☁ smoke \n WINDOW \n SPAWN 1 \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_SMOKE_2"                    "T \n INSTANT ☁ smoke \n WINDOW \n SPAWN 2 \n  \n  \n  \n  \n "
