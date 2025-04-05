@@ -6609,4 +6609,200 @@
 			FadeOutDist = -1.0
 		}
 	}
+	MapAnnotationNode425 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "3d4e027c-2d12-4ec4-9d19-15ff835b5976"
+		SubType = "main"
+		Position = [ 436.032349, 2656.96875, 164.03125 ]
+		Angles = [ 0.0, -129.910248, 0.0 ]
+		VisiblePfx = true
+		Color = [ 60, 150, 230 ]
+		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Car Molotov"
+			FontSize = 125
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "molotov"
+	}
+	MapAnnotationNode426 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "281db3a0-acb1-499d-8ff3-ad8dd9a5a8af"
+		SubType = "aim_target"
+		Position = [ 371.914551, 2580.312744, 229.071243 ]
+		Angles = [ -2.048189, -129.910324, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Car Molotov"
+			FontSize = 100
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "standing Jumpthrow"
+			FontSize = 60
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "3d4e027c-2d12-4ec4-9d19-15ff835b5976"
+	}
+	MapAnnotationNode427 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "b4360736-2364-4a82-bfa4-08668ff19311"
+		SubType = "destination"
+		Position = [ 521.195129, 2014.756104, 181.423096 ]
+		Angles = [ -2.048189, -129.910324, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "3d4e027c-2d12-4ec4-9d19-15ff835b5976"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode428 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "5e783e4c-c003-4f93-8d4f-6aa8374c7c96"
+		SubType = "main"
+		Position = [ 436.033295, 2656.96875, 164.03125 ]
+		Angles = [ 0.0, -120.669365, 0.0 ]
+		VisiblePfx = true
+		Color = [ 60, 150, 230 ]
+		TextPositionOffset = [ 0.0, 0.0, 50.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Top Half-Wall Smoke"
+			FontSize = 100
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode429 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "5e7a90b5-e42f-491e-8ce2-b4572178cf28"
+		SubType = "aim_target"
+		Position = [ 385.297638, 2571.416992, 235.826172 ]
+		Angles = [ -5.928957, -120.669395, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Top Half-Wall Smoke"
+			FontSize = 100
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "standing W-Jumpthrow"
+			FontSize = 60
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "5e783e4c-c003-4f93-8d4f-6aa8374c7c96"
+	}
+	MapAnnotationNode430 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "f3c95b5f-e018-4831-8aa1-5515c02e1357"
+		SubType = "destination"
+		Position = [ 420.447662, 1819.906372, 227.033112 ]
+		Angles = [ -5.928957, -120.669395, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "5e783e4c-c003-4f93-8d4f-6aa8374c7c96"
+		DistanceThreshold = 80.0
+	}
 }
