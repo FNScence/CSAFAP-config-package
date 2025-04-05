@@ -119,7 +119,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 	- Re-added manual sensitivity entry within `CSAFAP/main.cfg`
 
  - ***New with version 2.6:***
-  	- Added/Changed practice mode line-ups for Train, Anubis, Inferno
+  	- Added/changed practice mode line-ups for Train, Anubis, Inferno
 
 ## Installation
 - **Step 1:**
