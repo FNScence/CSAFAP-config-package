@@ -121,6 +121,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
  - ***New with version 2.6:***
   	- Added/changed practice mode line-ups for Train, Anubis, Inferno
 
+ - ***New with version 2.7:***
+  	- Changed auto-line-ups for Mirage Instant Window (spawns 2-5) to land faster (thanks to [-Cap1taL-](https://discord.com/channels/992407294866370681/1274522315853533338/1361582970393329834))
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
