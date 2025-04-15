@@ -28,7 +28,10 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ↑ Quick access to practice commands (scroll mwheel for more options)
 
 ![autolineups](https://github.com/user-attachments/assets/d7240c14-75a1-47eb-991b-9effd9997612)
-↑ Automatically line-up smokes on official servers
+↑ Automatically line-up smokes on official servers...
+
+![window_fast](https://github.com/user-attachments/assets/676fc7c2-e3d6-453c-be5a-04aa675e3d27)
+↑ ... to land pixel-perfect smokes extra fast
 
 ![snaptap](https://github.com/user-attachments/assets/3c414e50-e07a-4af8-ae70-d5793f6a69a3)
 ↑ Snap-Tap (null binds) input option - does NOT trigger a kick
