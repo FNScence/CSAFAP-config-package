@@ -131,7 +131,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   	- Fixed a bug, where T-wheel would be stuck on Mirage line-ups (after selecting Mirage Instant Window smoke without resetting and selecting another map).
   
  - ***New with version 2.9:***
-  	- Added instant line-ups suggested from user feedback (https://discord.com/channels/992407294866370681/1277052590764326943/1370957519043956756).
+  	- Added instant line-ups suggested from [user feedback](https://discord.com/channels/992407294866370681/1277052590764326943/1370957519043956756).
 
 ## Installation
 - **Step 1:**
