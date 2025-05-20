@@ -228,6 +228,7 @@
 	"CFG_MIRAGE_WALLBANG_1"                    "CT \n WALLBANG \n WINDOW to TOP MID \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_WALLBANG_2"                    "CT \n WALLBANG \n LEFT-SIDE WINDOW \n to CAT \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_SMOKE_CT_1"                    "CT \n INSTANT ☁ smoke \n TOP MID (Astralis) \n SPAWN 1 \n  \n  \n  \n  \n "
+	"CFG_MIRAGE_SILENT"                    "CT \n SILENT DROP \n WINDOW  \n  \n  \n  \n  \n "
 	
 	"CFG_VERTIGO_SMOKE_1"                    "CT \n MID ☁ smoke \n  \n  \n  \n  \n "
 	"CFG_VERTIGO_MOLLY_1"                    "CT \n MID MOLOTOV \n  \n  \n  \n  \n "
