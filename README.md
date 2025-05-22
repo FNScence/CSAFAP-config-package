@@ -157,24 +157,23 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - **Done!**
 
 ## How to use the CSAFAP Config Package
-- **Step 1:**
-  Press one of the THREE KEY BINDS to access a RADIO WHEEL
+- **How to use RADIO WHEELS:**
+Press one of the FOUR KEY BINDS to access a RADIO WHEEL.
+Then, hover your mouse over the tile you want to use and PRESS AND RELEASE THE SAME KEY AS BEFORE again (clicking does nothing).
 
-  Default Keybinds:
-  -  **H**: CT Line-ups (Smokes & Wallbangs)
-  -  **J**: T Line-ups (Smokes & Wallbangs)
-  -  **K**: Snap-Tap and Viewmodel Settings
-  -  **M**: Map Selection + Practice Mode
+>  Default Keybinds:
+>  -  **H**: CT Line-ups (Smokes & Wallbangs)
+>  -  **J**: T Line-ups (Smokes & Wallbangs)
+>  -  **K**: Snap-Tap and Viewmodel Settings
+>  -  **M**: Map Selection + Practice Mode
+
   
-- **Step 2:**
-  Open the map wheel and select your current map.
+- **How to use AUTO LINE-UPS:**
+Open the map wheel and select your current map.
+Then, select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
 
-- **Step 3:**
-  Hover your mouse over the tile you want to use and PRESS THE SAME KEY AS IN STEP 1 again.
-
-- **Step 4:**
-  Throw your line-up.
-
+- **How to use PRACTICE-MODE:**
+  Open the map wheel and select ENABLE PRAC-MODE, then choose the map and side you want. Use the bind you set for the T-wheel (default: **J**) to access many practice mode options (incl. CT/T-side line-up switch).
 
 ## Customization
 - **Change keybinds**
