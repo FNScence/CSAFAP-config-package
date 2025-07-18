@@ -133,6 +133,10 @@ All features are accessible via the in-game radio wheels, by using the four keyb
  - ***New with version 2.9:***
   	- Added auto line-ups suggested from [user feedback](https://discord.com/channels/992407294866370681/1277052590764326943/1370957519043956756).
 
+- ***New with version 2.10:***
+	- Shifted map selection one tile to realign with premier veto screen
+   	- Added auto line-up for Overpass banana to B-stairs molotov
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
