@@ -136,6 +136,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - ***New with version 2.10:***
 	- Shifted map selection one tile to realign with premier veto screen
    	- Added auto line-up for Overpass banana to B-stairs molotov
+ 
+- ***New with version 2.11:***
+   	- Added auto line-up for Overpass Instant Monster Smokes
 
 ## Installation
 - **Step 1:**
