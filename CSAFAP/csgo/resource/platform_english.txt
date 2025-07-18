@@ -271,6 +271,11 @@
 	"CFG_OVERPASS_WALLBANG_4"                    "T \n WALLBANG \n PLAYGROUND to \n FRONT TOILETS \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_MOLLY_1"                    "CT \n RUNBOOST-INCENDIARY \n  T-MID \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_MOLLY_2"                    "CT \n MOLOTOV \n  BANANA to B-STAIRS \n  \n  \n  \n  \n "
+	"CFG_OVERPASS_SMOKE_CT_1"                    "CT \n INSTANT ☁ smoke \n MONSTER \n SPAWN 1 (truck) \n  \n  \n  \n  \n "
+	"CFG_OVERPASS_SMOKE_CT_2"                    "CT \n INSTANT ☁ smoke \n MONSTER \n SPAWN 2 (X bomb) \n  \n  \n  \n  \n "
+	"CFG_OVERPASS_SMOKE_CT_3"                    "CT \n INSTANT ☁ smoke \n MONSTER \n SPAWN 3 (A long) \n  \n  \n  \n  \n "
+	"CFG_OVERPASS_SMOKE_CT_4"                    "CT \n INSTANT ☁ smoke \n MONSTER \n SPAWN 4 (B) \n  \n  \n  \n  \n "
+	"CFG_OVERPASS_SMOKE_CT_5"                    "CT \n INSTANT ☁ smoke \n MONSTER \n SPAWN 5 (bank) \n  \n  \n  \n  \n "
 
 	"CFG_MOVEMENT_DEFAULT"                    "DEFAULT \n MOVEMENT \n  \n  \n  \n  \n "
 	"CFG_MOVEMENT_NULL_ON"                    " DISABLE \n NULLS / SNAP-TAP \n  \n [currently ON] \n  \n  \n  \n "
