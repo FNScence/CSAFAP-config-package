@@ -139,6 +139,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
  
 - ***New with version 2.11:***
    	- Added auto line-up for Overpass Instant Monster Smokes
+ 
+- ***New with version 2.12:***
+   	- Changed auto line-up Overpass Mid Runboost-Incendiary to regular Mid Incendiary
 
 ## Installation
 - **Step 1:**
