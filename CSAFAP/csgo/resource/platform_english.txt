@@ -269,7 +269,7 @@
 	"CFG_OVERPASS_WALLBANG_2"                    "T \n WALLBANG \n T-STAIRS to HEAVEN \n \n SHOOT AT 1:48 \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_WALLBANG_3"                    "CT \n WALLBANG \n B to CONNECTOR \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_WALLBANG_4"                    "T \n WALLBANG \n PLAYGROUND to \n FRONT TOILETS \n  \n  \n  \n  \n "
-	"CFG_OVERPASS_MOLLY_1"                    "CT \n RUNBOOST-INCENDIARY \n  T-MID \n  \n  \n  \n  \n "
+	"CFG_OVERPASS_MOLLY_1"                    "CT \n INCENDIARY \n  T-MID \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_MOLLY_2"                    "CT \n MOLOTOV \n  BANANA to B-STAIRS \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_SMOKE_CT_1"                    "CT \n INSTANT ☁ smoke \n MONSTER \n SPAWN 1 (truck) \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_SMOKE_CT_2"                    "CT \n INSTANT ☁ smoke \n MONSTER \n SPAWN 2 (X bomb) \n  \n  \n  \n  \n "
