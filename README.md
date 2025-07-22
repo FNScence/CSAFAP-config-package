@@ -143,6 +143,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - ***New with version 2.12:***
    	- Changed auto line-up Overpass Mid Runboost-Incendiary to regular Mid Incendiary
 
+- ***New with version 2.13:***
+   	- Added Mirage 5 Smoke A Exec to auto line-ups
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
