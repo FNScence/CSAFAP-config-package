@@ -1625,7 +1625,7 @@ MapAnnotationNode50 =
 		}
 		Desc = 
 		{
-			Text = "Spawn 1"
+			Text = "Spawn 5"
 			FontSize = 70
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
