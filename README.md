@@ -31,7 +31,11 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ↑ Automatically line-up smokes on official servers...
 
 ![window_fast](https://github.com/user-attachments/assets/676fc7c2-e3d6-453c-be5a-04aa675e3d27)
-↑ ... to land pixel-perfect smokes extra fast
+↑ ... to land pixel-perfect smokes extra fast ...
+
+![autoexec](https://github.com/user-attachments/assets/423c5446-4671-4f07-9564-a83b7e418ae4)
+↑↓ ... or throw executes as if you were Valorant's Brimstone (not actual in-game footage)
+![autoexec2](https://github.com/user-attachments/assets/613b7f8f-1864-489f-867c-28dbb700ef56)
 
 ![snaptap](https://github.com/user-attachments/assets/3c414e50-e07a-4af8-ae70-d5793f6a69a3)
 ↑ Snap-Tap (null binds) input option - does NOT trigger a kick
