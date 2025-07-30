@@ -44,7 +44,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - ***Base features (version 1.0):***
   - Automatic Smoke line-ups
   - <s>Instant Flash line-ups</s>
-  - Movement Configs (auto counter-strafe and nulls)
+  - Movement Configs (<s>auto counter-strafe and</s> nulls)
 
 - ***New with version 1.1:***
   - <s>Automatic Map Detection</s> (credit and thanks to [-Cap1taL-](https://github.com/eLecCap1taL))
