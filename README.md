@@ -150,6 +150,12 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - ***New with version 2.13:***
    	- Added Mirage 5 Smoke A Exec to auto line-ups
 
+- ***New with version 2.14:***
+   	- Interim fix for 5-A-smokes auto line-ups
+
+- ***New with version 2.15:***
+   	- Fixed all auto line-ups (after valve broke angle zeroing with their animgraph2 update on [28th July 2025](https://steamcommunity.com/games/CSGO/announcements/detail/529853121068793940)).
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
@@ -187,7 +193,7 @@ Then, hover your mouse over the tile you want to use and PRESS AND RELEASE THE S
   
 - **How to use AUTO LINE-UPS:**
 Open the map wheel and select your current map.
-Then, select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
+Then, **while making sure to keep your crosshair below head height**, open the T-/CT-wheel and select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
 
 - **How to use PRACTICE-MODE:**
   Open the map wheel and select ENABLE PRAC-MODE, then choose the map and side you want. Use the bind you set for the T-wheel (default: **J**) to access many practice mode options (incl. CT/T-side line-up switch).
