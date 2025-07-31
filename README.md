@@ -303,11 +303,9 @@ Then, **while making sure to keep your crosshair below head height**, open the T
   > This is caused by the W-bind of NullWASD. Make sure to use default movement (for JT), or change `csafap/movement/nullWASD.cfg` to use `bind W +forward` instead. I recommend using a Macro for Jumpthrow and the bind from this config for WJT. Here is how to set up a JT macro: https://youtu.be/yqtJZFQSF_U
 
 - Q12: Why can't I stop moving forward after W-Jumpthrow?
-  > The (W-)Jumpthrow binds (based on radiowheels) have anti-synergy with autostop configs, so don't use autostopWASD together with W-JT (autstopAD would be fine for example, since it doesn't mess with the W bind).
+  > When using the W-JT bind, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
   > 
-  > When using the W-JT bind from version 1.9, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
-  > 
-  > Switching to your knife by pressing `3` or moving your crosshair should reset this action. If not, you might have issued `+forward` multiple times without canceling it multiple times.
+  > Switching to your knife by pressing `3` - or moving your crosshair - should reset this action. If not, you might have issued `+forward` multiple times without canceling it multiple times.
   >
   > **Short term fix:** Use this in console: `forward -999 0 0`
   > 
