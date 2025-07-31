@@ -156,6 +156,10 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - ***New with version 2.15:***
    	- Fixed all auto line-ups (after valve broke angle zeroing with their animgraph2 update on [28th July 2025](https://steamcommunity.com/games/CSGO/announcements/detail/529853121068793940)).
 
+- ***New with version 2.16:***
+   	- Adjusted practice-mode Train CT-side Ivy pop flashes
+	- Added auto line-up for Dust2 CT-side upper tunnels
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
