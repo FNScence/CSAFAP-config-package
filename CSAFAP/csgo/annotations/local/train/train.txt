@@ -6648,7 +6648,7 @@
 		Id = "5831571e-81e4-406e-abd4-c1e68d4fced0"
 		SubType = "main"
 		Position = [ 873.465271, -236.960693, -211.96875 ]
-		Angles = [ 0.0, 77.144623, 0.0 ]
+		Angles = [ 0.0, 80.957214, 0.0 ]
 		VisiblePfx = true
 		Color = [ 60, 150, 230 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -6680,10 +6680,10 @@
 		Type = "grenade"
 		Id = "6033b01d-b1f6-4c1c-a953-cf4b33355980"
 		SubType = "aim_target"
-		Position = [ 889.449097, -141.581299, -122.687836 ]
-		Angles = [ -14.738581, 80.486786, 0.0 ]
+		Position = [ 889.270508, -141.776352, -121.698288 ]
+		Angles = [ -15.230602, 80.572144, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
+		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -6709,8 +6709,8 @@
 		Type = "grenade"
 		Id = "97d9aa5e-4210-4cf6-9346-0ab63b11d76a"
 		SubType = "destination"
-		Position = [ 1044.252441, 782.167786, -138.015503 ]
-		Angles = [ -14.738581, 80.486786, 0.0 ]
+		Position = [ 1021.870056, 642.926392, -94.069298 ]
+		Angles = [ -15.230602, 80.572144, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -7115,8 +7115,8 @@
 		Type = "grenade"
 		Id = "f8a0ba4a-1703-4c80-ab66-5c8ba1f121f2"
 		SubType = "main"
-		Position = [ 808.247314, 393.95816, -211.96875 ]
-		Angles = [ 0.0, 40.480499, 0.0 ]
+		Position = [ 794.087891, 417.928009, -211.96875 ]
+		Angles = [ 0.0, 37.841721, 0.0 ]
 		VisiblePfx = true
 		Color = [ 50, 220, 190 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -7148,8 +7148,8 @@
 		Type = "grenade"
 		Id = "0512abf5-df5c-40fd-a225-5f19e6e97f5d"
 		SubType = "aim_target"
-		Position = [ 883.868591, 458.499969, -158.888855 ]
-		Angles = [ 6.177047, 40.480339, 0.0 ]
+		Position = [ 872.534424, 478.868744, -159.473892 ]
+		Angles = [ 6.606592, 37.841637, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
 		TextFacePlayer = false
@@ -7177,8 +7177,8 @@
 		Type = "grenade"
 		Id = "7b7e3ed5-cb27-45d6-a33f-7416bc9751ed"
 		SubType = "destination"
-		Position = [ 1072.722046, 619.684082, -96.990486 ]
-		Angles = [ 6.177047, 40.480339, 0.0 ]
+		Position = [ 1068.788818, 631.327087, -99.753143 ]
+		Angles = [ 6.606592, 37.841637, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false

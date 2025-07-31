@@ -186,6 +186,7 @@
 	"CFG_DUST2_SMOKE_B"                    "T \n INSTANT ☁ smoke \n B DOORS \n  \n  \n  \n  \n "
 	"CFG_DUST2_SMOKE_CT_1"                    "CT \n FAST ☁ smoke \n LONG HOUSE \n (from 2nd corner) \n  \n  \n  \n "
 	"CFG_DUST2_SMOKE_CT_2"                    "CT \n FAST ☁ smoke \n LONG HOUSE \n (from 1st corner) \n  \n  \n  \n "
+	"CFG_DUST2_SMOKE_CT_3"                    "CT \n FAST ☁ smoke \n UPPER TUNNELS \n  \n  \n  \n "
 	
 	"CFG_ANCIENT_SMOKE_1"                    "T \n INSTANT ☁ smoke \n MID EXTINGUISH \n SPAWN 1 \n  \n  \n  \n  \n "
 	"CFG_ANCIENT_SMOKE_4"                    "T \n INSTANT ☁ smoke \n MID EXTINGUISH \n SPAWN 4 \n  \n  \n  \n  \n "
