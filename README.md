@@ -299,7 +299,8 @@ Then, **while making sure to keep your crosshair below head height**, open the T
   > m_yaw ... adjust your mouse sensitivity only on the X axis (we're using m_yaw = 0.022)
 
 - Q10: The radio tiles are empty. How to get the text working?
-  > Make sure to place "../csafap/csgo/resource/platform_english.txt" in the correct folder and use the english language in-game. Edits to this file require a game-restart to take effect.
+  > Make sure to follow step 2 of the installtion instruction, by copying the `csgo`-folder from the `CSAFAP`-directory, to your game's installation path.
+  > This places "../csafap/csgo/resource/platform_english.txt" in the correct folder. Edits to this file require a game-restart to take effect.
   > 
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
 
