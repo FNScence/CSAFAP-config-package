@@ -12,7 +12,6 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Automatic line-ups** (instant smokes + wallbangs)
 - **Snap-Tap** / Null-bind movement input
 - **De-subticked Jump** (better bhopping)
-- **100% perf bhop bind** (64fps lock hold/toggle)
 - **(W-)Jumpthrow binds** (de-subticked, more consistent than manual throws)
 - **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
 
@@ -162,7 +161,7 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 	- Added auto line-up for Dust2 CT-side upper tunnels
 
 - ***New with version 2.17:***
-   	- Added FPS-lock binds (hold and toggle options) for 100% perf bhops when used together with the already featured desubticked jump bind
+   	- <s>Added FPS-lock binds (hold and toggle options) for 100% perf bhops when used together with the already featured desubticked jump bind</s>
 
 ## Installation
 - **Step 1:**
