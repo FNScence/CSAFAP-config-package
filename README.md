@@ -163,6 +163,10 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - ***New with version 2.17:***
    	- <s>Added FPS-lock binds (hold and toggle options) for 100% perf bhops when used together with the already featured desubticked jump bind</s>
 
+- ***New with version 2.18:***
+	- Added custom sensitivity_y_scale support when using auto-lineups
+	- Adjusted some practice mode line-ups on Overpass
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
