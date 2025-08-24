@@ -167,6 +167,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 	- Added custom sensitivity_y_scale support when using auto-lineups
 	- Adjusted some practice mode line-ups on Overpass
 
+- ***New with version 2.19:***
+	- Reduced the amount of alias being loaded at any given time to a minimum, in a temporary attempt at fixing stability issues (caused by valve's first animgraph2 update)
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
