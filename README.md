@@ -11,6 +11,7 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
 - **Automatic line-ups** (instant smokes + wallbangs)
 - **Snap-Tap** / Null-bind movement input
+- **Automatic bunny hopping** (100% perf + slowdown only to 290 u/s when going above speed limit)
 - **De-subticked Jump** (better bhopping)
 - **(W-)Jumpthrow binds** (de-subticked, more consistent than manual throws)
 - **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
@@ -40,6 +41,13 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ![snaptap](https://github.com/user-attachments/assets/3c414e50-e07a-4af8-ae70-d5793f6a69a3)
 ↑ Snap-Tap (null binds) input option - does NOT trigger a kick
 
+## Known issues
+- **Auto line-ups currently do not work correctly on faceit.**  
+  In an effort to fix the teleport exploit on their servers, faceit devs limited the usage of m_yaw, which is required to set-up the 0 0 viewangle for auto line-ups. Until valve fix the teleporting for good, faceit will keep this bandaid fix and there is no workaround.
+  
+- **Disconnecting from servers or changing map crashes the game.**  
+  Nothing do be done other than wait for valve to fix the stability of their game under heavy alias usage.
+  
 ## Version History
 - ***Base features (version 1.0):***
   - Automatic Smoke line-ups
@@ -170,6 +178,14 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - ***New with version 2.19:***
 	- Reduced the amount of alias being loaded at any given time to a minimum, in a temporary attempt at fixing stability issues (caused by valve's first animgraph2 update)
 
+- ***New with version 2.20:***
+	- Added auto bunny hop bind (hold) (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
+    - Fixed a few practice mode line-ups (Ancient, Mirage, Train)
+
+- ***New with version 2.21:***
+	- Auto line-up setup no longer requires you to aim below head height (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
+    - Fixed compatibility between auto line-ups and auto bhops (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
@@ -207,7 +223,7 @@ Then, hover your mouse over the tile you want to use and PRESS AND RELEASE THE S
   
 - **How to use AUTO LINE-UPS:**
 Open the map wheel and select your current map.
-Then, **while making sure to keep your crosshair below head height**, open the T-/CT-wheel and select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
+Then, open the T-/CT-wheel and select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
 
 - **How to use PRACTICE-MODE:**
   Open the map wheel and select ENABLE PRAC-MODE, then choose the map and side you want. Use the bind you set for the T-wheel (default: **J**) to access many practice mode options (incl. CT/T-side line-up switch).
