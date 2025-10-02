@@ -186,6 +186,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 	- Auto line-up setup no longer requires you to aim below head height (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
     - Fixed compatibility between auto line-ups and auto bhops (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
 
+- ***New with version 2.21:***
+	- Fixed an issue with auto line-up logic
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
