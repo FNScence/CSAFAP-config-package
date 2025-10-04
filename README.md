@@ -11,7 +11,6 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
 - **Automatic line-ups** (instant smokes + wallbangs)
 - **Snap-Tap** / Null-bind movement input
-- **Automatic bunny hopping** (100% perf + slowdown only to 290 u/s when going above speed limit)
 - **De-subticked Jump** (better bhopping)
 - **(W-)Jumpthrow binds** (de-subticked, more consistent than manual throws)
 - **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
@@ -179,15 +178,28 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 	- Reduced the amount of alias being loaded at any given time to a minimum, in a temporary attempt at fixing stability issues (caused by valve's first animgraph2 update)
 
 - ***New with version 2.20:***
-	- Added auto bunny hop bind (hold) (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
+	- <s>Added auto bunny hop bind (hold)</s> (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
     - Fixed a few practice mode line-ups (Ancient, Mirage, Train)
 
 - ***New with version 2.21:***
 	- Auto line-up setup no longer requires you to aim below head height (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
     - Fixed compatibility between auto line-ups and auto bhops (credit and thanks to [Leiti](https://www.youtube.com/@xLeiti))
 
-- ***New with version 2.21:***
+- ***New with version 2.22:***
 	- Fixed an issue with auto line-up logic
+
+- ***New with version 2.23:***
+	- Fixed auto line-ups breaking after first line-up
+
+- ***New with version 2.24:***
+	- Added teleport to auto line-ups (to practice on servers with sv_cheats 1)
+ 	- Added auto line-ups for Mirage instant top con and bottom con smokes without having to throw window first (scroll mwheel while the radiowheel is open)
+  	- Added 5 additional instant smokes to auto line-ups (Train: 2x A Main, 2x A bombtrain, 1x gate)
+  	- Fixed an issue with auto line-ups turning the wrong way
+  	- Fixed horizontal sensitivity breaking when exiting auto line-up wheel with map- or movement-wheel
+ 	- Fixed a practice mode line-up on Ancient
+    - Fixed map wheel not resetting correctly if aborting on practice mode map selection
+    - Removed Inferno instant deep mid smoke (patched)
 
 ## Installation
 - **Step 1:**
