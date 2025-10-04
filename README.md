@@ -201,6 +201,10 @@ All features are accessible via the in-game radio wheels, by using the four keyb
     - Fixed map wheel not resetting correctly if aborting on practice mode map selection
     - Removed Inferno instant deep mid smoke (patched)
 
+- ***New with version 2.25:***
+	- Fixed game crashes on disconnect or changelevel.  
+      (Make sure not to exec csafap/main after the initial exec on game launch) Thanks to [girlglock](https://github.com/girlglock)
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
