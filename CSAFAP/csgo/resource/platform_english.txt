@@ -160,7 +160,6 @@
 	"CFG_CHOOSE_MAP_R"             "SELECT MAP \n ↙ PRESS M ↙ \n  \n  \n  \n  \n " // ↓
 	"CFG_CHOOSE_MAP_B"             "SELECT MAP \n ↓ PRESS M ↓ \n  \n  \n  \n  \n "
 	
-	"CFG_INFERNO_SMOKE_BOTMID"                    "CT \n INSTANT ☁ smoke \n BOTTOM MID \n BEST MID SPAWN \n  \n  \n  \n  \n "
 	"CFG_INFERNO_FAZE_1"                    "CT \n INSTANT ☁ smoke \n FaZe MID \n SPAWN 1 \n  \n  \n  \n  \n "
 	"CFG_INFERNO_FAZE_2"                    "CT \n INSTANT ☁ smoke \n FaZe MID \n SPAWN 2 \n  \n  \n  \n  \n "
 	"CFG_INFERNO_FAZE_3"                    "CT \n INSTANT ☁ smoke \n FaZe MID \n SPAWN 3 \n  \n  \n  \n  \n "
@@ -228,7 +227,7 @@
 	"CFG_MIRAGE_SMOKE_TOPCON_5"                    "T \n INSTANT ☁ smoke \n TOP CON \n SPAWN 5 \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_WALLBANG_1"                    "CT \n WALLBANG \n WINDOW to TOP MID \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_WALLBANG_2"                    "CT \n WALLBANG \n LEFT-SIDE WINDOW \n to CAT \n  \n  \n  \n  \n "
-	"CFG_MIRAGE_SMOKE_CT_1"                    "CT \n INSTANT ☁ smoke \n TOP MID (Astralis) \n SPAWN 1 \n  \n  \n  \n  \n "
+	"CFG_MIRAGE_SMOKE_CT_1"                    "CT \n INSTANT ☁ smoke \n TOP MID (Astralis) \n SPAWN 5 \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_SILENT"                    "CT \n SILENT DROP \n WINDOW  \n  \n  \n  \n  \n "
 	"CFG_MIRAGE_5A_SMOKES"                    "T \n 5 ☁ smokes \n A SITE \n  \n  \n  \n  \n "
 	
@@ -265,7 +264,12 @@
 	"CFG_TRAIN_SMOKE_10"                    "T \n INSTANT ☁ smoke \n SANDWICH \n SPAWN 3 \n  \n  \n  \n  \n "
 	"CFG_TRAIN_SMOKE_11"                    "T \n INSTANT ☁ smoke \n SANDWICH \n SPAWN 5 \n  \n  \n  \n  \n "
 	"CFG_TRAIN_SMOKE_12"                    "T \n INSTANT ☁ smoke \n SANDWICH \n SPAWN 6 \n  \n  \n  \n  \n "
+	"CFG_TRAIN_SMOKE_13"                    "T \n INSTANT ☁ smoke \n GATE \n SPAWN 6 \n  \n  \n  \n  \n "
 	"CFG_TRAIN_SMOKE_CT_1"                    "CT \n INSTANT ☁ smoke \n T-MAIN \n SPAWN 5 \n  \n  \n  \n  \n "
+	"CFG_TRAIN_SMOKE_CT_2"                    "CT \n INSTANT ☁ smoke \n T-MAIN \n SPAWN 3 \n  \n  \n  \n  \n "
+	"CFG_TRAIN_SMOKE_CT_3"                    "CT \n INSTANT ☁ smoke \n T-MAIN \n SPAWN 8 \n  \n  \n  \n  \n "
+	"CFG_TRAIN_SMOKE_14"                    "T \n INSTANT ☁ smoke \n LEFT SMOKEWALL \n SPAWN 5 \n  \n  \n  \n  \n "
+	"CFG_TRAIN_SMOKE_15"                    "T \n INSTANT ☁ smoke \n RIGHT SMOKEWALL \n SPAWN 5 \n  \n  \n  \n  \n "
 	
 	"CFG_OVERPASS_WALLBANG_1"                    "CT \n WALLBANG \n FLOWER to T-STAIRS \n \n SHOOT AT 1:49 \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_WALLBANG_2"                    "T \n WALLBANG \n T-STAIRS to HEAVEN \n \n SHOOT AT 1:48 \n  \n  \n  \n  \n "
