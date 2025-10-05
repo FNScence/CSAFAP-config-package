@@ -44,8 +44,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - **Auto line-ups currently do not work correctly on faceit.**  
   In an effort to fix the teleport exploit on their servers, faceit devs limited the usage of m_yaw, which is required to set-up the 0 0 viewangle for auto line-ups. Until valve fix the teleporting for good, faceit will keep this bandaid fix and there is no workaround.
   
-- **Disconnecting from servers or changing map crashes the game.**  
-  Nothing do be done other than wait for valve to fix the stability of their game under heavy alias usage.
+- **Some users experience desubtick binds not working.**  
+  [InputService] execing CSAFAP/addons/multi/-jump  
+  [Console] toggle: Cannot toggle value "jump"!
   
 ## Version History
 - ***Base features (version 1.0):***
