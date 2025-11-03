@@ -41,9 +41,6 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ↑ Snap-Tap (null binds) input option - does NOT trigger a kick
 
 ## Known issues
-- **Auto line-ups currently do not work correctly on faceit.**  
-  In an effort to fix the teleport exploit on their servers, faceit devs limited the usage of m_yaw, which is required to set-up the 0 0 viewangle for auto line-ups. Until valve fix the teleporting for good, faceit will keep this bandaid fix and there is no workaround.
-  
 - **Some users experience desubtick binds not working.**  
   [InputService] execing CSAFAP/addons/multi/-jump  
   [Console] toggle: Cannot toggle value "jump"!
