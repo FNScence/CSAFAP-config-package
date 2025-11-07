@@ -203,6 +203,14 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 	- Fixed game crashes on disconnect or changelevel.  
       (Make sure not to exec csafap/main after the initial exec on game launch) Thanks to [girlglock](https://github.com/girlglock)
 
+- ***New with version 2.26:***
+	- Added alternative auto line-up binds, which work for faceit (and all other servers)
+	- Another attempt at fixing auto line-ups being 180° wrong for the x-axis
+
+- ***New with version 2.27:***
+	- Fixed practice mode line-up on Ancient
+ 	- Fixed practice mode chat logic
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
