@@ -41,6 +41,10 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ↑ Snap-Tap (null binds) input option - does NOT trigger a kick
 
 ## Known issues
+- **Fix: cfg rejected by game bug**  
+  Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec CSAFAP/main`.
+  Also don't exec the configs while already on a server. Run them from the main menu (or, as explained above, on game launch) instead.
+
 - **Some users experience desubtick binds not working.**  
   [InputService] execing CSAFAP/addons/multi/-jump  
   [Console] toggle: Cannot toggle value "jump"!
