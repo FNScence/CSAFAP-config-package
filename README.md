@@ -40,7 +40,11 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ![snaptap](https://github.com/user-attachments/assets/3c414e50-e07a-4af8-ae70-d5793f6a69a3)
 ↑ Snap-Tap (null binds) input option - does NOT trigger a kick
 
-## Known issues
+## Known Issues
+- **Fix: cfg rejected by game bug**  
+  Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec CSAFAP/main`.
+  Also don't exec the configs while already on a server. Run them from the main menu (or, as explained above, on game launch) instead.
+
 - **Some users experience desubtick binds not working.**  
   [InputService] execing CSAFAP/addons/multi/-jump  
   [Console] toggle: Cannot toggle value "jump"!
@@ -202,6 +206,14 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - ***New with version 2.25:***
 	- Fixed game crashes on disconnect or changelevel.  
       (Make sure not to exec csafap/main after the initial exec on game launch) Thanks to [girlglock](https://github.com/girlglock)
+
+- ***New with version 2.26:***
+	- Added alternative auto line-up binds, which work for faceit (and all other servers)
+	- Another attempt at fixing auto line-ups being 180° wrong for the x-axis
+
+- ***New with version 2.27:***
+	- Fixed practice mode line-up on Ancient
+ 	- Fixed practice mode chat logic
 
 ## Installation
 - **Step 1:**
