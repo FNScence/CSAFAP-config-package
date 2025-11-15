@@ -215,6 +215,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 	- Fixed practice mode line-up on Ancient
  	- Fixed practice mode chat logic
 
+- ***New with version 2.28:***
+	- Fixed a bug, where auto line-up vertical zeroing would only move 90° up before opening the radiowheel
+
 ## Installation
 - **Step 1:**
   Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
