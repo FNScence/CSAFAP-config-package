@@ -49,6 +49,72 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   [InputService] execing CSAFAP/addons/multi/-jump  
   [Console] toggle: Cannot toggle value "jump"!
   
+## Installation
+- **Step 1:**
+  Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
+  
+		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
+
+- **Step 2:**
+  Inside the `CSAFAP`-directory, copy the `csgo`-folder and paste it at this path:
+
+		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\
+
+- **Step 3:**
+  Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).
+  
+  ENTER YOUR SENSITIVITY AT THE TOP! Change the keybinds to your preference.
+
+  If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
+
+- **Step 4:**
+  Run the main config in-game. Either type `exec CSAFAP/main` directly into the console, use the same line in a config you already use, or use launch option `+exec CSAFAP/MAIN`.
+
+- **Done!**
+
+## How to use the CSAFAP Config Package
+- **How to use RADIO WHEELS:**
+Press one of the FOUR KEY BINDS to access a RADIO WHEEL.
+Then, hover your mouse over the tile you want to use and PRESS AND RELEASE THE SAME KEY AS BEFORE again (clicking does nothing).
+
+>  Default Keybinds:
+>  -  **H**: CT Line-ups (Smokes & Wallbangs)
+>  -  **J**: T Line-ups (Smokes & Wallbangs)
+>  -  **K**: Snap-Tap and Viewmodel Settings
+>  -  **M**: Map Selection + Practice Mode
+
+  
+- **How to use AUTO LINE-UPS:**
+Open the map wheel and select your current map.
+Then, open the T-/CT-wheel and select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
+
+- **How to use PRACTICE-MODE:**
+  Open the map wheel and select ENABLE PRAC-MODE, then choose the map and side you want. Use the bind you set for the T-wheel (default: **J**) to access many practice mode options (incl. CT/T-side line-up switch).
+
+## Customization
+- **Change keybinds**
+
+  > Open CSAFAP/MAIN.cfg with an editor of your choice and edit the desired keybinds.
+
+- **Disable Features**
+
+  > Open CSAFAP/MAIN.cfg, and put `// ` at the start of the line, where the unwanted feature is bound to a key.
+
+- **Find your own Line-up**
+
+  > A detailed video explaination can be found at [THIS TIMESTAMP](https://youtu.be/G9hAaifu2H0?si=3U4mB8vV8oWa-x8g&t=669).
+  >
+  > - Step 1:
+  Find the desired angle using `getpos` in-game.
+  > - Step 2:
+  Calculate desired values for the commands yaw and pitch and create an alias within `CSAFAP/logic.cfg`.
+  > - Step 3:
+  Create a label within the language-file `platform_english.txt`.
+  > - Step 4:
+  Call this label on an empty radiotile within `CSAFAP/maps/[mapname]_labels.cfg`.
+  > - Step 5:
+  Call the alias (which you created in step 2) within `CSAFAP/maps/[mapname]_cmd.cfg` using the same radio tile as in the previous step.
+
 ## Version History
 - ***Base features (version 1.0):***
   - Automatic Smoke line-ups
@@ -218,71 +284,12 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - ***New with version 2.28:***
 	- Fixed a bug, where auto line-up vertical zeroing would only move 90° up before opening the radiowheel
 
-## Installation
-- **Step 1:**
-  Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
-  
-		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
+- ***New with version 2.29:***
+	- Fixed remaining issues with auto line-ups
 
-- **Step 2:**
-  Inside the `CSAFAP`-directory, copy the `csgo`-folder and paste it at this path:
+- ***New with version 2.30:***
+	- Fixed wrong spawns for CT auto line-ups on Inferno and Overpass
 
-		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\
-
-- **Step 3:**
-  Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).
-  
-  ENTER YOUR SENSITIVITY AT THE TOP! Change the keybinds to your preference.
-
-  If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
-
-- **Step 4:**
-  Run the main config in-game. Either type `exec CSAFAP/main` directly into the console, use the same line in a config you already use, or use launch option `+exec CSAFAP/MAIN`.
-
-- **Done!**
-
-## How to use the CSAFAP Config Package
-- **How to use RADIO WHEELS:**
-Press one of the FOUR KEY BINDS to access a RADIO WHEEL.
-Then, hover your mouse over the tile you want to use and PRESS AND RELEASE THE SAME KEY AS BEFORE again (clicking does nothing).
-
->  Default Keybinds:
->  -  **H**: CT Line-ups (Smokes & Wallbangs)
->  -  **J**: T Line-ups (Smokes & Wallbangs)
->  -  **K**: Snap-Tap and Viewmodel Settings
->  -  **M**: Map Selection + Practice Mode
-
-  
-- **How to use AUTO LINE-UPS:**
-Open the map wheel and select your current map.
-Then, open the T-/CT-wheel and select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
-
-- **How to use PRACTICE-MODE:**
-  Open the map wheel and select ENABLE PRAC-MODE, then choose the map and side you want. Use the bind you set for the T-wheel (default: **J**) to access many practice mode options (incl. CT/T-side line-up switch).
-
-## Customization
-- **Change keybinds**
-
-  > Open CSAFAP/MAIN.cfg with an editor of your choice and edit the desired keybinds.
-
-- **Disable Features**
-
-  > Open CSAFAP/MAIN.cfg, and put `// ` at the start of the line, where the unwanted feature is bound to a key.
-
-- **Find your own Line-up**
-
-  > A detailed video explaination can be found at [THIS TIMESTAMP](https://youtu.be/G9hAaifu2H0?si=3U4mB8vV8oWa-x8g&t=669).
-  >
-  > - Step 1:
-  Find the desired angle using `getpos` in-game.
-  > - Step 2:
-  Calculate desired values for the commands yaw and pitch and create an alias within `CSAFAP/logic.cfg`.
-  > - Step 3:
-  Create a label within the language-file `platform_english.txt`.
-  > - Step 4:
-  Call this label on an empty radiotile within `CSAFAP/maps/[mapname]_labels.cfg`.
-  > - Step 5:
-  Call the alias (which you created in step 2) within `CSAFAP/maps/[mapname]_cmd.cfg` using the same radio tile as in the previous step.
 
 ## FAQ (Frequently asked Questions):
 
