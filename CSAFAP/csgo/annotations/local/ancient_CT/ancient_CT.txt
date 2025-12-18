@@ -649,8 +649,8 @@
 		Type = "position"
 		Id = "601a6a2b-9fca-4b0c-8ecc-b3cf147997ea"
 		SubType = "main"
-		Position = [ -1209.079346, 35.970795, 106.592285 ]
-		Angles = [ 0.0, 124.962616, 0.0 ]
+		Position = [ -1092.062622, -241.971375, 105.728233 ]
+		Angles = [ 0.0, 124.89978, 0.0 ]
 		VisiblePfx = true
 		Color = [ 60, 150, 230 ]
 		TextPositionOffset = [ 0.0, 0.0, 20.0 ]
@@ -680,8 +680,8 @@
 		Type = "spot"
 		Id = "5dad718a-df81-449a-a343-0f22c7cc8a26"
 		SubType = "main"
-		Position = [ -1209.079346, 35.970795, 106.592285 ]
-		Angles = [ 0.0, 124.962616, 0.0 ]
+		Position = [ -1092.062622, -241.971375, 105.728233 ]
+		Angles = [ 0.0, 124.89978, 0.0 ]
 		VisiblePfx = false
 		Color = [ 255, 255, 255 ]
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
@@ -711,8 +711,8 @@
 		Type = "spot"
 		Id = "f06035c2-3690-4b47-aa51-9fed9e5af58f"
 		SubType = "aim_target"
-		Position = [ -1222.521118, 55.194405, 162.908295 ]
-		Angles = [ 10.57932, 124.96257, 0.0 ]
+		Position = [ -1148.293091, -161.366562, 132.035645 ]
+		Angles = [ 10.641333, 124.89991, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
 		TextFacePlayer = false
@@ -774,8 +774,8 @@
 		Type = "line"
 		Id = "6ece2663-877f-4d78-806c-926e78afe6e2"
 		SubType = "aim_target"
-		Position = [ -1209.236572, 37.055187, 104.428558 ]
-		Angles = [ 82.647614, 90.0, 0.0 ]
+		Position = [ -1092.678711, -241.059326, 105.368607 ]
+		Angles = [ 86.05117, 269.97345, 0.0 ]
 		VisiblePfx = true
 		Color = [ 60, 150, 230 ]
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
