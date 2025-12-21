@@ -11,8 +11,7 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
 - **Automatic line-ups** (instant smokes + wallbangs)
 - **Snap-Tap** / Null-bind movement input
-- **De-subticked Jump** (better bhopping)
-- **(W-)Jumpthrow binds** (de-subticked, more consistent than manual throws)
+- **(W-)Jumpthrow binds**
 - **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
 
 All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`.
