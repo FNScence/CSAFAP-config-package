@@ -11,8 +11,7 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
 - **Automatic line-ups** (instant smokes + wallbangs)
 - **Snap-Tap** / Null-bind movement input
-- **De-subticked Jump** (better bhopping)
-- **(W-)Jumpthrow binds** (de-subticked, more consistent than manual throws)
+- **(W-)Jumpthrow binds**
 - **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
 
 All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`.
@@ -291,6 +290,14 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 - ***New with version 2.30:***
 	- Fixed wrong spawns for CT auto line-ups on Inferno and Overpass
 
+- ***New with version 2.31:***
+	- Switched Overpass spawn 4 and 5 teleports on practice mode
+
+- ***New with version 2.32:***
+	- Fixed an issue that caused Mirage auto line-ups to be 180° wrong horizontally when first selecting a different map
+	- Changed Overpass mid incendiary auto line-up
+	- Fixed practice line-ups for Train and Ancient
+	- Removed option for desubtick binds (patched)
 
 ## FAQ (Frequently asked Questions):
 
