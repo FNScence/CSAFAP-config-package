@@ -299,6 +299,11 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 	- Fixed practice line-ups for Train and Ancient
 	- Removed option for desubtick binds (patched)
 
+ - ***New with version 2.33:***
+	- Switched Train and Anubis in radiowheel
+ 	- Added/improved Anubis practice mode line-ups
+  	- Fixed some broken auto line-ups when using faceit binds
+
 ## FAQ (Frequently asked Questions):
 
 - Q1: Is this allowed on MM, PREMIER?
