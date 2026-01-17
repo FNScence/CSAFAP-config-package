@@ -383,9 +383,19 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
 
 - Q11: It falsely selects the radio tile next to the one I am aiming at.
-  > This is an issue when playing on windowed or fullscreen-windowed while NOT on native resolution.
+  > This is an issue with cursor displacement when playing on windowed or fullscreen-windowed while NOT on native resolution.
   > 
-  > Either use fullscreen, or use the [CS2 launcher powershell script](https://old.reddit.com/r/GlobalOffensive/comments/1g56n34/cs2_launcher_script_update/). When you open the game, it changes your desktop res to your in-game res, and switches back when you close the game. I use this myself.
+  > Solution option 1:
+  > 
+  > Change desktop resolution to in-game res before launching the game. This [CS2 launcher powershell script](https://old.reddit.com/r/GlobalOffensive/comments/1g56n34/cs2_launcher_script_update/) can do that automatically for you.
+  >
+  > Solution option 2:
+  > 
+  > Before selecting the radiowheel tile, make sure you move your mouse over the tile you want to choose after the text disappears.
+  >
+  > Solution option 3:
+  > 
+  > It seems like the cursor gets displaced to the right after pressing the keybind again. Make sure to place your mouse more to the left on the tile. Pulling outside of the circle helps, as the tiles are extended to the edge of the screen at that moment.
 
 - Q12: Why do I stop running when using the jumpthrow binds?
   > This is caused by the W-bind of NullWASD. Make sure to use default movement (for JT), or change `csafap/movement/nullWASD.cfg` to use `bind W +forward` instead. I recommend using a Macro for Jumpthrow and the bind from this config for WJT. Here is how to set up a JT macro: https://youtu.be/yqtJZFQSF_U
