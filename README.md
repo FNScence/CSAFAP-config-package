@@ -11,10 +11,12 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
 - **Automatic line-ups** (instant smokes + wallbangs)
 - **Snap-Tap** / Null-bind movement input
-- **(W-)Jumpthrow binds**
+- **(W-)Jumpthrow binds** (just like in CSGO)
+- **Auto bhop bind**
+- **Crouch-jump bind**
 - **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
 
-All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`.
+All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`, or by binding them directly in `CSAFAP/main.cfg`.
 
 ## Screenshots
 ![guide](https://github.com/user-attachments/assets/8a3bee1b-2d5b-43a9-90a6-044e9bbe8fc3)
@@ -43,32 +45,25 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - **Fix: cfg rejected by game bug**  
   Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec CSAFAP/main`.
   Also don't exec the configs while already on a server. Run them from the main menu (or, as explained above, on game launch) instead.
-
-- **Some users experience desubtick binds not working.**  
-  [InputService] execing CSAFAP/addons/multi/-jump  
-  [Console] toggle: Cannot toggle value "jump"!
   
   
 ## Installation
 - **Step 1:**
-  Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
-  
-		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
+  Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:<br />
+		`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg`
 
 - **Step 2:**
-  Inside the `CSAFAP`-directory, copy the `csgo`-folder and paste it at this path:
-
-		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\
+  Inside the `CSAFAP`-directory, copy the `csgo`-folder and paste it at this path:<br />
+		`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\`
 
 - **Step 3:**
-  Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).
-  
-  ENTER YOUR SENSITIVITY AT THE TOP! Change the keybinds to your preference.
-
+  Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).<br />
+  ENTER YOUR SENSITIVITY AT THE TOP! Change the keybinds to your preference.<br />
   If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
 
 - **Step 4:**
-  Run the main config in-game. Either type `exec CSAFAP/main` directly into the console, use the same line in a config you already use, or use launch option `+exec CSAFAP/MAIN`.
+  Run the main config in-game. Add exactly these launch options: <br />
+  `+exec CSAFAP/MAIN -testscript "../../csgo/cfg/CSAFAP/addons/.vtest"`
 
 - **Done!**
 
@@ -299,6 +294,15 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 	- Fixed practice line-ups for Train and Ancient
 	- Removed option for desubtick binds (patched)
 
+ - ***New with version 2.33:***
+	- Switched Train and Anubis in radiowheel
+ 	- Added/improved Anubis practice mode line-ups
+  	- Fixed some broken auto line-ups when using faceit binds
+
+ - ***New with version 3.0:***
+	- Added ticker mechanic allowing auto bhop bind and cs:go-like (W-)jumpthrow binds (credit and thanks to [AveYo](https://github.com/AveYo/Gaming/tree/main/CS2))
+	- Fixed wrong practice mode spawn teleports on Anubis
+
 ## FAQ (Frequently asked Questions):
 
 - Q1: Is this allowed on MM, PREMIER?
@@ -378,9 +382,19 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
 
 - Q11: It falsely selects the radio tile next to the one I am aiming at.
-  > This is an issue when playing on windowed or fullscreen-windowed while NOT on native resolution.
+  > This is an issue with cursor displacement when playing on windowed or fullscreen-windowed while NOT on native resolution.
   > 
-  > Either use fullscreen, or use the [CS2 launcher powershell script](https://old.reddit.com/r/GlobalOffensive/comments/1g56n34/cs2_launcher_script_update/). When you open the game, it changes your desktop res to your in-game res, and switches back when you close the game. I use this myself.
+  > Solution option 1:
+  > 
+  > Change desktop resolution to in-game res before launching the game. This [CS2 launcher powershell script](https://old.reddit.com/r/GlobalOffensive/comments/1g56n34/cs2_launcher_script_update/) can do that automatically for you.
+  >
+  > Solution option 2:
+  > 
+  > Before selecting the radiowheel tile, make sure you move your mouse over the tile you want to choose after the text disappears.
+  >
+  > Solution option 3:
+  > 
+  > It seems like the cursor gets displaced to the right after pressing the keybind again. Make sure to place your mouse more to the left on the tile. Pulling outside of the circle helps, as the tiles are extended to the edge of the screen at that moment.
 
 - Q12: Why do I stop running when using the jumpthrow binds?
   > This is caused by the W-bind of NullWASD. Make sure to use default movement (for JT), or change `csafap/movement/nullWASD.cfg` to use `bind W +forward` instead. I recommend using a Macro for Jumpthrow and the bind from this config for WJT. Here is how to set up a JT macro: https://youtu.be/yqtJZFQSF_U
