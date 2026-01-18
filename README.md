@@ -11,10 +11,12 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
 - **Automatic line-ups** (instant smokes + wallbangs)
 - **Snap-Tap** / Null-bind movement input
-- **(W-)Jumpthrow binds**
+- **(W-)Jumpthrow binds** (just like in CSGO)
+- **Auto bhop bind**
+- **Crouch-jump bind**
 - **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
 
-All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`.
+All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`, or by binding them directly in `CSAFAP/main.cfg`.
 
 ## Screenshots
 ![guide](https://github.com/user-attachments/assets/8a3bee1b-2d5b-43a9-90a6-044e9bbe8fc3)
@@ -43,32 +45,25 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - **Fix: cfg rejected by game bug**  
   Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec CSAFAP/main`.
   Also don't exec the configs while already on a server. Run them from the main menu (or, as explained above, on game launch) instead.
-
-- **Some users experience desubtick binds not working.**  
-  [InputService] execing CSAFAP/addons/multi/-jump  
-  [Console] toggle: Cannot toggle value "jump"!
   
   
 ## Installation
 - **Step 1:**
-  Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:
-  
-		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
+  Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:<br />
+		`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg`
 
 - **Step 2:**
-  Inside the `CSAFAP`-directory, copy the `csgo`-folder and paste it at this path:
-
-		C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\
+  Inside the `CSAFAP`-directory, copy the `csgo`-folder and paste it at this path:<br />
+		`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\`
 
 - **Step 3:**
-  Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).
-  
-  ENTER YOUR SENSITIVITY AT THE TOP! Change the keybinds to your preference.
-
+  Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).<br />
+  ENTER YOUR SENSITIVITY AT THE TOP! Change the keybinds to your preference.<br />
   If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
 
 - **Step 4:**
-  Run the main config in-game. Either type `exec CSAFAP/main` directly into the console, use the same line in a config you already use, or use launch option `+exec CSAFAP/MAIN`.
+  Run the main config in-game. Add exactly these launch options: <br />
+  `+exec CSAFAP/MAIN -testscript "../../csgo/cfg/CSAFAP/addons/.vtest"`
 
 - **Done!**
 
@@ -303,6 +298,10 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 	- Switched Train and Anubis in radiowheel
  	- Added/improved Anubis practice mode line-ups
   	- Fixed some broken auto line-ups when using faceit binds
+
+ - ***New with version 3.0:***
+	- Added ticker mechanic allowing auto bhop bind and cs:go-like (W-)jumpthrow binds (credit and thanks to [AveYo](https://github.com/AveYo/Gaming/tree/main/CS2))
+	- Fixed wrong practice mode spawn teleports on Anubis
 
 ## FAQ (Frequently asked Questions):
 
