@@ -4685,7 +4685,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing throw"
+			Text = "standing Jumpthrow"
 			FontSize = 60
 			FadeInDist = 50.0
 			FadeOutDist = -1.0

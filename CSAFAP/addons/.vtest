@@ -1,0 +1,37 @@
+/// Credit and thanks to AveYo
+/// use launch option: -testscript "../../csgo/cfg/CSAFAP/addons/.vtest" and make sure this file is saved as vtest-type with blank name ".vtest"
+
+Test_WaitForCheckPoint frame_end
+
+W!
+W!
+A!
+A!
+S!
+S!
+D!
+D!
+
+M1!
+M2!
+
+CJ!
+CJ!
+
+JT!
+JT!
+JT!
+JT!
+
+BH!
+BH!
+BH!
+BH!
+BH!
+
+
+/// AveYo: add one or more to reduce fps impact at the cost of responsiveness; Test_Wait 0.00078125 not advised (works just once)
+//Test_RunFrame
+
+/// AveYo: loop each frame; repeated entries above are chaining multiple alias substitutions in a single run
+Test_Run
