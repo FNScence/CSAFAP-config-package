@@ -14,7 +14,7 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **(W-)Jumpthrow binds** (just like in CSGO)
 - **Auto bhop bind**
 - **Crouch-jump bind**
-- **Viewmodel Options** (lefthanded knife while everything else righthanded or vice versa)
+- **Pro-Crosshair and Viewmodel Options** (dynamically copy settings from the top20 teams)
 
 All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`, or by binding them directly in `CSAFAP/main.cfg`.
 
@@ -302,6 +302,11 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
  - ***New with version 3.0:***
 	- Added ticker mechanic allowing auto bhop bind and cs:go-like (W-)jumpthrow binds (credit and thanks to [AveYo](https://github.com/AveYo/Gaming/tree/main/CS2))
 	- Fixed wrong practice mode spawn teleports on Anubis
+
+- ***New with version 3.1:***
+	- Added new pro crosshair section on movement wheel (default K)
+	- Changed viewmodel options to adapt pro viewmodels
+	- Fixed a bug that woud kick you from official games when attempting to use practice mode spawn-teleport tiles
 
 ## FAQ (Frequently asked Questions):
 
