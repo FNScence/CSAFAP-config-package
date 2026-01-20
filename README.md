@@ -41,6 +41,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ![snaptap](https://github.com/user-attachments/assets/3c414e50-e07a-4af8-ae70-d5793f6a69a3)
 ↑ Snap-Tap (null binds) input option - does NOT trigger a kick
 
+![crosshair](https://github.com/user-attachments/assets/3e235e49-2051-41b2-b978-5dde0213775a)
+↑ Crosshair + Viewmodels from top20 teams
+
 ## Known Issues
 - **Fix: cfg rejected by game bug**  
   Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec CSAFAP/main`.
