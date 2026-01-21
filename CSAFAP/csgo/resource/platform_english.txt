@@ -301,14 +301,17 @@
 	"CFG_SCROLL_SPAWNS"                    "USE MWHEEL \n ↓↓ FOR MORE SPAWNS ↑↑ \n  \n  \n  \n  \n "
 	"CFG_SCROLL_OPTIONS"                    "USE MWHEEL \n ↓↓ FOR MORE OPTIONS ↑↑ \n  \n  \n  \n  \n "
 
+	"CFG_CROSSHAIR_FOLLOW_ON"                    "DISABLE \n FOLLOW RECOIL \n  \n (currently ON) \n ✔ \n  \n  \n  \n "
+	"CFG_CROSSHAIR_FOLLOW_OFF"                    "ENABLE \n FOLLOW RECOIL \n  \n (currently OFF) \n ❌ \n  \n  \n  \n "
+	
 	"CFG_CROSSHAIR_RED"                    "RED \n \n ✜ \n  \n  \n  \n  \n "
 	"CFG_CROSSHAIR_GREEN"                    "GREEN \n \n ✜ \n  \n  \n  \n  \n "
 	"CFG_CROSSHAIR_YELLOW"                    "YELLOW \n \n ✜ \n  \n  \n  \n  \n "
 	"CFG_CROSSHAIR_CYAN"                    "CYAN \n \n ✜ \n  \n  \n  \n  \n "
 	"CFG_CROSSHAIR_PINK"                    "PINK \n \n ✜ \n  \n  \n  \n  \n "
 	"CFG_CROSSHAIR_RESET"                    "RESET \n \n CROSSHAIR \n & \n VIEWMODEL \n  \n  \n "
-	"CFG_VIEWMODEL_ENABLE"             "ENABLE \n PRO's VIEWMODEL \n  \n (currently OFF) \n ❌ \n  \n  \n  \n  \n "
-	"CFG_VIEWMODEL_DISABLE"             "DISABLE \n PRO's VIEWMODEL \n  \n (currently ON) \n ✔ \n  \n  \n  \n  \n "
+	"CFG_VIEWMODEL_ENABLE"             "ENABLE \n PRO's VIEWMODEL \n  \n (currently OFF) \n ❌ \n  \n  \n  \n "
+	"CFG_VIEWMODEL_DISABLE"             "DISABLE \n PRO's VIEWMODEL \n  \n (currently ON) \n ✔ \n  \n  \n  \n "
 	"CFG_CROSSHAIR_NEXT"                    " NEXT ▶\n \n PAGE \n  \n  \n  \n "
 	"CFG_CROSSHAIR_PREV"                    "◀ PREVIOUS  \n \n PAGE \n  \n  \n  \n "
 	
