@@ -12,7 +12,6 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Automatic line-ups** (instant smokes + wallbangs)
 - **Snap-Tap** / Null-bind movement input
 - **(W-)Jumpthrow binds** (just like in CSGO)
-- **Auto bhop bind**
 - **Crouch-jump bind**
 - **Pro-Crosshair and Viewmodel Options** (dynamically copy settings from the top20 teams)
 - **Rapid-Fire mode for pistols**
