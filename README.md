@@ -12,9 +12,10 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Automatic line-ups** (instant smokes + wallbangs)
 - **Snap-Tap** / Null-bind movement input
 - **(W-)Jumpthrow binds** (just like in CSGO)
-- **Auto bhop bind**
 - **Crouch-jump bind**
 - **Pro-Crosshair and Viewmodel Options** (dynamically copy settings from the top20 teams)
+- **Rapid-Fire mode for pistols**
+- **Better Follow-Recoil mode**
 
 All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`, or by binding them directly in `CSAFAP/main.cfg`.
 
@@ -43,6 +44,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 
 ![crosshair](https://github.com/user-attachments/assets/3e235e49-2051-41b2-b978-5dde0213775a)
 ↑ Crosshair + Viewmodels from top20 teams
+
+![follow-recoil](https://github.com/user-attachments/assets/1e25788b-5c92-4fdd-bab3-ed6af9edf78c)
+↑ Better Follow-Recoil mode - shows spray-pattern indicated by a green dot when spraying
 
 ## Known Issues
 - **Fix: cfg rejected by game bug**  
@@ -310,6 +314,16 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 	- Added new pro crosshair section on movement wheel (default K)
 	- Changed viewmodel options to adapt pro viewmodels
 	- Fixed a bug that woud kick you from official games when attempting to use practice mode spawn-teleport tiles
+
+- ***New with version 3.2:***
+	- Added new rapid fire × follow recoil toggle bind
+	- Removed bhop bind (patched)
+
+- ***New with version 3.3:***
+	- Fixed practice mode annotations not loading after season 4 update
+	- Fixed some practice mode line-ups on Anubis
+	- Fixed some issues about follow-recoil configs
+	- Added left/righthanded knife options for rapidfire-followrecoil configs
 
 ## FAQ (Frequently asked Questions):
 
