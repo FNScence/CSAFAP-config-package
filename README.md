@@ -17,7 +17,7 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - **Rapid-Fire mode for pistols**
 - **Better Follow-Recoil mode**
 
-All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/MAIN.cfg`, or by binding them directly in `CSAFAP/main.cfg`.
+All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/main.cfg`, or by binding them directly in `CSAFAP/main.cfg`.
 
 ## Screenshots
 ![guide](https://github.com/user-attachments/assets/8a3bee1b-2d5b-43a9-90a6-044e9bbe8fc3)
@@ -64,43 +64,47 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 		`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\`
 
 - **Step 3:**
-  Open the main config of this package `CSAFAP\MAIN.cfg` with an editor of your choice (e.g. notepad++).<br />
-  ENTER YOUR SENSITIVITY AT THE TOP! Change the keybinds to your preference.<br />
+  Open the main config of this package `CSAFAP\main.cfg` with an editor of your choice (e.g. notepad++).<br />
+  **ENTER YOUR SENSITIVITY AT THE TOP!** Change the keybinds to your preference.<br />
   If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
 
 - **Step 4:**
   Run the main config in-game. Add exactly these launch options: <br />
-  `+exec CSAFAP/MAIN -testscript "../../csgo/cfg/CSAFAP/addons/.vtest"`
+  `+exec CSAFAP/main -testscript "../../csgo/cfg/CSAFAP/addons/.vtest"`
 
 - **Done!**
 
 ## How to use the CSAFAP Config Package
-- **How to use RADIO WHEELS:**
+- **How to use RADIO WHEELS:**<br />
 Press one of the FOUR KEY BINDS to access a RADIO WHEEL.
 Then, hover your mouse over the tile you want to use and PRESS AND RELEASE THE SAME KEY AS BEFORE again (clicking does nothing).
 
->  Default Keybinds:
->  -  **H**: CT Line-ups (Smokes & Wallbangs)
->  -  **J**: T Line-ups (Smokes & Wallbangs)
->  -  **K**: Snap-Tap and Viewmodel Settings
+>  Default Keybinds:<br />
+>  -  **H**: Spawn Teleports (Practice mode)
+>  -  **J**: Auto Line-ups (Smokes & Wallbangs)
+>  -  **K**: Pro crosshairs, Rapid fire pistols, Better Follow-Recoil and Snap-Tap/Null binds
 >  -  **M**: Map Selection + Practice Mode
 
   
-- **How to use AUTO LINE-UPS:**
+- **How to use AUTO LINE-UPS:**<br />
 Open the map wheel and select your current map.
-Then, open the T-/CT-wheel and select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
+Then, open the auto line-up wheel and select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
 
-- **How to use PRACTICE-MODE:**
-  Open the map wheel and select ENABLE PRAC-MODE, then choose the map and side you want. Use the bind you set for the T-wheel (default: **J**) to access many practice mode options (incl. CT/T-side line-up switch).
+- **How to use PRACTICE-MODE:**<br />
+  Open the map wheel and select ENABLE PRAC-MODE, then choose the map you want. Use the bind you set for the auto line-up wheel (default: **J**) to access many practice mode options (incl. CT/T-side line-up switch).
+
+- **How to use RAPID FIRE and FOLLOW-RECOIL mode:**<br />
+  Rapid fire shoots pistols as fast as possible while holding mouse1. Follow recoil draws a second crosshair (green dot) to indicate the spray pattern.<br />
+  Assign your personal keybinds in the required section at the bottom of `CSAFAP/main.cfg`. By default, this mode is deactivated. Press the assigned keybind (default: right-alt) to toggle (you'll hear an activation/deactivation sound), or cycle the mode in the crosshair wheel (bottom left tile) between rapid fire, follow-recoil and both modes. Changing the mode will enable it as well.
 
 ## Customization
 - **Change keybinds**
 
-  > Open CSAFAP/MAIN.cfg with an editor of your choice and edit the desired keybinds.
+  > Open CSAFAP/main.cfg with an editor of your choice and edit the desired keybinds.
 
 - **Disable Features**
 
-  > Open CSAFAP/MAIN.cfg, and put `// ` at the start of the line, where the unwanted feature is bound to a key.
+  > Open CSAFAP/main.cfg, and put `// ` at the start of the line, where the unwanted feature is bound to a key.
 
 - **Find your own Line-up**
 
@@ -363,7 +367,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 - Q4: How to make an autoexec (automatically executing config at game start)?
   > In your steam library, right-click CS2 > properties > general > under launch options insert `+exec filename`.
 
-- Q5: I get an error when trying to `exec CSAFAP/MAIN`...?
+- Q5: I get an error when trying to `exec CSAFAP/main`...?
   > If the following error happens, you have saved the CSAFAP-config package at the wrong path.
   >
   > ```
@@ -377,10 +381,10 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   >
   > `..\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg` ✅
   >
-  > If you are on Liunx, make sure you wrote `exec CSAFAP/MAIN` correctly, as it is case sensitive.
+  > If you are on Liunx, make sure you wrote `exec CSAFAP/main` correctly, as it is case sensitive.
 
 - Q6: How to make the binds work on azerty (french) keyboard layout?
-  > Make sure to use scancode binds instead of letters when adjusting the binds in `CSAFAP/MAIN.cfg`.
+  > Make sure to use scancode binds instead of letters when adjusting the binds in `CSAFAP/main.cfg`.
   > 
   > Here are [all qwerty keys and their respective scancodes](https://github.com/libsdl-org/SDL/blob/main/include/SDL3/SDL_scancode.h#L218) and this is a [scancode bind converter](https://totalcsgo.com/binds/converter) which might be helpful.
   
@@ -521,7 +525,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > ```
 
 - Q19: How to uninstall the config package?
-  > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/MAIN` anymore.
+  > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/main` anymore.
 
 If any questions remain, join my discord and feel free to ask in the `#csafap-config`- or `#help`-channel:
 
