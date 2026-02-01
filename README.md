@@ -525,7 +525,7 @@ Then, open the auto line-up wheel and select the line-up you want (as described 
   > ```
 
 - Q19: How to uninstall the config package?
-  > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, space, Q, W, A, S, D`) and don't execute `CSAFAP/main` anymore.
+  > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't execute `CSAFAP/main` anymore.
 
 If any questions remain, join my discord and feel free to ask in the `#csafap-config`- or `#help`-channel:
 
