@@ -325,10 +325,15 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 	- Fixed some issues about follow-recoil configs
 	- Added left/righthanded knife options for rapidfire-followrecoil configs
 
- - ***New with version 3.4:***
+- ***New with version 3.4:***
  	- Renamed movement wheel to crosshair wheel
  	- Added option for better follow-recoil binds on only primaries  (without rapid fire)
  	- Pro crosshairs are now compatible with the better follow-recoil bind
+
+- ***New with version 3.5:***
+ 	- Added automatic side detection (CT/T) (thanks to [Leiti](https://github.com/xLeiti/))
+    - Added/fixed a couple practice mode line-ups on Anubis
+    - Various fixes and QoL improvements
 
 ## FAQ (Frequently asked Questions):
 
