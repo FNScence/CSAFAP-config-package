@@ -80,15 +80,15 @@ Press one of the FOUR KEY BINDS to access a RADIO WHEEL.
 Then, hover your mouse over the tile you want to use and PRESS AND RELEASE THE SAME KEY AS BEFORE again (clicking does nothing).
 
 >  Default Keybinds:<br />
->  -  **H**: Spawn Teleports (Practice mode)
->  -  **J**: Auto Line-ups (Smokes & Wallbangs)
+>  -  **H**: CT Line-ups (Smokes & Wallbangs)
+>  -  **J**: T Line-ups (Smokes & Wallbangs)
 >  -  **K**: Pro crosshairs, Rapid fire pistols, Better Follow-Recoil and Snap-Tap/Null binds
 >  -  **M**: Map Selection + Practice Mode
 
   
 - **How to use AUTO LINE-UPS:**<br />
 Open the map wheel and select your current map.
-Then, open the auto line-up wheel and select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
+Then, open the T-/CT-wheel and select the line-up you want (as described above) and throw your nade as usual. You can find 2 additional pages by scrolling your mouse-wheel while the radio-wheel is open.
 
 - **How to use PRACTICE-MODE:**<br />
   Open the map wheel and select ENABLE PRAC-MODE, then choose the map you want. Use the bind you set for the auto line-up wheel (default: **J**) to access many practice mode options (incl. CT/T-side line-up switch).
