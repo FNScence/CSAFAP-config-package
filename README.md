@@ -510,7 +510,11 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > [Youtube playlists](https://www.youtube.com/@FNScence/playlists) sorted by maps.
   > Here are examples for Ancient [CT-side](https://youtu.be/fd6gRZDOCps?si=qLWsm4GrhhVyXXpC&t=7) and [T-side](https://youtu.be/klyGW-IUca4?si=dRQ8qaAShzDSY0GG&t=3), Dust2 [T-side](https://youtu.be/XGQDTpFwkKM?si=oTVD5aypaWxZqgrz&t=55), Nuke [CT-side](https://youtu.be/v204dZrtFbo?si=lLB9Z4ohute6-8rq&t=84) and [T-side](https://youtu.be/tImJDxKe70o?si=mAKxnBdTGIZ9TUrH&t=17), Anubis [CT-side](https://youtu.be/fullFlkzB0U?si=MYDkPpzPqFDqqEbj&t=55) and [T-side](https://youtu.be/wURJvMSSbF0?si=Bd7TZ9BmWbJOAVsD&t=164), Inferno [CT-side](https://youtu.be/5MzQnaHtjl4?si=dymht4z6wghpO1EE&t=8), Mirage [T-side](https://youtu.be/klBqOVbdckQ?si=GendkMN1315tFBTf&t=53), Train [T-side](https://youtu.be/r_NkXOjYiIM?si=7rZNnNfyRmbTTloF&t=8).
 
-- Q18: How to fix the console getting spammed with this `Unknown command: Mouse_If_SetIMStopWS`?
+- Q18: On scoreboard, the right-click is not working.
+  > If you are using JT, WJT, rapid fire or follow-recoil features, you also need to use `bind mouse2 +M2`. To make the scoreboard work with that, we use `cl_scoreboard_mouse_enable_binding +M2`.<br />
+  > If you are not using those features and use the default `bind mouse2 +attack2`, you need to use `cl_scoreboard_mouse_enable_binding +attack2`.
+
+- Q19: How to fix the console getting spammed with this `Unknown command: Mouse_If_SetIMStopWS`?
   > This occures when you used autostopWASD before, but now didn't exec the config without resetting the keybinds changed by it. They will point to alias, which the game doesn't know anymore.
   > Set default movement again and you should be fine. These are the manual commands set by `movement_default.cfg`
   > ```
@@ -518,6 +522,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > bind a +left;
   > bind s +back;
   > bind d +right;
+  > cl_scoreboard_mouse_enable_binding +attack2;
   > bind mouse_x yaw;
   > bind mouse_y pitch;
   > rightleft 0 0 0;
