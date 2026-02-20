@@ -10,14 +10,15 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 ## Features
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
 - **Automatic line-ups** (instant smokes + wallbangs)
-- **Snap-Tap** / Null-bind movement input
 - **(W-)Jumpthrow binds** (just like in CSGO)
+- **Snap-Tap** / Null-bind movement input
+- **De-subtick binds** (WASD + jump)
 - **Crouch-jump bind**
 - **Pro-Crosshair and Viewmodel Options** (dynamically copy settings from the top20 teams)
 - **Rapid-Fire mode for pistols**
 - **Better Follow-Recoil mode**
 
-All features are accessible via the in-game radio wheels, by using the four keybinds set in `CSAFAP/main.cfg`, or by binding them directly in `CSAFAP/main.cfg`.
+All features are accessible via the in-game radio wheels, by using the four keybinds set in `csafap/main.cfg`, or by binding them directly in `csafap/main.cfg`.
 
 ## Screenshots
 ![guide](https://github.com/user-attachments/assets/8a3bee1b-2d5b-43a9-90a6-044e9bbe8fc3)
@@ -50,27 +51,27 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 
 ## Known Issues
 - **Fix: cfg rejected by game bug**  
-  Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec CSAFAP/main`.
+  Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec csafap/main`.
   Also don't exec the configs while already on a server. Run them from the main menu (or, as explained above, on game launch) instead.
   
   
 ## Installation
 - **Step 1:**
-  Download and place the whole folder named `CSAFAP` in the config folder of the CS2 installation, at this path:<br />
+  Download and place the whole folder named `csafap` in the config folder of the CS2 installation, at this path:<br />
 		`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg`
 
 - **Step 2:**
-  Inside the `CSAFAP`-directory, copy the `csgo`-folder and paste it at this path:<br />
+  Inside the `csafap`-directory, copy the `csgo`-folder and paste it at this path:<br />
 		`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\`
 
 - **Step 3:**
-  Open the main config of this package `CSAFAP\main.cfg` with an editor of your choice (e.g. notepad++).<br />
+  Open the main config of this package `csafap\main.cfg` with an editor of your choice (e.g. notepad++).<br />
   **ENTER YOUR SENSITIVITY AT THE TOP!** Change the keybinds to your preference.<br />
   If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
 
 - **Step 4:**
   Run the main config in-game. Add exactly these launch options: <br />
-  `+exec CSAFAP/main -testscript "../../csgo/cfg/CSAFAP/addons/.vtest"`
+  `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"`
 
 - **Done!**
 
@@ -95,16 +96,16 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 
 - **How to use RAPID FIRE and FOLLOW-RECOIL mode:**<br />
   Rapid fire shoots pistols as fast as possible while holding mouse1. Follow recoil draws a second crosshair (green dot) to indicate the spray pattern.<br />
-  Assign your personal keybinds in the required section at the bottom of `CSAFAP/main.cfg`. By default, this mode is deactivated. Press the assigned keybind (default: right-alt) to toggle (you'll hear an activation/deactivation sound), or cycle the mode in the crosshair wheel (bottom left tile) between rapid fire, follow-recoil and both modes. Changing the mode will enable it as well.
+  Assign your personal keybinds in the required section at the bottom of `csafap/main.cfg`. By default, this mode is deactivated. Press the assigned keybind (default: right-alt) to toggle (you'll hear an activation/deactivation sound), or cycle the mode in the crosshair wheel (bottom left tile) between rapid fire, follow-recoil and both modes. Changing the mode will enable it as well.
 
 ## Customization
 - **Change keybinds**
 
-  > Open CSAFAP/main.cfg with an editor of your choice and edit the desired keybinds.
+  > Open `csafap/main.cfg` with an editor of your choice and edit the desired keybinds.
 
 - **Disable Features**
 
-  > Open CSAFAP/main.cfg, and put `// ` at the start of the line, where the unwanted feature is bound to a key.
+  > Open `csafap/main.cfg`, and put `// ` at the start of the line, where the unwanted feature is bound to a key.
 
 - **Find your own Line-up**
 
@@ -113,13 +114,13 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > - Step 1:
   Find the desired angle using `getpos` in-game.
   > - Step 2:
-  Calculate desired values for the commands yaw and pitch and create an alias within `CSAFAP/logic.cfg`.
+  Calculate desired values for the commands yaw and pitch and create an alias within `csafap/logic.cfg`.
   > - Step 3:
   Create a label within the language-file `platform_english.txt`.
   > - Step 4:
-  Call this label on an empty radiotile within `CSAFAP/maps/[mapname]_labels.cfg`.
+  Call this label on an empty radiotile within `csafap/maps/[mapname]_labels.cfg`.
   > - Step 5:
-  Call the alias (which you created in step 2) within `CSAFAP/maps/[mapname]_cmd.cfg` using the same radio tile as in the previous step.
+  Call the alias (which you created in step 2) within `csafap/maps/[mapname]_cmd.cfg` using the same radio tile as in the previous step.
 
 ## Version History
 - ***Base features (version 1.0):***
@@ -204,7 +205,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 - ***New with version 2.5:***
   	- Fixed Practice Mode (removed chunk_loader and automatic map detection, [broken by Valve on 27th of February 2025](https://store.steampowered.com/news/app/730/view/529839807839339585); split annotations into CT- and T-Side)
 	- Fixed de-subtick binds (thanks to [Leiti](https://www.youtube.com/@xLeiti))
-	- Re-added manual sensitivity entry within `CSAFAP/main.cfg`
+	- Re-added manual sensitivity entry within `csafap/main.cfg`
 
  - ***New with version 2.6:***
   	- Added/changed practice mode line-ups for Train, Anubis, Inferno
@@ -347,6 +348,10 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 	- Fixed mouse2 not working for non-ticker users
 	- Fixed/added a few Overpass practice mode line-ups
 
+- ***New with version 3.8:***
+ 	- Re-added standalone desubtick binds for WASD and jumping
+    - Fixed Linux loading issues (changed paths to all lower case)
+
 ## FAQ (Frequently asked Questions):
 
 - Q1: Is this allowed on MM, PREMIER?
@@ -375,12 +380,12 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 - Q4: How to make an autoexec (automatically executing config at game start)?
   > In your steam library, right-click CS2 > properties > general > under launch options insert `+exec filename`.
 
-- Q5: I get an error when trying to `exec CSAFAP/main`...?
+- Q5: I get an error when trying to `exec csafap/main`...?
   > If the following error happens, you have saved the CSAFAP-config package at the wrong path.
   >
   > ```
-  > exec CSAFAP/main
-  > [InputService] exec: couldn't exec '{*}cfg/CSAFAP/main.cfg', unable to read file
+  > exec csafap/main
+  > [InputService] exec: couldn't exec '{*}cfg/csafap/main.cfg', unable to read file
   > ```
   >
   > Most likely you accidentally placed it in the directory for the old game CS:GO, instead of CS2. Here is how to differentiate them:
@@ -389,15 +394,15 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   >
   > `..\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg` ✅
   >
-  > If you are on Liunx, make sure you wrote `exec CSAFAP/main` correctly, as it is case sensitive.
+  > If you are on Liunx, make sure you wrote `exec csafap/main` correctly, as it is case sensitive.
 
 - Q6: How to make the binds work on azerty (french) keyboard layout?
-  > Make sure to use scancode binds instead of letters when adjusting the binds in `CSAFAP/main.cfg`.
+  > Make sure to use scancode binds instead of letters when adjusting the binds in `csafap/main.cfg`.
   > 
   > Here are [all qwerty keys and their respective scancodes](https://github.com/libsdl-org/SDL/blob/main/include/SDL3/SDL_scancode.h#L218) and this is a [scancode bind converter](https://totalcsgo.com/binds/converter) which might be helpful.
   
 - Q7: Why does my sensitivity change to 1.0 and doesn't switch back my playing sens?
-  > Set your sensitivity at the top of `exec CSAFAP/main`. Auto sensitivity detection got patched by Valve.
+  > Set your sensitivity at the top of `exec csafap/main`. Auto sensitivity detection got patched by Valve.
 
 - Q8: What is Snap-Tap/Nulls? Should I use it? Will I get kicked for using it?
   > It's best to try them it yourself and see if you prefer it over default movement.
@@ -420,10 +425,12 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > m_yaw ... adjust your mouse sensitivity only on the X axis (we're using m_yaw = 0.022)
 
 - Q10: The radio tiles are empty. How to get the text working?
-  > Make sure to follow step 2 of the installtion instruction, by copying the `csgo`-folder from the `CSAFAP`-directory, to your game's installation path.
+  > Make sure to follow step 2 of the installtion instruction, by copying the `csgo`-folder from the `csafap`-directory, to your game's installation path.
   > This places "../csafap/csgo/resource/platform_english.txt" in the correct folder. Edits to this file require a game-restart to take effect.
   > 
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
+  >
+  > You can always start debugging by checking the current binds by typing `cl_radialradio` into the console and see the autofill options.
 
 - Q11: It falsely selects the radio tile next to the one I am aiming at.
   > This is an issue with cursor displacement when playing on windowed or fullscreen-windowed while NOT on native resolution.
@@ -450,7 +457,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   >
   > **Short term fix:** Use this in console: `forward -999 0 0`
   > 
-  > **Long term fix:** Make sure the same command is saved in `CSAFAP/addons/-forward.cfg`, which should be called by an alias bound to the key `3`, as well as `mouse_x` and `mouse_y` after using the WJT bind.
+  > **Long term fix:** Make sure the same command is saved in `csafap/addons/-forward.cfg`, which should be called by an alias bound to the key `3`, as well as `mouse_x` and `mouse_y` after using the WJT bind.
 
 - Q14: I can't jump!!1! How to reset jumping binds?
   > The recent [update of 28th of October 2024](https://steamcommunity.com/games/CSGO/announcements/detail/4522269457743085933) patched our multi-input methods, meaning only the first action of a bind will be issued and the rest ignored.
@@ -458,22 +465,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 
   > Now use working jump binds, by either resetting your binds to default (`bind mwheeldown +jump`) or by using the newest version of the CSAFAP config package.
 
-- Q15: Which ones are the better jumpthrow binds: Keyboard macros or the config version?
-  > The ones from the config are desubticked, but only trigger on button release. The macro version is instant, but not pixelperfect, as they are not de-subticked (inconsistent).
-  >
-  > For normal Jumpthrows, a combination would be the best option. Use macros like shown in [THIS VIDEO](https://youtu.be/yqtJZFQSF_U) using desubticked actions from the config package, like so:
-  ```
-	alias +jump_ "echo "CSAFAP/addons/+jump" | exec;"
-	alias -jump_ "echo "CSAFAP/addons/-jump" | exec;"
-
-	bind "space" +jump_
-	bind "f8" "echo "CSAFAP/addons/-attack" | exec;"
-	bind "f9" "echo "CSAFAP/addons/-attack2" | exec;"
-  ```
-  >
-  > For W-Jumpthrows, use the radialradio version (which is implemented in the CSAFAP config package; default bind `N`), as mixing de-subticked `+forward` binds with macros will result in a different forward speed everytime.
-
-- Q16: How to bind custom commands to the radiowheel (without using the config package)?
+- Q15: How to bind custom commands to the radiowheel (without using the config package)?
   > You can find the most basic set of configs to bind your own radio commands on my Discord in the ***pinned messages*** of the `#auto-lineup-config`-channel.
   > Join the **CS AFAP DISCORD SERVER** [HERE](https://discord.gg/cs-as-fast-as-possible-992407294866370681).
   > - Step 1:
@@ -507,7 +499,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > 
   > `cl_radial_radio_tab_0_text_1 cmd";do_something;`
 
-- Q17: How to practice instant spawns? Where can I find teleport commands to those spawns?
+- Q16: How to practice instant spawns? Where can I find teleport commands to those spawns?
   > Option 1:
   > Launch the CSAFAP-practice-mode, and use the CT-wheel-bind (default: H) to teleport directly to the desired spawn. Use the mouse-scrollwheel to access more options while the radiowheel is open. Note that the numbering might differ from those of other practice services.
   > 
@@ -518,27 +510,19 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > [Youtube playlists](https://www.youtube.com/@FNScence/playlists) sorted by maps.
   > Here are examples for Ancient [CT-side](https://youtu.be/fd6gRZDOCps?si=qLWsm4GrhhVyXXpC&t=7) and [T-side](https://youtu.be/klyGW-IUca4?si=dRQ8qaAShzDSY0GG&t=3), Dust2 [T-side](https://youtu.be/XGQDTpFwkKM?si=oTVD5aypaWxZqgrz&t=55), Nuke [CT-side](https://youtu.be/v204dZrtFbo?si=lLB9Z4ohute6-8rq&t=84) and [T-side](https://youtu.be/tImJDxKe70o?si=mAKxnBdTGIZ9TUrH&t=17), Anubis [CT-side](https://youtu.be/fullFlkzB0U?si=MYDkPpzPqFDqqEbj&t=55) and [T-side](https://youtu.be/wURJvMSSbF0?si=Bd7TZ9BmWbJOAVsD&t=164), Inferno [CT-side](https://youtu.be/5MzQnaHtjl4?si=dymht4z6wghpO1EE&t=8), Mirage [T-side](https://youtu.be/klBqOVbdckQ?si=GendkMN1315tFBTf&t=53), Train [T-side](https://youtu.be/r_NkXOjYiIM?si=7rZNnNfyRmbTTloF&t=8).
 
-- Q18: On scoreboard, the right-click is not working.
+- Q17: On scoreboard, the right-click is not working.
   > If you are using JT, WJT, rapid fire or follow-recoil features, you also need to use `bind mouse2 +M2`. To make the scoreboard work with that, we use `cl_scoreboard_mouse_enable_binding +M2`.<br />
   > If you are not using those features and use the default `bind mouse2 +attack2`, you need to use `cl_scoreboard_mouse_enable_binding +attack2`.
 
-- Q19: How to fix the console getting spammed with this `Unknown command: Mouse_If_SetIMStopWS`?
-  > This occures when you used autostopWASD before, but now didn't exec the config without resetting the keybinds changed by it. They will point to alias, which the game doesn't know anymore.
-  > Set default movement again and you should be fine. These are the manual commands set by `movement_default.cfg`
-  > ```
-  > bind w +forward;
-  > bind a +left;
-  > bind s +back;
-  > bind d +right;
-  > cl_scoreboard_mouse_enable_binding +attack2;
-  > bind mouse_x yaw;
-  > bind mouse_y pitch;
-  > rightleft 0 0 0;
-  > forwardback 0 0 0;
-  > ```
+- Q18: Why is it that when I use crosshair and rapid fire, the grenades fire automatically as soon as I switch to them??
+  > You need to use the `ef_...` binds towards the bottom of csafap/main.cfg, as they are a requirement for follow-recoil and rapid fire features.
 
-- Q19: How to uninstall the config package?
-  > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't execute `CSAFAP/main` anymore.
+- Q19: Why is my console getting spammed with `Unknown command: W!...`?
+  > The launch option `-testscript "../../csgo/cfg/csafap/addons/.vtest"` spamms these alias every frame. If the alias are not assigned on game launch, this will happen and other binds using the ticker function (including movement and mouse binds) will not work.<br />
+  > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main`.
+
+- Q20: How to uninstall the config package?
+  > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"` anymore.
 
 If any questions remain, join my discord and feel free to ask in the `#csafap-config`- or `#help`-channel:
 
