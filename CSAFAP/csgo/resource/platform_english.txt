@@ -281,6 +281,7 @@
 
 	"CFG_MOVEMENT_DEFAULT"                    "DEFAULT \n MOVEMENT \n  \n  \n  \n  \n "
 	"CFG_MOVEMENT_NULL_ON"                    " DISABLE \n NULLS / SNAP-TAP \n  \n [currently ON] \n ✔ \n  \n  \n  \n "
+	"CFG_MOVEMENT_DESUB_ON"                    " DISABLE \n DESUBTICK BINDS \n  \n [currently ON] \n ✔ \n  \n  \n  \n "
 	"CFG_MOVEMENT_NULL_OFF"                    " ENABLE \n NULLS / SNAP-TAP \n  \n [currently OFF] \n  ❌ \n  \n  \n  \n "
 	"CFG_MOVEMENT_DESUBTICK"                    "DE-SUBTICK \n W+A+S+D \n  \n  \n  \n  \n "
 	
