@@ -339,6 +339,14 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
     - Added/fixed a couple practice mode line-ups on Anubis
     - Various fixes and QoL improvements
 
+- ***New with version 3.6:***
+ 	- Reverted to manual  side selection (2 keybinds) for auto line-ups
+
+- ***New with version 3.7:***
+ 	- Realigned map wheel with premier veto screen
+	- Fixed mouse2 not working for non-ticker users
+	- Fixed/added a few Overpass practice mode line-ups
+
 ## FAQ (Frequently asked Questions):
 
 - Q1: Is this allowed on MM, PREMIER?
