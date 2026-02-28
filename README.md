@@ -67,7 +67,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 - **Step 3:**
   Open the main config of this package `csafap\main.cfg` with an editor of your choice (e.g. notepad++).<br />
   **ENTER YOUR SENSITIVITY AT THE TOP!** Change the keybinds to your preference.<br />
+  If you want to use auto line-ups on faceit for example, you need to enable the faceit binds first, by removing the `// ` at the start of it's line.<br />
   If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
+  
 
 - **Step 4:**
   Run the main config in-game. Add exactly these launch options: <br />
