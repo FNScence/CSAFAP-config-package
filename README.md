@@ -531,6 +531,8 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 
 - Q21: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"` anymore.
+  >
+  > To make right-click work on scoreboard again after using ticker features, you need to use this command once: `cl_scoreboard_mouse_enable_binding +attack2`
 
 If any questions remain, join my discord and feel free to ask in the `#csafap-config`- or `#help`-channel:
 
