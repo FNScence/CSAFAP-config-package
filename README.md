@@ -388,11 +388,13 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > [InputService] exec: couldn't exec '{*}cfg/csafap/main.cfg', unable to read file
   > ```
   >
-  > Most likely you accidentally placed it in the directory for the old game CS:GO, instead of CS2. Here is how to differentiate them:
+  > Most likely you accidentally placed it in the directory for the old game CS:GO (instead of CS2), or you didn't take the csafap-folder out of the github repo folder.
   >
-  > `..\steamapps\common\Counter-Strike Global Offensive\csgo\cfg` ❌ 
+  > `..\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\csafap` ✅
   >
-  > `..\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg` ✅
+  > `..\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\csafap` ❌ 
+  >
+  > `..\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\csafap-config-package\csafap` ❌ 
   >
   > If you are on Liunx, make sure you wrote `exec csafap/main` correctly, as it is case sensitive.
 
@@ -423,6 +425,8 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > s ... sensitivity (we're using s = 1.0)
   >
   > m_yaw ... adjust your mouse sensitivity only on the X axis (we're using m_yaw = 0.022)
+  >
+  > **Note:** If you want to include custom line-ups, because we are now (since v.2.15) zeroing the vertical viewangle at -89° instead of at 0°, you need to add `+4045.45454545` to your calculated pitch value.
 
 - Q10: The radio tiles are empty. How to get the text working?
   > Make sure to follow step 2 of the installtion instruction, by copying the `csgo`-folder from the `csafap`-directory, to your game's installation path.
