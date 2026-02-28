@@ -428,9 +428,9 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   >
   > **Note:** If you want to include custom line-ups, because we are now (since v.2.15) zeroing the vertical viewangle at -89° instead of at 0°, you need to add `+4045.45454545` to your calculated pitch value.
 
-- Q10: The radio tiles are empty. How to get the text working?
+- Q10: The radio tiles are empty/blank. How to get the text working?
   > Make sure to follow step 2 of the installtion instruction, by copying the `csgo`-folder from the `csafap`-directory, to your game's installation path.
-  > This places "../csafap/csgo/resource/platform_english.txt" in the correct folder. Edits to this file require a game-restart to take effect.
+  > This places `../csafap/csgo/resource/platform_english.txt` in the correct folder. Edits to this file require a game-restart to take effect.
   > 
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
   >
