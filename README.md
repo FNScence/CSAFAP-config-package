@@ -523,9 +523,13 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 
 - Q19: Why is my console getting spammed with `Unknown command: W!...`?
   > The launch option `-testscript "../../csgo/cfg/csafap/addons/.vtest"` spamms these alias every frame. If the alias are not assigned on game launch, this will happen and other binds using the ticker function (including movement and mouse binds) will not work.<br />
-  > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main`.
+  > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main` to look for potential errors after loading the config initially.
 
-- Q20: How to uninstall the config package?
+- Q20: Why do movement keys and mouse buttons no longer work after installing?
+  > Same cause as in Q19 above.
+  >
+
+- Q21: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"` anymore.
 
 If any questions remain, join my discord and feel free to ask in the `#csafap-config`- or `#help`-channel:
