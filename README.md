@@ -520,18 +520,24 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > If you are using JT, WJT, rapid fire or follow-recoil features, you also need to use `bind mouse2 +M2`. To make the scoreboard work with that, we use `cl_scoreboard_mouse_enable_binding +M2`.<br />
   > If you are not using those features and use the default `bind mouse2 +attack2`, you need to use `cl_scoreboard_mouse_enable_binding +attack2`.
 
-- Q18: Why is it that when I use crosshair and rapid fire, the grenades fire automatically as soon as I switch to them??
-  > You need to use the `ef_...` binds towards the bottom of csafap/main.cfg, as they are a requirement for follow-recoil and rapid fire features.
+- Q18: Why is rapid fire and/or follow recoil mode not working?
+  > Firstly, make sure you are setting all the requirements for it (using launch option `-testscript "../../csgo/cfg/CSAFAP/addons/.vtest"` and setting `ef_...` binds in `csafap/main.cfg`).<br />
+  > Secondly, these features are framerate dependent. By default they work at >150 FPS. If you get less, you need to rename `csafap/crosshair/rapid_followrecoil_lessthan150FPS.cfg` to `csafap/crosshair/rapid_followrecoil.cfg`.
+  >
+  > Rapid fire is only enabled for pistols, so take out your pistol (by pressing the keybind you assigned ef_slot2 to) after activating the feature.
 
-- Q19: Why is my console getting spammed with `Unknown command: W!...`?
+- Q19: Why is it that when I use crosshair and rapid fire, the grenades fire automatically as soon as I switch to them??
+  > You need to use the `ef_...` binds towards the bottom of `csafap/main.cfg`, as they are a requirement for follow-recoil and rapid fire features.
+
+- Q20: Why is my console getting spammed with `Unknown command: W!...`?
   > The launch option `-testscript "../../csgo/cfg/csafap/addons/.vtest"` spamms these alias every frame. If the alias are not assigned on game launch, this will happen and other binds using the ticker function (including movement and mouse binds) will not work.<br />
   > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main` to look for potential errors after loading the config initially.
 
-- Q20: Why do movement keys and mouse buttons no longer work after installing?
+- Q21: Why do movement keys and mouse buttons no longer work after installing?
   > Same cause as in Q19 above.
   >
 
-- Q21: How to uninstall the config package?
+- Q22: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"` anymore.
   >
   > To make right-click work on scoreboard again after using ticker features, you need to use this command once: `cl_scoreboard_mouse_enable_binding +attack2`
