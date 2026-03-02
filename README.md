@@ -534,7 +534,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main` to look for potential errors after loading the config initially.
 
 - Q21: Why do movement keys and mouse buttons no longer work after installing?
-  > Same cause as in Q19 above.
+  > Same cause as in Q20 above.
   >
 
 - Q22: How to uninstall the config package?
