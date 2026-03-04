@@ -7,6 +7,17 @@ Video tutorial (version 1.0): https://youtu.be/G9hAaifu2H0
 
 Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 
+## ReadMe Chapters
+- [Features](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#features)
+- [Screenshots](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#screenshots)
+- [Known Issues](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#known-issues)
+- [How to use the CSAFAP Config Package](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#how-to-use-the-csafap-config-package)
+- [Customization](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#customization)
+- **[FAQ (Frequently asked Questions)](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#faq-frequently-asked-questions)**
+
+  
+- [Version History](https://github.com/FNScence/CSAFAP-config-package/blob/main/version_history.md)
+
 ## Features
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
 - **Automatic line-ups** (instant smokes + wallbangs)
