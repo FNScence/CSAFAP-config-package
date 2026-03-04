@@ -10,9 +10,10 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 ## ReadMe Chapters
 - [Features](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#features)
 - [Screenshots](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#screenshots)
-- [Known Issues](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#known-issues)
+- [Installation](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#installation)
 - [How to use the CSAFAP Config Package](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#how-to-use-the-csafap-config-package)
 - [Customization](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#customization)
+- [Known Issues](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#known-issues)
 - **[FAQ (Frequently asked Questions)](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#faq-frequently-asked-questions)**
 
   
@@ -59,12 +60,6 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 
 ![follow-recoil](https://github.com/user-attachments/assets/1e25788b-5c92-4fdd-bab3-ed6af9edf78c)
 ↑ Better Follow-Recoil mode - shows spray-pattern indicated by a green dot when spraying
-
-## Known Issues
-- **Fix: cfg rejected by game bug**  
-  Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec csafap/main`.
-  Also don't exec the configs while already on a server. Run them from the main menu (or, as explained above, on game launch) instead.
-  
   
 ## Installation
 - **Step 1:**
@@ -134,6 +129,11 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   Call this label on an empty radiotile within `csafap/maps/[mapname]_labels.cfg`.
   > - Step 5:
   Call the alias (which you created in step 2) within `csafap/maps/[mapname]_cmd.cfg` using the same radio tile as in the previous step.
+
+## Known Issues
+- **Fix: cfg rejected by game bug**  
+  Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec csafap/main`.
+  Also don't exec the configs while already on a server. Run them from the main menu (or, as explained above, on game launch) instead.
 
 ## FAQ (Frequently asked Questions):
 
