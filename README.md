@@ -116,7 +116,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   > - Step 1:
   Find the desired angle using `getpos` in-game.
   > - Step 2:
-  Calculate desired values for the commands yaw and pitch and create an alias within `csafap/logic.cfg`.
+  Calculate desired values for the commands yaw and pitch and create an alias within `csafap/maps/<map_name>/<map_name>.cfg`. Make sure to add `+4045.45454545` to your calculated pitch value, because we are zeroing the vertical viewangle at -89° instead of at 0°.
   > - Step 3:
   Create a label within the language-file `platform_english.txt`.
   > - Step 4:
