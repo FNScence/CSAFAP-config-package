@@ -13,7 +13,7 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - [Installation](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#installation)
 - [How to use the CSAFAP Config Package](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#how-to-use-the-csafap-config-package)
 - [Customization](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#customization)
-- [Pricing](https://github.com/FNScence/CSAFAP-config-package/edit/main/README.md#pricing)
+- [Pricing](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#pricing)
 - [Known Issues](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#known-issues)
 - **[FAQ (Frequently asked Questions)](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#faq-frequently-asked-questions)**
 
