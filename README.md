@@ -118,7 +118,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 
 - **Create your own Auto Line-up**
 
-  > A detailed video explaination can be found at [THIS TIMESTAMP](https://youtu.be/G9hAaifu2H0?si=3U4mB8vV8oWa-x8g&t=669) (slightly outdated about saving location).
+  > A detailed video explaination can be found at [THIS TIMESTAMP](https://youtu.be/G9hAaifu2H0?si=3U4mB8vV8oWa-x8g&t=669).
   >
   > - Step 1:
   Find the desired angle using `getpos` in-game.
