@@ -143,6 +143,7 @@ Donation Options:
 **Thanks to supporters of this project** 🧡<br />
 kek2181 <br />
 luke <br />
+irene762 <br />
 
 ## Known Issues
 - **Fix: cfg rejected by game bug**  
