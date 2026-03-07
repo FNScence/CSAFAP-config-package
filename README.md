@@ -133,7 +133,7 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 
 ## Pricing
 I provide this config package and it's support absolutely for **free**! <br />
-[Updates](https://github.com/FNScence/CSAFAP-config-package/blob/main/version_history.md) will follow as long as I have fun doing so. The continued development took 500+ hours so far and I've gotten 2 donations so far. If you are up for giving back, I'd be very thankful for it.
+[Updates](https://github.com/FNScence/CSAFAP-config-package/blob/main/version_history.md) will follow as long as I have fun doing so. The continued development took 500+ hours and I've gotten 2 donations so far. If you are up for giving back, I'd be very thankful for it.
 
 Donation Options:
 -  [My CS2 Trade Link](https://steamcommunity.com/tradeoffer/new?partner=107947867&token=iBykTMd5)
