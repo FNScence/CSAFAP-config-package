@@ -3,8 +3,7 @@ This .cfg-framework enables CS2 players to utilize advanced features and customi
 
 Installation and usage is very easy and also shown here ↓↓
 
-Video tutorial (version 1.0): https://youtu.be/G9hAaifu2H0
-
+Video tutorial (version 1.0): https://youtu.be/G9hAaifu2H0<br />
 Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 
 ## Table of Contents
