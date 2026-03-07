@@ -13,6 +13,7 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 - [Installation](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#installation)
 - [How to use the CSAFAP Config Package](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#how-to-use-the-csafap-config-package)
 - [Customization](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#customization)
+- [Pricing](https://github.com/FNScence/CSAFAP-config-package/edit/main/README.md#pricing)
 - [Known Issues](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#known-issues)
 - **[FAQ (Frequently asked Questions)](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#faq-frequently-asked-questions)**
 
@@ -129,6 +130,19 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
   Call this label on an empty radiotile within `csafap/maps/[mapname]_labels.cfg`.
   > - Step 5:
   Call the alias (which you created in step 2) within `csafap/maps/[mapname]_cmd.cfg` using the same radio tile as in the previous step.
+
+## Pricing
+I provide this config package and it's support absolutely for **free**! <br />
+Updates ([listed here](https://github.com/FNScence/CSAFAP-config-package/blob/main/version_history.md)) will follow as long as I have fun doing so. The continued development took about 500 hours so far and I've gotten 2 donations so far. If you are up for giving back, I'd be very thankful for it.
+
+Donation Options:
+-  [My CS2 Trade Link](https://steamcommunity.com/tradeoffer/new?partner=107947867&token=iBykTMd5)
+-  [Youtube Membership](https://youtube.com/channel/UCdF_lTc-yX8BvVBo_oGYrHQ/join)<br />
+-  [Youtube Super Thanks](https://www.youtube.com/@FNScence/videos) (on any of my videos)
+
+**Thanks to supporters of this project** 🧡<br />
+kek2181 <br />
+luke <br />
 
 ## Known Issues
 - **Fix: cfg rejected by game bug**  
