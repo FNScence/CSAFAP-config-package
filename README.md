@@ -7,7 +7,7 @@ Video tutorial (version 1.0): https://youtu.be/G9hAaifu2H0
 
 Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 
-## ReadMe Chapters
+## Table of Contents
 - [Features](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#features)
 - [Screenshots](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#screenshots)
 - [Installation](https://github.com/FNScence/CSAFAP-config-package/blob/main/README.md#installation)
