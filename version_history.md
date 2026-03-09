@@ -228,3 +228,6 @@
 - ***New with version 3.8:***
  	- Re-added standalone desubtick binds for WASD and jumping
     - Fixed Linux loading issues (changed paths to all lower case)
+
+- ***New with version 3.9:***
+ 	- Added Ancient Instant Anti-Elbow-Smoke Molotov (T spawn 5) to practice mode
