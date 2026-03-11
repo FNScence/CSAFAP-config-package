@@ -231,3 +231,6 @@
 
 - ***New with version 3.9:***
  	- Added Ancient Instant Anti-Elbow-Smoke Molotov (T spawn 5) to practice mode
+  - 
+- ***New with version 3.10:***
+ 	- Removed separate faceit binds for auto line-ups (server type is now detected automatically and binds set accordingly)
