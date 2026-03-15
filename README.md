@@ -248,8 +248,9 @@ irene762 <br />
   > 
   > It seems like the cursor gets displaced to the right after pressing the keybind again. Make sure to place your mouse more to the left on the tile. Pulling outside of the circle helps, as the tiles are extended to the edge of the screen at that moment.
 
-- Q12: Why do I stop running when using the jumpthrow binds?
-  > This is caused by the W-bind of NullWASD. Make sure to use default movement (for JT), or change `csafap/movement/nullWASD.cfg` to use `bind W +forward` instead. I recommend using a Macro for Jumpthrow and the bind from this config for WJT. Here is how to set up a JT macro: https://youtu.be/yqtJZFQSF_U
+- Q12: Why can I only move my crosshair up/down and not side-to-side?
+  > This might happen when zeroing gets interupted and not reset for whatever reason.<br />
+  > Use this console command for instant fix: `m_yaw 0.022`
 
 - Q13: Why can't I stop moving forward after W-Jumpthrow?
   > When using the W-JT bind, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
