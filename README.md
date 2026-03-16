@@ -314,7 +314,7 @@ irene762 <br />
 
 - Q17: On scoreboard, the right-click is not working.
   > If you are using JT, WJT, rapid fire or follow-recoil features, you also need to use `bind mouse2 +M2`. To make the scoreboard work with that, we use `cl_scoreboard_mouse_enable_binding +M2`.<br />
-  > If you are not using those features and use the default `bind mouse2 +attack2`, you need to use `cl_scoreboard_mouse_enable_binding +attack2`. You need to issue this after the config package is loaded.
+  > If you are not using those features and use the default `bind mouse2 +attack2`, you need to use `cl_scoreboard_mouse_enable_binding +attack2`. You need to run this command every time after the rest loads, so either put it at the end of `csafap/addons/loader.cfg` or prevent the crosshair modes from loading by disabling `exec csafap/crosshair/rapid_followrecoil` within `csafap/addons/loader.cfg` (by inserting `//` at the start of the line).
 
 - Q18: Why is rapid fire and/or follow recoil mode not working?
   > Firstly, make sure you are setting all the requirements for it (using launch option `-testscript "../../csgo/cfg/CSAFAP/addons/.vtest"` and setting `ef_...` binds in `csafap/main.cfg`).<br />
