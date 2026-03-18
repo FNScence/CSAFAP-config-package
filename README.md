@@ -232,6 +232,8 @@ irene762 <br />
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
   >
   > You can always start debugging by checking the current binds by typing `cl_radialradio` into the console and see the autofill options.
+  >
+  > Note: Custom wheels do not work on workshop maps!
 
 - Q11: It falsely selects the radio tile next to the one I am aiming at.
   > This is an issue with cursor displacement when playing on windowed or fullscreen-windowed while NOT on native resolution.
