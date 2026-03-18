@@ -1820,41 +1820,6 @@ MapAnnotationNode55 =
 			ShowBackground = true
 		}
 	}
-MapAnnotationNode56 =
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "6728d04f-6f4d-43bc-a369-bf5692f0d8ee"
-		SubType = "main"
-		Position = [ -1080, -1273, -460 ]
-		Angles = [ 0.0, 0, 0.0 ]
-		VisiblePfx = false
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "B"
-			FontSize = 200
-			FadeInDist = 600.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 300.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		StreakLimitGuidesOn = 2
-		StreakLimitGuidesOff = 2
-		JumpThrow = false
-		GrenadeType = "smoke"
-	}
 MapAnnotationNode57 =
 	{
 		Enabled = true
