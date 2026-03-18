@@ -232,6 +232,8 @@ irene762 <br />
   > `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\platform_english.txt`
   >
   > You can always start debugging by checking the current binds by typing `cl_radialradio` into the console and see the autofill options.
+  >
+  > Note: Custom wheels do not work on workshop maps!
 
 - Q11: It falsely selects the radio tile next to the one I am aiming at.
   > This is an issue with cursor displacement when playing on windowed or fullscreen-windowed while NOT on native resolution.
@@ -248,8 +250,9 @@ irene762 <br />
   > 
   > It seems like the cursor gets displaced to the right after pressing the keybind again. Make sure to place your mouse more to the left on the tile. Pulling outside of the circle helps, as the tiles are extended to the edge of the screen at that moment.
 
-- Q12: Why do I stop running when using the jumpthrow binds?
-  > This is caused by the W-bind of NullWASD. Make sure to use default movement (for JT), or change `csafap/movement/nullWASD.cfg` to use `bind W +forward` instead. I recommend using a Macro for Jumpthrow and the bind from this config for WJT. Here is how to set up a JT macro: https://youtu.be/yqtJZFQSF_U
+- Q12: Why can I only move my crosshair up/down and not side-to-side?
+  > This might happen when zeroing gets interupted and not reset for whatever reason.<br />
+  > Use this console command for instant fix: `m_yaw 0.022`
 
 - Q13: Why can't I stop moving forward after W-Jumpthrow?
   > When using the W-JT bind, `-forward` has to be used delayed, otherwise the bind would be a simple jumpthrow without the 30 u/s forward velocity.
@@ -313,7 +316,7 @@ irene762 <br />
 
 - Q17: On scoreboard, the right-click is not working.
   > If you are using JT, WJT, rapid fire or follow-recoil features, you also need to use `bind mouse2 +M2`. To make the scoreboard work with that, we use `cl_scoreboard_mouse_enable_binding +M2`.<br />
-  > If you are not using those features and use the default `bind mouse2 +attack2`, you need to use `cl_scoreboard_mouse_enable_binding +attack2`.
+  > If you are not using those features and use the default `bind mouse2 +attack2`, you need to use `cl_scoreboard_mouse_enable_binding +attack2`. You need to run this command every time after the rest loads, so either put it at the end of `csafap/addons/loader.cfg` or prevent the crosshair modes from loading in the first place by disabling `exec csafap/crosshair/rapid_followrecoil` within `csafap/addons/loader.cfg` (by inserting `//` at the start of the line).
 
 - Q18: Why is rapid fire and/or follow recoil mode not working?
   > Firstly, make sure you are setting all the requirements for it (using launch option `-testscript "../../csgo/cfg/CSAFAP/addons/.vtest"` and setting `ef_...` binds in `csafap/main.cfg`).<br />
@@ -328,9 +331,10 @@ irene762 <br />
   > The launch option `-testscript "../../csgo/cfg/csafap/addons/.vtest"` spamms these alias every frame. If the alias are not assigned on game launch, this will happen and other binds using the ticker function (including movement and mouse binds) will not work.<br />
   > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main` to look for potential errors after loading the config initially.
 
-- Q21: Why do movement keys and mouse buttons no longer work after installing?
+- Q21: Why do movement keys and mouse buttons no longer work (and I cannot select team in offline mode) after installing? 
   > Same cause as in Q20 above.
   >
+  > If you use `bind mouse1 +M1; bind mouse2 +M2` (from line 22 of `csafap/main.cfg`), you need to make sure you are also using this **exact** launch option `-testscript "../../csgo/cfg/CSAFAP/addons/.vtest"`.
 
 - Q22: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"` anymore.
