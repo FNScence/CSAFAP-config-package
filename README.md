@@ -332,7 +332,7 @@ irene762 <br />
 - Q21: Why do movement keys and mouse buttons no longer work (and I cannot select team in offline mode) after installing? 
   > Same cause as in Q20 above.
   >
-  > If you use `bind mouse1 +M1; bind mouse2 +M2` (from line 22 of `csafap/main.cfg`, you need to make sure you are also using this **exact** launch option `-testscript "../../csgo/cfg/CSAFAP/addons/.vtest"`.
+  > If you use `bind mouse1 +M1; bind mouse2 +M2` (from line 22 of `csafap/main.cfg`), you need to make sure you are also using this **exact** launch option `-testscript "../../csgo/cfg/CSAFAP/addons/.vtest"`.
 
 - Q22: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"` anymore.
