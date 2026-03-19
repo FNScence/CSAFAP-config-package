@@ -336,7 +336,12 @@ irene762 <br />
   >
   > If you use `bind mouse1 +M1; bind mouse2 +M2` (from line 22 of `csafap/main.cfg`), you need to make sure you are also using this **exact** launch option `-testscript "../../csgo/cfg/CSAFAP/addons/.vtest"`.
 
-- Q22: How to uninstall the config package?
+- Q22: I only want to use a certain feature. How to delete everything else? 
+  > I created my configs so everyone can pick and choose the features they want to use. You can disable features by following the [How-to-Use](https://github.com/FNScence/CSAFAP-config-package?tab=readme-ov-file#how-to-use-the-csafap-config-package) and [Customization](https://github.com/FNScence/CSAFAP-config-package?tab=readme-ov-file#customization) chapters. If you don't press the keybinds of the features, they will never be called.<br />
+  >
+  > If you want to delete parts of the whole package, that's fine, but it has no upside (literally pointless) and I won't do it for you. You need to reverse engineer it yourself.
+
+- Q23: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"` anymore.
   >
   > To make right-click work on scoreboard again after using ticker features, you need to use this command once: `cl_scoreboard_mouse_enable_binding +attack2`
