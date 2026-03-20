@@ -63,23 +63,40 @@ All features are accessible via the in-game radio wheels, by using the four keyb
   
 ## Installation
 - **Step 1:**
-  Download and place the whole folder named `csafap` in the config folder of the CS2 installation, at this path:<br />
+  [Download](https://github.com/FNScence/CSAFAP-config-package/archive/refs/heads/main.zip) the config package ... 
+<p align="center">
+<img width="60%" alt="Image1" src="https://github.com/user-attachments/assets/0a03bed0-4985-4dcd-bff2-4423e44402a1" />
+</p>
+
+... unzip and place the whole folder named `csafap` in the config folder of the CS2 installation, at this path: <br />
 		`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg`
+
+<img width="1920" height="1080" alt="Image2" src="https://github.com/user-attachments/assets/9ff136f2-0ce4-47be-8020-cd1c66165650" />
+
 
 - **Step 2:**
   Inside the `csafap`-directory, copy the `csgo`-folder and paste it at this path:<br />
 		`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\`
 
+  <img width="1920" height="1080" alt="Image3" src="https://github.com/user-attachments/assets/ddb8ab84-6fa0-4516-b3de-3e234e7d7ef2" />
+
+
 - **Step 3:**
   Open the main config of this package `csafap\main.cfg` with an editor of your choice (e.g. notepad++).<br />
   **ENTER YOUR SENSITIVITY AT THE TOP!** Change the keybinds to your preference.<br />
-  If you want to use auto line-ups on faceit for example, you need to enable the faceit binds first, by removing the `// ` at the start of it's line.<br />
+  If you want to use a feature (that's disabled by default), enable it by removing the `// ` at the start of it's line.<br />
   If you don't want to use a feature, disable the keybind by adding `// ` at the start of it's line.
-  
+
+<img width="1920" height="1080" alt="Image6" src="https://github.com/user-attachments/assets/a22abd8c-b952-4c1c-9773-298e911afc2c" />
+
 
 - **Step 4:**
   Run the main config in-game. Add exactly these launch options: <br />
   `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"`
+  
+<p align="center">
+<img width="60%" alt="Image5" src="https://github.com/user-attachments/assets/85046a08-1940-46d7-a1aa-08439ab53a29" />
+</p>
 
 - **Done!**
 
