@@ -166,6 +166,10 @@ irene762 <br />
   Launch your personal autoexec config using the launch option `+exec cfgname` and at the bottom of that config use `exec csafap/main`.
   Also don't exec the configs while already on a server. Run them from the main menu (or, as explained above, on game launch) instead.
 
+- **The reload update broke practice mode annotation loading**<br />
+  We have to wait until Valve fixes their mistake. Until then, you can load the guides via the UI in the ESC-menu.
+  
+
 ## FAQ (Frequently asked Questions):
 
 - Q1: Is this allowed on MM, PREMIER?
