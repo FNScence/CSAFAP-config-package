@@ -198,7 +198,7 @@ irene762 <br />
 - Q4: How to make an autoexec (automatically executing config at game start)?
   > In your steam library, right-click CS2 > properties > general > under launch options insert `+exec filename`.
 
-- Q5: I get an error when trying to `exec csafap/main`...?
+- Q5: I get an error when trying to `exec csafap/main`, or when starting the game...?
   > If one of the following errors happens, you have saved the CSAFAP-config package at the wrong path.
   >
   > ```
