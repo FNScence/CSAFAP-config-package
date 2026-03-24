@@ -199,11 +199,14 @@ irene762 <br />
   > In your steam library, right-click CS2 > properties > general > under launch options insert `+exec filename`.
 
 - Q5: I get an error when trying to `exec csafap/main`...?
-  > If the following error happens, you have saved the CSAFAP-config package at the wrong path.
+  > If one of the following errors happens, you have saved the CSAFAP-config package at the wrong path.
   >
   > ```
   > exec csafap/main
   > [InputService] exec: couldn't exec '{*}cfg/csafap/main.cfg', unable to read file
+  > ```
+  > ```
+  > FATAL ERROR: Can't open file (../../csgo/cfg/CSAFAP/addon/.vtest) passed to -testscript
   > ```
   >
   > Most likely you accidentally placed it in the directory for the old game CS:GO (instead of CS2), or you didn't take the csafap-folder out of the github repo folder.
