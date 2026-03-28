@@ -3296,7 +3296,7 @@ MapAnnotationNode102 =
 		Title = 
 		{
 			Text = "Connector Support Flash"
-			FontSize = 10
+			FontSize = 100
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
