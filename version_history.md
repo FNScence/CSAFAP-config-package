@@ -234,3 +234,11 @@
 
 - ***New with version 3.10:***
  	- Removed separate faceit binds for auto line-ups (server type is now detected automatically and binds set accordingly)
+
+- ***New with version 3.11:***
+ 	- Added spawn point balloons to practice mode (thanks to [Leiti](https://github.com/xLeiti/spawns))
+	- Added Instant window and dark/e-box/B-con smokes to practice mode
+	- Added the remaining two Train instant A main smokes to practice mode
+	- Added Inferno Instant half-wall smokes to practice mode
+	- Added Overpass Instant monster smoke and instant mid incendiary to practice mode
+	- Fixed a bug with follow-recoil, that maintained the green dot when switching guns while holding mouse1
