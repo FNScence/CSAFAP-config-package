@@ -6395,7 +6395,7 @@
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-		GrenadeType = "molotov"
+		GrenadeType = "incendiary"
 	}
 	MapAnnotationNode214 = 
 	{
@@ -6580,7 +6580,7 @@
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-		GrenadeType = "molotov"
+		GrenadeType = "incendiary"
 	}
 	MapAnnotationNode220 = 
 	{

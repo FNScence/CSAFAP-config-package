@@ -589,7 +589,7 @@ MapAnnotationNode17 =
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-		GrenadeType = "molotov"
+		GrenadeType = "incendiary"
 	}
 MapAnnotationNode18 = 
 	{
@@ -2922,7 +2922,7 @@ MapAnnotationNode90 =
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-		GrenadeType = "molotov"
+		GrenadeType = "incendiary"
 	}
 MapAnnotationNode91 = 
 	{
@@ -3020,7 +3020,7 @@ MapAnnotationNode93 =
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-		GrenadeType = "molotov"
+		GrenadeType = "incendiary"
 	}
 MapAnnotationNode94 = 
 	{
@@ -3376,7 +3376,7 @@ MapAnnotationNode104 =
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-		GrenadeType = "molotov"
+		GrenadeType = "incendiary"
 	}
 MapAnnotationNode105 = 
 	{
@@ -4769,7 +4769,7 @@ MapAnnotationNode147 =
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-		GrenadeType = "molotov"
+		GrenadeType = "incendiary"
 	}
 MapAnnotationNode148 = 
 	{
@@ -5125,7 +5125,7 @@ MapAnnotationNode158 =
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-		GrenadeType = "molotov"
+		GrenadeType = "incendiary"
 	}
 MapAnnotationNode159 = 
 	{
