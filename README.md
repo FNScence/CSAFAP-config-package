@@ -39,6 +39,9 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ![guide2](https://github.com/user-attachments/assets/76a7ecba-2f97-445e-a179-7eeaa18f7f81)
 ↑ Try 1.000+ line-ups and other tricks in-game
 
+![Image1](https://github.com/user-attachments/assets/38cfeef7-05dd-4c64-881c-3aebcff93d6d)
+↑ Interactable spawn point teleports to practice instant smokes on ALL MAPS
+
 ![practice](https://github.com/user-attachments/assets/008dbfb1-8247-470a-865b-1d1bd9a5236c)
 ↑ Quick access to practice commands (scroll mwheel for more options)
 
