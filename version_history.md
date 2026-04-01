@@ -242,3 +242,6 @@
 	- Added Inferno Instant half-wall smokes to practice mode
 	- Added Overpass Instant monster smoke and instant mid incendiary to practice mode
 	- Fixed a bug with follow-recoil, that maintained the green dot when switching guns while holding mouse1
+
+- ***New with version 3.12:***
+	- Added back auto map detection for practice mode (thanks to [Leiti](https://github.com/xLeiti/cs2-spawn-balloons/blob/main/spawns/offlineCurMap.cfg))
