@@ -245,3 +245,6 @@
 
 - ***New with version 3.12:***
 	- Added back auto map detection for practice mode (thanks to [Leiti](https://github.com/xLeiti/cs2-spawn-balloons/blob/main/spawns/offlineCurMap.cfg))
+
+- ***New with version 3.13:***
+	- Fixed practice mode spawn point teleport balloons to work when playing with friends
