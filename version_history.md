@@ -248,3 +248,10 @@
 
 - ***New with version 3.13:***
 	- Fixed practice mode spawn point teleport balloons to work when playing with friends
+
+- ***New with version 3.14:***
+	- Added support for mouse_inverty 1 when using auto line-ups
+
+- ***New with version 3.15:***
+	- Added non-ticker JT and WJT binds (just like CSGO)
+	- Added warnings about certain features no longer working on faceit (auto line-ups and any ticker features like rapid-fire, follow recoil and desubtick binds)
