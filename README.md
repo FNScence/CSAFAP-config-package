@@ -188,6 +188,8 @@ irene762 <br />
   > See responses from faceit's Community Manager about Automatic counter-strafe configs, [Part 1](https://imgur.com/a/automatic-counter-strafe-config-allowed-on-faceit-yes-dcOlGBK) and [Part 2](https://www.reddit.com/r/FACEITcom/comments/1etp7di/comment/lifb8hf/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
   >
   > They are not allowed in higher leagues like ESEA, ESL, etc. as their rules are more strict and prohibit the use of the alias command in general. [Source](https://x.com/FACEIT_Darwin/status/1817926901689917525).
+  >
+  > Note: Since 19th of April 2026, auto line-ups and ticker (-testscript) features no longer work on faceit servers.
 
 - Q3: How to install and run/execute a config in CS2?
   > - Step 1:
@@ -357,6 +359,8 @@ irene762 <br />
 - Q20: Why is my console getting spammed with `Unknown command: W!...`?
   > The launch option `-testscript "../../csgo/cfg/csafap/addons/.vtest"` spamms these alias every frame. If the alias are not assigned on game launch, this will happen and other binds using the ticker function (including movement and mouse binds) will not work.<br />
   > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main` to look for potential errors after loading the config initially.
+  >
+  > These features NO LONGER WORK ON FACEIT. If you plan on playing on faceit, remove the launch option `-testscript "../../csgo/cfg/csafap/addons/.vtest"` and make sure you're not using any of the binds required by it from `../csafap/main.cfg` (make sure to overwrite them).
 
 - Q21: Why do movement keys and mouse buttons no longer work (and I cannot select team in offline mode) after installing? 
   > Same cause as in Q20 above.
