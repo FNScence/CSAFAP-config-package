@@ -254,4 +254,3 @@
 
 - ***New with version 3.15:***
 	- Added non-ticker JT and WJT binds (just like CSGO)
-	- Added warnings about certain features no longer working on faceit (auto line-ups and any ticker features like rapid-fire, follow recoil and desubtick binds)
