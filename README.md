@@ -359,6 +359,8 @@ irene762 <br />
 - Q20: Why is my console getting spammed with `Unknown command: W!...`?
   > The launch option `-testscript "../../csgo/cfg/csafap/addons/.vtest"` spamms these alias every frame. If the alias are not assigned on game launch, this will happen and other binds using the ticker function (including movement and mouse binds) will not work.<br />
   > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main` to look for potential errors after loading the config initially.
+  > 
+  > These features NO LONGER WORK ON FACEIT. If you plan on playing on faceit, remove the launch option `-testscript "../../csgo/cfg/csafap/addons/.vtest"` and make sure you're not using any of the binds required by it from `../csafap/main.cfg` (make sure to overwrite them).
 
 
 - Q21: Why do movement keys and mouse buttons no longer work (and I cannot select team in offline mode) after installing? 
