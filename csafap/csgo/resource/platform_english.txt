@@ -291,6 +291,8 @@
 	"CFG_VIEWMODEL_KNIFERIGHT"             "LEFTHANDED  \n but \n KNIFE RIGHT \n  \n  \n  \n "
 	"CFG_VIEWMODEL_KNIFELEFT"             "RIGHTHANDED  \n but \n KNIFE LEFT \n  \n  \n  \n "
 
+	"CFG_FACEIT_NOTICE"                    "❌ \n AUTO LINE-UPS \n NO LONGER SUPPORTED \n ON FACEIT SERVERS \n  \n  \n  \n "
+
 	"CFG_MAP_NOT_SUPPORTED"                    "MAP NOT SUPPORTED \n  \n  \n  \n  \n "
 	"CFG_MORE_NOT_SUPPORTED"                    "NO ADDITIONAL \n LINE-UPS SUPPORTED \n YET \n  \n  \n  \n  \n "
 	"CFG_SCROLL"                    "USE MWHEEL \n ↓↓ TO GET BACK ↑↑ \n  \n  \n  \n  \n "
