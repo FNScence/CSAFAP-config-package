@@ -299,7 +299,7 @@ irene762 <br />
   > Now use working jump binds, by either resetting your binds to default (`bind mwheeldown +jump`) or by using the newest version of the CSAFAP config package.
 
 - Q15: How to bind custom commands to the radiowheel (without using the config package)?
-  > You can find the most basic set of configs to bind your own radio commands on my Discord in the ***pinned messages*** of the `#auto-lineup-config`-channel.
+  > You can find the most basic set of configs to bind your own radio commands on my Discord in the ***pinned messages*** of the `#csafap-config`-channel.
   > Join the **CS AFAP DISCORD SERVER** [HERE](https://discord.gg/cs-as-fast-as-possible-992407294866370681).
   > - Step 1:
   Within your own auto-exec, create a bind which opens the radio wheel, and switches between two phases (labels and commands):
