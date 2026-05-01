@@ -58,6 +58,7 @@
 	"CFG_MAP_change_Thera"             "CHANGE MAP \n to \n THERA  \n  \n  \n  \n  \n "
 	"CFG_MAP_change_Overpass"             "CHANGE MAP \n to \n OVERPASS  \n  \n  \n  \n  \n "
 	"CFG_MAP_change_Train"             "CHANGE MAP \n to \n TRAIN  \n  \n  \n  \n  \n "
+	"CFG_MAP_change_Cache"             "CHANGE MAP \n to \n CACHE  \n  \n  \n  \n  \n "
 	
 	"CFG_T_SPAWN_1"             "T \n SPAWN 1  \n  \n  \n  \n  \n "
 	"CFG_T_SPAWN_2"             "T \n SPAWN 2  \n  \n  \n  \n  \n "
