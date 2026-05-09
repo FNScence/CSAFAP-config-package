@@ -261,3 +261,6 @@
 
 - ***New with version 3.17:*** (1st May 2026)
 	- Added Cache to Practice Mode
+
+- ***New with version 3.18:*** (9th May 2026)
+	- Added keybinds for Fast+Silent ladder angle
