@@ -5109,8 +5109,8 @@
 		Type = "grenade"
 		Id = "509067f0-2814-4c8c-9e17-e9bf9b4365fe"
 		SubType = "aim_target"
-		Position = [ 2331.604248, 2021.295532, 245.40213 ]
-		Angles = [ -29.290764, -138.575226, 0.0 ]
+		Position = [ 2331.791504, 2022.049927, 246.683228 ]
+		Angles = [ -30.029957, -138.867615, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
 		TextFacePlayer = false
@@ -7161,6 +7161,104 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "17eef536-1e86-40b4-87ae-4ae27e428982"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode448 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "d7caf91a-946a-463b-8aae-d2751a165d5a"
+		SubType = "main"
+		Position = [ 2035.9688, 1914.9377, 140.22641 ]
+		Angles = [ 0.0, -158.86723, 0.0 ]
+		VisiblePfx = true
+		Color = [ 60, 150, 230 ]
+		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Bottom Banana Smoke"
+			FontSize = 100
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode449 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "37adc15e-34cf-4eaa-9a76-ca8e9bff03b8"
+		SubType = "aim_target"
+		Position = [ 1964.4452, 1887.2921, 265.7581 ]
+		Angles = [ -39.932102, -158.86723, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Bottom Banana Smoke"
+			FontSize = 100
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "standing Jumpthrow"
+			FontSize = 60
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "d7caf91a-946a-463b-8aae-d2751a165d5a"
+	}
+	MapAnnotationNode450 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "ee77ee6c-5354-41ab-a4a4-faf015913111"
+		SubType = "destination"
+		Position = [ 144.7463, 1060.3354, 87.80745 ]
+		Angles = [ -39.932102, -158.86723, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "d7caf91a-946a-463b-8aae-d2751a165d5a"
 		DistanceThreshold = 80.0
 	}
 }

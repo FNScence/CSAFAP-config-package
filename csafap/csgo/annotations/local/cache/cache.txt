@@ -1,7 +1,7 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	MapName = "de_cache"
-	WorkshopSubmissionID = ""
+	WorkshopSubmissionID = "3721714649"
 	ScreenText = 
 	{
 	}
@@ -6256,5 +6256,169 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
+	}
+	MapAnnotationNode193 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "3b6cea70-f700-4c20-b95c-7362449fde7c"
+		SubType = "main"
+		Position = [ 1551.4436, 436.639, 1612.0312 ]
+		Angles = [ 0.0, 124.26335, 0.0 ]
+		VisiblePfx = true
+		Color = [ 70, 170, 10 ]
+		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "A Cross Rush Smoke"
+			FontSize = 100
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 60
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode194 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "ed710bbb-dadf-4b59-9ed5-d65de87d48f3"
+		SubType = "aim_target"
+		Position = [ 1497.6443, 515.6143, 1705.471 ]
+		Angles = [ -17.140127, 124.26335, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, -10.0, -30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "A Cross Rush Smoke"
+			FontSize = 100
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "running Jumpthrow \n (release HERE)"
+			FontSize = 60
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "3b6cea70-f700-4c20-b95c-7362449fde7c"
+	}
+	MapAnnotationNode195 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "52b4b121-ec41-4234-9c9d-a59088195d53"
+		SubType = "main"
+		Position = [ 1832.7517, 428.75232, 1611.0621 ]
+		Angles = [ 0.0, 134.15257, 0.0 ]
+		VisiblePfx = true
+		Color = [ 70, 170, 10 ]
+		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "A Backsite Rush Smoke"
+			FontSize = 100
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 60
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode196 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "11d4e22f-6a68-43f8-b0a0-15d252aa43be"
+		SubType = "aim_target"
+		Position = [ 1765.6455, 497.87357, 1701.6577 ]
+		Angles = [ -15.553834, 134.15257, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, -30.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "A Backsite Rush Smoke"
+			FontSize = 100
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "running Jumpthrow \n (release HERE)"
+			FontSize = 60
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "52b4b121-ec41-4234-9c9d-a59088195d53"
+	}
+	MapAnnotationNode197 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "fe9db186-781b-45d7-bb16-dd254476426b"
+		SubType = "destination"
+		Position = [ -340.37302, 1415.3492, 1686.0312 ]
+		Angles = [ -15.553834, 134.15257, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 60
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 60
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "52b4b121-ec41-4234-9c9d-a59088195d53"
+		DistanceThreshold = 80.0
 	}
 }
