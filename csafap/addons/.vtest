@@ -1,5 +1,7 @@
 /// Credit and thanks to AveYo
-/// use launch option: -testscript "../../csgo/cfg/CSAFAP/addons/.vtest" and make sure this file is saved as vtest-type with blank name ".vtest"
+/// Thanks AveYo yet again for finding -testscript_inline as a workaround after Valve patched -testscript on 2026.05.21 to require -insecure
+/// use launch option: -testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"
+/// make sure this file is saved as vtest-type with blank name ".vtest"
 
 Test_WaitForCheckPoint frame_end
 
@@ -29,4 +31,5 @@ J!
 //Test_RunFrame
 
 /// AveYo: loop each frame; repeated entries above are chaining multiple alias substitutions in a single run
-Test_Run
+/// Path required for -testscript_inline to keep looping (thanks AveYo)
+Test_Run ../../csgo/cfg/csafap/addons/.vtest
