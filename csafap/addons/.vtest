@@ -29,4 +29,4 @@ J!
 //Test_RunFrame
 
 /// AveYo: loop each frame; repeated entries above are chaining multiple alias substitutions in a single run
-Test_Run
+Test_Run ../../csgo/cfg/csafap/addons/.vtest
