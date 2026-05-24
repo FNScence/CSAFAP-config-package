@@ -264,3 +264,6 @@
 
 - ***New with version 3.18:*** (9th May 2026)
 	- Added keybinds for Fast+Silent ladder angle
+
+- ***New with version 3.19:*** (22nd May 2026)
+	- Fixed testscript launch option (ticker method) after Valve forced it to require -insecure launch option.
