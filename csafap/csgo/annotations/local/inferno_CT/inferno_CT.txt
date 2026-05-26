@@ -7261,4 +7261,102 @@
 		MasterNodeId = "d7caf91a-946a-463b-8aae-d2751a165d5a"
 		DistanceThreshold = 80.0
 	}
+	MapAnnotationNode451 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "3b74d0f5-4c68-466c-8e36-2b64e8e6e51c"
+		SubType = "main"
+		Position = [ 141.33047, 3074.9722, 166.03125 ]
+		Angles = [ 0.0, -63.990017, 0.0 ]
+		VisiblePfx = true
+		Color = [ 60, 150, 230 ]
+		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Car HE"
+			FontSize = 100
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "he"
+	}
+	MapAnnotationNode452 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "26e3694c-5dde-44a8-a456-b5b6744c61aa"
+		SubType = "aim_target"
+		Position = [ 185.0056, 2985.4644, 234.2421 ]
+		Angles = [ -5.159063, -63.990017, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, -20.0, -12.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Car HE"
+			FontSize = 100
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "running Jumpthrow"
+			FontSize = 60
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "3b74d0f5-4c68-466c-8e36-2b64e8e6e51c"
+	}
+	MapAnnotationNode453 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "02c6fccc-59c6-4c65-b57f-7f987866fe91"
+		SubType = "destination"
+		Position = [ 602.3463, 1994.6138, 230.52985 ]
+		Angles = [ -5.159063, -63.990017, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "3b74d0f5-4c68-466c-8e36-2b64e8e6e51c"
+		DistanceThreshold = 80.0
+	}
 }
