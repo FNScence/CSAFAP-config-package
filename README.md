@@ -381,6 +381,8 @@ irene762 <br />
 	> with the new launch option:
 	>
 	> `+exec csafap/main -testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"`
+ 	>
+	> Also make sure to check if your `../cfg/csafap/addons/.vtest"` file is actually file type `vtest` without a name. If it is file type `file` and name `.vtest` for example, you need to redownload or convert it.
 
 - Q24: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"` anymore.
