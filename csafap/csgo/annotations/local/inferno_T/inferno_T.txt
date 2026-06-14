@@ -4507,17 +4507,17 @@
 		Type = "grenade"
 		Id = "00c6345d-1c37-41dc-afd2-fe823a51550c"
 		SubType = "main"
-		Position = [ 368.855408, 1663.078857, 134.031311 ]
-		Angles = [ 0.0, 63.705933, 0.0 ]
+		Position = [ 369.53934, 1664.0609, 134.03131 ]
+		Angles = [ 0.0, 65.14269, 0.0 ]
 		VisiblePfx = true
-		Color = [ 250, 230, 3 ]
+		Color = [ 70, 170, 10 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "CT Smoke"
+			Text = "CT Boost Smoke"
 			FontSize = 100
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -4542,8 +4542,8 @@
 		Type = "grenade"
 		Id = "286d4fc7-9f92-477d-97bb-c8b4346f6b7d"
 		SubType = "aim_target"
-		Position = [ 406.302612, 1738.867432, 251.292206 ]
-		Angles = [ -32.290306, 63.705986, 0.0 ]
+		Position = [ 410.59274, 1752.6758, 199.94806 ]
+		Angles = [ -12.41252, 65.14269, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 8.5 ]
 		TextFacePlayer = false
@@ -4551,7 +4551,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "CT Smoke"
+			Text = "CT Boost Smoke"
 			FontSize = 100
 			FadeInDist = 10.0
 			FadeOutDist = -1.0
@@ -4559,7 +4559,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing throw"
+			Text = "crouched M1+M2 W-Jumpthrow"
 			FontSize = 60
 			FadeInDist = 10.0
 			FadeOutDist = -1.0
@@ -4573,8 +4573,8 @@
 		Type = "grenade"
 		Id = "97d56e7e-a36e-4df2-a120-5d2ad8122c5a"
 		SubType = "destination"
-		Position = [ 1055.106812, 2676.323242, 129.755325 ]
-		Angles = [ -32.290306, 63.705986, 0.0 ]
+		Position = [ 993.56146, 2637.6226, 244.3402 ]
+		Angles = [ -12.41252, 65.14269, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
