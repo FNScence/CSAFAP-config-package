@@ -4658,4 +4658,102 @@
 		MasterNodeId = "b26a0446-e76c-4514-80c1-c8c1fa1d3558"
 		DistanceThreshold = 80.0
 	}
+	MapAnnotationNode384 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "4f19e99c-d187-48c7-8fb2-e014365eaabc"
+		SubType = "main"
+		Position = [ -595.4777, 2102.037, -117.94415 ]
+		Angles = [ 0.0, -68.183556, 0.0 ]
+		VisiblePfx = true
+		Color = [ 60, 150, 230 ]
+		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Xbox HE"
+			FontSize = 100
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 60
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "he"
+	}
+	MapAnnotationNode385 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "6e634a87-e82a-408b-a3da-6e3fa7da7408"
+		SubType = "aim_target"
+		Position = [ -558.53357, 2009.9625, -42.085842 ]
+		Angles = [ -7.207211, -68.13728, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Xbox HE"
+			FontSize = 100
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "standing throw"
+			FontSize = 60
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "4f19e99c-d187-48c7-8fb2-e014365eaabc"
+	}
+	MapAnnotationNode386 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "a4307ffe-4cae-49ed-8692-e67255a9d984"
+		SubType = "destination"
+		Position = [ -271.46436, 1294.5098, -41.763035 ]
+		Angles = [ -7.207211, -68.13728, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "4f19e99c-d187-48c7-8fb2-e014365eaabc"
+		DistanceThreshold = 80.0
+	}
 }
