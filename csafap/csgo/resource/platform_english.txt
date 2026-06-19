@@ -163,7 +163,7 @@
 	"CFG_INFERNO_FAZE_4"                    "CT \n INSTANT ☁ smoke \n FaZe MID \n SPAWN 4 \n  \n  \n  \n  \n "
 	"CFG_INFERNO_FAZE_5"                    "CT \n INSTANT ☁ smoke \n FaZe MID \n SPAWN 5 \n  \n  \n  \n  \n "
 	"CFG_INFERNO_FAZE_6"                    "CT \n INSTANT ☁ smoke \n FaZe MID \n SPAWN 6 \n  \n  \n  \n  \n "
-	
+	"CFG_INFERNO_CT_1"                    "CT \n INSTANT ☁ smoke \n BOTTOM MID \n SPAWN 5 \n  \n  \n  \n  \n "
 	
 	"CFG_NUKE_SMOKE_1"                    "T \n INSTANT ☁ smoke \n VENT RUSH \n  \n  \n  \n  \n "
 	"CFG_NUKE_SMOKE_2"                    "T \n INSTANT ☁ smoke \n HEAVEN \n  \n  \n  \n  \n "
