@@ -4307,7 +4307,7 @@
 		Position = [ -341.6789, 2191.6423, 1735.3055 ]
 		Angles = [ 9.610208, -33.435303, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextPositionOffset = [ 0.0, 20.0, -12.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -6419,6 +6419,104 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "52b4b121-ec41-4234-9c9d-a59088195d53"
+		DistanceThreshold = 80.0
+	}
+	MapAnnotationNode198 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "c5cbbabf-5dbc-4f2e-997c-39b78280a150"
+		SubType = "main"
+		Position = [ -423.96875, 2245.968, 1688.0312 ]
+		Angles = [ 0.0, -35.69951, 0.0 ]
+		VisiblePfx = true
+		Color = [ 60, 150, 230 ]
+		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Deep A Main Smoke"
+			FontSize = 100
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode199 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "877fe117-d4e2-4a94-8479-021111bbea7c"
+		SubType = "aim_target"
+		Position = [ -344.16052, 2188.621, 1770.4926 ]
+		Angles = [ -10.65679, -35.69951, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 27.0, -12.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Deep A Main Smoke"
+			FontSize = 100
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "running Jumpthrow"
+			FontSize = 60
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "c5cbbabf-5dbc-4f2e-997c-39b78280a150"
+	}
+	MapAnnotationNode200 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "d427af7e-bf58-4728-b3c8-4a5efcea7074"
+		SubType = "destination"
+		Position = [ 762.798, 641.85144, 1694.0312 ]
+		Angles = [ -10.65679, -35.69951, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "c5cbbabf-5dbc-4f2e-997c-39b78280a150"
 		DistanceThreshold = 80.0
 	}
 }
