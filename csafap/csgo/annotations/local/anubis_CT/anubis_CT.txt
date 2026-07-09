@@ -911,7 +911,7 @@
 		Id = "9f9d5827-72be-4f15-b435-2b2e4a5eaf23"
 		SubType = "main"
 		Position = [ -560.0, 2192.0, 25.03125 ]
-		Angles = [ 0.0, -58.62378, 0.0 ]
+		Angles = [ 0.0, -58.56796, 0.0 ]
 		VisiblePfx = true
 		Color = [ 200, 70, 180 ]
 		TextPositionOffset = [ 0.0, 0.0, 50.0 ]
@@ -945,8 +945,8 @@
 		Type = "grenade"
 		Id = "fd3d47a6-aea8-4f31-a470-137c77971193"
 		SubType = "aim_target"
-		Position = [ -515.2634, 2118.6414, 140.1893 ]
-		Angles = [ -30.769165, -58.62378, 0.0 ]
+		Position = [ -515.52527, 2119.2302, 135.59142 ]
+		Angles = [ -31.477531, -58.56796, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, -29.0, -12.0 ]
 		TextFacePlayer = false
@@ -976,8 +976,8 @@
 		Type = "grenade"
 		Id = "36a54901-6fae-4c5c-9d21-785ac64a64d9"
 		SubType = "destination"
-		Position = [ 861.96875, -139.76096, -93.96875 ]
-		Angles = [ -30.769165, -58.62378, 0.0 ]
+		Position = [ 859.8739, -138.05864, -93.96875 ]
+		Angles = [ -31.477531, -58.56796, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -1009,7 +1009,7 @@
 		Id = "f2a5e616-e0c9-4f1b-9e6b-65ff9349c3a1"
 		SubType = "main"
 		Position = [ -560.0, 2192.0, 25.03125 ]
-		Angles = [ 0.0, -45.04532, 0.0 ]
+		Angles = [ 0.0, -45.11467, 0.0 ]
 		VisiblePfx = true
 		Color = [ 200, 70, 180 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -1043,8 +1043,8 @@
 		Type = "grenade"
 		Id = "3303270e-6fbb-4687-a57f-7b329c2ce016"
 		SubType = "aim_target"
-		Position = [ -495.27502, 2130.7085, 134.35275 ]
-		Angles = [ -26.95015, -43.439255, 0.0 ]
+		Position = [ -495.93863, 2131.4548, 130.60237 ]
+		Angles = [ -28.181992, -43.383636, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 26.0, -12.0 ]
 		TextFacePlayer = false
@@ -1074,8 +1074,8 @@
 		Type = "grenade"
 		Id = "3b460b16-906b-4c07-85a2-8af94d43fd3e"
 		SubType = "destination"
-		Position = [ 1386.838, 584.2813, 2.03125 ]
-		Angles = [ -26.95015, -43.439255, 0.0 ]
+		Position = [ 1394.3411, 580.7293, 2.03125 ]
+		Angles = [ -28.181992, -43.383636, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -1303,7 +1303,7 @@
 		Id = "2351276c-574a-4f27-8db5-1922876fbb4d"
 		SubType = "main"
 		Position = [ -400.0, 2192.0, 25.03125 ]
-		Angles = [ 0.0, -62.65847, 0.0 ]
+		Angles = [ 0.0, -62.511524, 0.0 ]
 		VisiblePfx = true
 		Color = [ 200, 70, 180 ]
 		TextPositionOffset = [ 0.0, 0.0, 50.0 ]
@@ -1337,8 +1337,8 @@
 		Type = "grenade"
 		Id = "4fa45b60-c516-4c6c-9f3c-a7d54d7f26a2"
 		SubType = "aim_target"
-		Position = [ -364.38818, 2123.126, 152.18317 ]
-		Angles = [ -39.16229, -62.658466, 0.0 ]
+		Position = [ -364.33734, 2123.459, 146.92221 ]
+		Angles = [ -39.40865, -62.511524, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, -38.0, -12.0 ]
 		TextFacePlayer = false
@@ -1346,7 +1346,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Instant T-stairs Smoke Spawn 2"
+			Text = "Instant T-stairs Smoke"
 			FontSize = 100
 			FadeInDist = 10.0
 			FadeOutDist = -1.0
@@ -1368,8 +1368,8 @@
 		Type = "grenade"
 		Id = "2504ad7c-031d-4e56-8341-c126254f3bfb"
 		SubType = "destination"
-		Position = [ 802.9021, -134.4527, -93.96875 ]
-		Angles = [ -39.16229, -62.658466, 0.0 ]
+		Position = [ 806.19855, -126.22069, -93.96875 ]
+		Angles = [ -39.40865, -62.511524, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -1401,7 +1401,7 @@
 		Id = "4797d273-5cdd-4386-b180-bcd59e09c5cf"
 		SubType = "main"
 		Position = [ -400.0, 2192.0, 25.03125 ]
-		Angles = [ 0.0, -45.30525, 0.0 ]
+		Angles = [ 0.0, -45.434296, 0.0 ]
 		VisiblePfx = true
 		Color = [ 200, 70, 180 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -1435,8 +1435,8 @@
 		Type = "grenade"
 		Id = "9604e9f2-95da-4139-bec9-41271cd6bbc2"
 		SubType = "aim_target"
-		Position = [ -345.22925, 2136.6174, 151.7443 ]
-		Angles = [ -38.83873, -45.318268, 0.0 ]
+		Position = [ -346.51547, 2137.6985, 148.17346 ]
+		Angles = [ -40.342834, -45.434296, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 35.0, -12.0 ]
 		TextFacePlayer = false
@@ -1444,7 +1444,7 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Instant Rugs Smoke Spawn 2"
+			Text = "Instant Rugs Smoke"
 			FontSize = 100
 			FadeInDist = 10.0
 			FadeOutDist = -1.0
@@ -1466,8 +1466,8 @@
 		Type = "grenade"
 		Id = "d9b64648-56c1-407c-8580-0de9684b8508"
 		SubType = "destination"
-		Position = [ 1448.129, 559.1826, 2.03125 ]
-		Angles = [ -38.83873, -45.318268, 0.0 ]
+		Position = [ 1436.6903, 562.96234, 2.03125 ]
+		Angles = [ -40.342834, -45.434296, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
