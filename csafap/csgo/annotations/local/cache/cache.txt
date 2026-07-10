@@ -245,7 +245,7 @@
 		Position = [ 1700.2351, 800.30524, 1685.1526 ]
 		Angles = [ -5.2513866, -160.26878, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextPositionOffset = [ 0.0, -25.0, -12.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -7747,6 +7747,104 @@
 			ShowBackground = true
 		}
 		MasterNodeId = "1f655f9d-648d-45a4-99ac-ac2c8044a696"
+		DistanceThreshold = 80.0
+	}
+		MapAnnotationNode240 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "02576801-f7c2-439e-88ad-4b435585fee5"
+		SubType = "main"
+		Position = [ 1793.9688, 833.9245, 1612.0312 ]
+		Angles = [ 0.0, -141.05927, 0.0 ]
+		VisiblePfx = true
+		Color = [ 250, 230, 3 ]
+		TextPositionOffset = [ 0.0, 0.0, 50.0 ]
+		TextFacePlayer = true
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Criss-Cross Smoke"
+			FontSize = 100
+			FadeInDist = 600.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 300.0
+			FadeOutDist = 40.0
+			ShowBackground = true
+		}
+		StreakLimitGuidesOn = 2
+		StreakLimitGuidesOff = 2
+		JumpThrow = false
+		GrenadeType = "smoke"
+	}
+	MapAnnotationNode241 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "c7c814eb-8740-41e9-8dd9-2f46f6af9572"
+		SubType = "aim_target"
+		Position = [ 1716.539, 771.3556, 1685.4738 ]
+		Angles = [ -5.436242, -141.05927, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 26.0, -12.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Criss-Cross Smoke"
+			FontSize = 100
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "standing Jumpthrow"
+			FontSize = 60
+			FadeInDist = 10.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "02576801-f7c2-439e-88ad-4b435585fee5"
+	}
+	MapAnnotationNode242 = 
+	{
+		Enabled = true
+		Type = "grenade"
+		Id = "3fc92707-64e1-43ce-852b-d7daa6e585d7"
+		SubType = "destination"
+		Position = [ 387.1685, 20.773592, 1760.4926 ]
+		Angles = [ -5.436242, -141.05927, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "02576801-f7c2-439e-88ad-4b435585fee5"
 		DistanceThreshold = 80.0
 	}
 }
