@@ -6623,8 +6623,8 @@
 		Type = "grenade"
 		Id = "561026b3-997d-41ed-8c2d-3f47ca453eae"
 		SubType = "main"
-		Position = [ 1012.8128, 595.0493, 1734.3848 ]
-		Angles = [ 0.0, -153.51334, 0.0 ]
+		Position = [ 1013.1104, 594.7484, 1738.5421 ]
+		Angles = [ 0.0, -153.79178, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -6658,8 +6658,8 @@
 		Type = "grenade"
 		Id = "d80b8b67-5c67-4843-925e-2a2c5167f37c"
 		SubType = "aim_target"
-		Position = [ 934.1952, 555.9804, 1843.0345 ]
-		Angles = [ -28.609768, -153.575, 0.0 ]
+		Position = [ 933.9424, 555.69934, 1845.0897 ]
+		Angles = [ -28.02462, -153.74551, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
 		TextFacePlayer = false
@@ -6689,8 +6689,8 @@
 		Type = "grenade"
 		Id = "29c94eae-8660-4efe-989b-6933064ad444"
 		SubType = "destination"
-		Position = [ -441.9667, -32.031895, 1666.0312 ]
-		Angles = [ -28.609768, -153.575, 0.0 ]
+		Position = [ -434.51373, -40.651096, 1668.7812 ]
+		Angles = [ -28.02462, -153.74551, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -6721,8 +6721,8 @@
 		Type = "grenade"
 		Id = "53a75d93-3cb8-4c0d-a4bf-8a53481006e8"
 		SubType = "main"
-		Position = [ 1008.61005, 526.031, 1737.0436 ]
-		Angles = [ 0.0, -177.92496, 0.0 ]
+		Position = [ 999.6133, 526.03125, 1748.7255 ]
+		Angles = [ 0.0, -175.9124, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -6748,7 +6748,7 @@
 		StreakLimitGuidesOn = 2
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
-		GrenadeType = "molotov"
+		GrenadeType = "flash"
 	}
 	MapAnnotationNode208 = 
 	{
@@ -6756,8 +6756,8 @@
 		Type = "grenade"
 		Id = "95537c23-0e5a-4ea5-a0d9-fdb3a25bf2dc"
 		SubType = "aim_target"
-		Position = [ 910.30865, 519.19403, 1795.1693 ]
-		Angles = [ -9.806396, -176.02142, 0.0 ]
+		Position = [ 901.08704, 519.0166, 1801.029 ]
+		Angles = [ -8.9750805, -175.92764, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, -8.0, 15.0 ]
 		TextFacePlayer = false
@@ -6787,8 +6787,8 @@
 		Type = "grenade"
 		Id = "62dc2094-5a08-42c6-bce5-d9d50b932c43"
 		SubType = "destination"
-		Position = [ -52.83868, 452.20773, 1707.9567 ]
-		Angles = [ -9.806396, -176.02142, 0.0 ]
+		Position = [ -66.25955, 450.1482, 1701.5168 ]
+		Angles = [ -8.9750805, -175.92764, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false

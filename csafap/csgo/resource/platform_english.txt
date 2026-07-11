@@ -36,6 +36,7 @@
 	"CFG_MAP_Thera"             "THERA  \n  \n  \n  \n  \n "
 	"CFG_MAP_Overpass"             "OVERPASS  \n  \n  \n  \n  \n "
 	"CFG_MAP_Train"             "TRAIN  \n  \n  \n  \n  \n "
+	"CFG_MAP_Cache"             "CACHE  \n  \n  \n  \n  \n "
 	
 	"CFG_MAP_Anubis_selected"             "ANUBIS  \n  \n [currently selected] \n  \n  \n  \n "
 	"CFG_MAP_Inferno_selected"             "INFERNO  \n  \n [currently selected] \n  \n  \n  \n "
@@ -47,6 +48,7 @@
 	"CFG_MAP_Thera_selected"             "THERA  \n  \n [currently selected] \n  \n  \n  \n "
 	"CFG_MAP_Overpass_selected"             "OVERPASS  \n [currently selected] \n  \n  \n  \n  \n "
 	"CFG_MAP_Train_selected"             "TRAIN  \n  \n [currently selected] \n  \n  \n  \n "
+	"CFG_MAP_Cache_selected"             "CACHE  \n  \n [currently selected] \n  \n  \n  \n "
 	
 	"CFG_MAP_change_Anubis"             "CHANGE MAP \n to \n ANUBIS  \n  \n  \n  \n  \n "
 	"CFG_MAP_change_Inferno"             "CHANGE MAP \n to \n INFERNO  \n  \n  \n  \n  \n "
