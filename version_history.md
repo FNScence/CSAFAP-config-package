@@ -265,14 +265,28 @@
 - ***New with version 3.18:*** (9th May 2026)
 	- Added keybinds for Fast+Silent ladder angle
 
-- ***New with version 3.19:*** (10th July 2026)
+- ***New with version 3.19:*** (22nd May 2026)
+	- Fixed testscript launch option (ticker method) after Valve forced it to require -insecure launch option.
+	  Thanks @Hidend
+
+- ***New with version 3.20:*** (10th July 2026)
 	- Removed non-ticker W-Jumpthrow Binds (patched on 9th of July 2026)
 	  You can still use ticker (W-)JT, but it won't work on faceit.
     - Fixed a lot of prac mode line-ups on slopes after animgraph broke it (still a few maps to fix yet)
     - Replaced spawn point teleport balloons with flat signs
       Balloons had some collision on uneven ground. (also a few maps to fix yet)
 
-- ***New with version 3.20:*** (11th July 2026)
-	-  Fixed all remaining spawn point teleports of active duty maps in prac mode (more pretty version will come once valve fixes their mistakes)
-    -  Adjusted map wheel to represent premier map voting this added auto line-up framework for cache, but it's still empty
-    -  Fixed a few line-ups on slopes in prac mode
+- ***New with version 3.21:*** (11th July 2026)
+	- Fixed all remaining spawn point teleports of active duty maps in prac mode (more pretty version will come once valve fixes their mistakes)
+    - Adjusted map wheel to represent premier map voting this added auto line-up framework for cache, but it's still empty
+    - Fixed a few line-ups on slopes in prac mode
+
+- ***New with version 3.22:*** (16th July 2026)
+	- Reintroduced (W-)JT binds (radialradio method)
+	- Reintroduced null binds (non-ticker version)
+ 	- Removed all ticker features (patched on 14th July 2026) - This included removal of:
+       - CS:GO-style  (W-)JT binds
+       - Better follow recoil
+       - Rapid Fire pistols
+       - Release nades on reload key
+       - Crouch-jump bind
