@@ -57,9 +57,6 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ![crosshair](https://github.com/user-attachments/assets/3e235e49-2051-41b2-b978-5dde0213775a)
 ↑ Crosshair + Viewmodels from top20 teams
 
-![follow-recoil](https://github.com/user-attachments/assets/1e25788b-5c92-4fdd-bab3-ed6af9edf78c)
-↑ Better Follow-Recoil mode - shows spray-pattern indicated by a green dot when spraying
-  
 ## Installation
 - **Step 1:**
   [Download](https://github.com/FNScence/CSAFAP-config-package/archive/refs/heads/main.zip) the config package ... 
