@@ -22,13 +22,9 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 ## Features
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
 - **Automatic line-ups** (instant smokes + wallbangs)
-- **(W-)Jumpthrow binds** (just like in CSGO)
+- **(W-)Jumpthrow binds** (radialradio method)
 - **Snap-Tap** / Null-bind movement input
-- **De-subtick binds** (WASD + jump)
-- **Crouch-jump bind**
 - **Pro-Crosshair and Viewmodel Options** (dynamically copy settings from the top20 teams)
-- **Rapid-Fire mode for pistols**
-- **Better Follow-Recoil mode**
 
 All features are accessible via the in-game radio wheels, by using the four keybinds set in `csafap/main.cfg`, or by binding them directly in `csafap/main.cfg`.
 
