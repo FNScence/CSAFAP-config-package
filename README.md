@@ -21,7 +21,7 @@ Video tutorial (version 2.0): https://youtu.be/bqqCAiT1ip0
 
 ## Features
 - **Practice Mode** (in-game offline map guides featuring 1.000+ line-ups on all 9 competitive maps) 
-- **Automatic line-ups** (instant smokes + wallbangs)
+- **Automatic line-ups** (instant smokes + wallbangs) Not working on faceit!
 - **(W-)Jumpthrow binds** (radialradio method)
 - **Snap-Tap** / Null-bind movement input
 - **Pro-Crosshair and Viewmodel Options** (dynamically copy settings from the top20 teams)
@@ -57,9 +57,6 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 ![crosshair](https://github.com/user-attachments/assets/3e235e49-2051-41b2-b978-5dde0213775a)
 ↑ Crosshair + Viewmodels from top20 teams
 
-![follow-recoil](https://github.com/user-attachments/assets/1e25788b-5c92-4fdd-bab3-ed6af9edf78c)
-↑ Better Follow-Recoil mode - shows spray-pattern indicated by a green dot when spraying
-  
 ## Installation
 - **Step 1:**
   [Download](https://github.com/FNScence/CSAFAP-config-package/archive/refs/heads/main.zip) the config package ... 
@@ -107,7 +104,7 @@ Then, hover your mouse over the tile you want to use and PRESS AND RELEASE THE S
 >  Default Keybinds:<br />
 >  -  **H**: CT Line-ups (Smokes & Wallbangs)
 >  -  **J**: T Line-ups (Smokes & Wallbangs)
->  -  **K**: Pro crosshairs, Rapid fire pistols, Better Follow-Recoil and Snap-Tap/Null binds
+>  -  **K**: Pro crosshairs and Snap-Tap/Null binds
 >  -  **M**: Map Selection + Practice Mode
 
   
@@ -117,10 +114,6 @@ Then, open the T-/CT-wheel and select the line-up you want (as described above) 
 
 - **How to use PRACTICE-MODE:**<br />
   Open the map wheel and select ENABLE PRAC-MODE, then choose the map you want. Use the bind you set for the auto line-up wheel (default: **J**) to access many practice mode options (incl. CT/T-side line-up switch).
-
-- **How to use RAPID FIRE and FOLLOW-RECOIL mode:**<br />
-  Rapid fire shoots pistols as fast as possible while holding mouse1. Follow recoil draws a second crosshair (green dot) to indicate the spray pattern.<br />
-  Assign your personal keybinds in the required section at the bottom of `csafap/main.cfg`. By default, this mode is deactivated. Press the assigned keybind (default: right-alt) to toggle (you'll hear an activation/deactivation sound), or cycle the mode in the crosshair wheel (bottom left tile) between rapid fire, follow-recoil and both modes. Changing the mode will enable it as well.
 
 ## Customization
 - **Change keybinds**
@@ -337,37 +330,27 @@ irene762 <br />
   > [Youtube playlists](https://www.youtube.com/@FNScence/playlists) sorted by maps.
   > Here are examples for Ancient [CT-side](https://youtu.be/fd6gRZDOCps?si=qLWsm4GrhhVyXXpC&t=7) and [T-side](https://youtu.be/klyGW-IUca4?si=dRQ8qaAShzDSY0GG&t=3), Dust2 [T-side](https://youtu.be/XGQDTpFwkKM?si=oTVD5aypaWxZqgrz&t=55), Nuke [CT-side](https://youtu.be/v204dZrtFbo?si=lLB9Z4ohute6-8rq&t=84) and [T-side](https://youtu.be/tImJDxKe70o?si=mAKxnBdTGIZ9TUrH&t=17), Anubis [CT-side](https://youtu.be/fullFlkzB0U?si=MYDkPpzPqFDqqEbj&t=55) and [T-side](https://youtu.be/wURJvMSSbF0?si=Bd7TZ9BmWbJOAVsD&t=164), Inferno [CT-side](https://youtu.be/5MzQnaHtjl4?si=dymht4z6wghpO1EE&t=8), Mirage [T-side](https://youtu.be/klBqOVbdckQ?si=GendkMN1315tFBTf&t=53), Train [T-side](https://youtu.be/r_NkXOjYiIM?si=7rZNnNfyRmbTTloF&t=8).
 
-- Q17: On scoreboard, the right-click is not working.
-  > If you are using JT, WJT, rapid fire or follow-recoil features, you also need to use `bind mouse2 +M2`. To make the scoreboard work with that, we use `cl_scoreboard_mouse_enable_binding +M2`.<br />
-  > If you are not using those features and use the default `bind mouse2 +attack2`, you need to use `cl_scoreboard_mouse_enable_binding +attack2`. You need to run this command every time after the rest loads, so either put it at the end of `csafap/addons/loader.cfg` or prevent the crosshair modes from loading in the first place by disabling `exec csafap/crosshair/rapid_followrecoil` within `csafap/addons/loader.cfg` (by inserting `//` at the start of the line).
+- Q17: How to use better follow-recoil, rapid fire or any other ticker method based feature?
+  > You cannot. These features have been patched on 14th of July 2026.
 
-- Q18: Why is rapid fire and/or follow recoil mode not working?
-  > Firstly, make sure you are setting all the requirements for it (using launch option `-testscript_inline "Test_Run ../../csgo/cfg/CSAFAP/addons/.vtest"` and setting `ef_...` binds in `csafap/main.cfg`).<br />
-  > Secondly, these features are framerate dependent. By default they work at >150 FPS. If you get less, you need to rename `csafap/crosshair/rapid_followrecoil_lessthan150FPS.cfg` to `csafap/crosshair/rapid_followrecoil.cfg`.
-  >
-  > Rapid fire is only enabled for pistols, so take out your pistol (by pressing the keybind you assigned ef_slot2 to) after activating the feature.
-
-- Q19: Why is it that when I use crosshair and rapid fire, the grenades fire automatically as soon as I switch to them??
-  > You need to use the `ef_...` binds towards the bottom of `csafap/main.cfg`, as they are a requirement for follow-recoil and rapid fire features.
-
-- Q20: Why is my console getting spammed with `Unknown command: W!...`?
+- Q18: Why is my console getting spammed with `Unknown command: W!...`?
   > The launch option `-testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"` spamms these alias every frame. If the alias are not assigned on game launch, this will happen and other binds using the ticker function (including movement and mouse binds) will not work.<br />
   > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main` to look for potential errors after loading the config initially.
   > 
   > These features NO LONGER WORK ON FACEIT. If you plan on playing on faceit, remove the launch option `-testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"` and make sure you're not using any of the binds required by it from `../csafap/main.cfg` (make sure to overwrite them).
 
 
-- Q21: Why do movement keys and mouse buttons no longer work (and I cannot select team in offline mode) after installing? 
+- Q19: Why do movement keys and mouse buttons no longer work (and I cannot select team in offline mode) after installing? 
   > Same cause as in Q20 above.
   >
   > If you use `bind mouse1 +M1; bind mouse2 +M2` (from line 22 of `csafap/main.cfg`), you need to make sure you are also using this **exact** launch option `-testscript_inline "Test_Run ../../csgo/cfg/CSAFAP/addons/.vtest"`.
 
-- Q22: I only want to use a certain feature. How to delete everything else? 
+- Q20: I only want to use a certain feature. How to delete everything else? 
   > I created my configs so everyone can pick and choose the features they want to use. You can disable features by following the [How-to-Use](https://github.com/FNScence/CSAFAP-config-package?tab=readme-ov-file#how-to-use-the-csafap-config-package) and [Customization](https://github.com/FNScence/CSAFAP-config-package?tab=readme-ov-file#customization) chapters. If you don't press the keybinds of the features, they will never be called.<br />
   >
   > If you want to delete parts of the whole package, that's fine, but it has no upside (literally pointless) and I won't do it for you. You need to reverse engineer it yourself.
 
-- Q23: Why do I get `FATAL ERROR: -testscript requires -insecure`?
+- Q21: Why do I get `FATAL ERROR: -testscript requires -insecure`?
 	> On the 21st of May 2026, Valve patched `-testscript` to require the `-insecure` launch option (which would prevent you from joining official matchmaking servers). You are running an outdated version, which still uses the old launch option.
 	>
 	> **Fix:** Replace your local [`csafap/addons/.vtest`](https://github.com/FNScence/CSAFAP-config-package/blob/main/csafap/addons/.vtest) file with the updated one from this repo (it is the only file that needed updating — no need to re-download the whole package), and replace the old launch option:
@@ -380,7 +363,7 @@ irene762 <br />
  	>
 	> Also make sure to check if your `../cfg/csafap/addons/.vtest"` file is actually file type `vtest` without a name. If it is file type `file` and name `.vtest` for example, you need to redownload or convert it.
 
-- Q24: How to uninstall the config package?
+- Q22: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"` anymore.
   >
   > To make right-click work on scoreboard again after using ticker features, you need to use this command once: `cl_scoreboard_mouse_enable_binding +attack2`
