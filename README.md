@@ -87,8 +87,8 @@ All features are accessible via the in-game radio wheels, by using the four keyb
 
 
 - **Step 4:**
-  Run the main config in-game. Add exactly these launch options: <br />
-  `+exec csafap/main -testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"`
+  Run the main config in-game. Add exactly this launch option: <br />
+  `+exec csafap/main`
   
 <p align="center">
 <img width="60%" alt="Image5" src="https://github.com/user-attachments/assets/85046a08-1940-46d7-a1aa-08439ab53a29" />
@@ -201,7 +201,7 @@ irene762 <br />
   > FATAL ERROR: Can't open file (../../csgo/cfg/CSAFAP/addon/.vtest) passed to -testscript
   > ```
   >
-  > Most likely you accidentally placed it in the directory for the old game CS:GO (instead of CS2), or you didn't take the csafap-folder out of the github repo folder.
+  > Most likely you accidentally placed it in the directory for the old game CS:GO (instead of CS2), or you are still using the depricated testscript launch option.
   >
   > `..\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\csafap` ✅
   >
@@ -333,37 +333,22 @@ irene762 <br />
 - Q17: How to use better follow-recoil, rapid fire or any other ticker method based feature?
   > You cannot. These features have been patched on 14th of July 2026.
 
-- Q18: Why is my console getting spammed with `Unknown command: W!...`?
-  > The launch option `-testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"` spamms these alias every frame. If the alias are not assigned on game launch, this will happen and other binds using the ticker function (including movement and mouse binds) will not work.<br />
-  > We initialize these alias on game launch by using the launch option `+exec csafap/main`, but if a command is too long (for example the `alias reset_crosshair "..."` at the bottom of `csafap/main.cfg`) the exec queue will exit causing this issue. To debug this, you can take out the vtest launch option and check console output directly after game launch or `exec csafap/main` to look for potential errors after loading the config initially.
-  > 
-  > These features NO LONGER WORK ON FACEIT. If you plan on playing on faceit, remove the launch option `-testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"` and make sure you're not using any of the binds required by it from `../csafap/main.cfg` (make sure to overwrite them).
-
-
-- Q19: Why do movement keys and mouse buttons no longer work (and I cannot select team in offline mode) after installing? 
+- Q18: Why do movement keys and mouse buttons no longer work (and I cannot select team in offline mode) after installing? 
   > Same cause as in Q20 above.
   >
   > If you use `bind mouse1 +M1; bind mouse2 +M2` (from line 22 of `csafap/main.cfg`), you need to make sure you are also using this **exact** launch option `-testscript_inline "Test_Run ../../csgo/cfg/CSAFAP/addons/.vtest"`.
 
-- Q20: I only want to use a certain feature. How to delete everything else? 
+- Q19: I only want to use a certain feature. How to delete everything else? 
   > I created my configs so everyone can pick and choose the features they want to use. You can disable features by following the [How-to-Use](https://github.com/FNScence/CSAFAP-config-package?tab=readme-ov-file#how-to-use-the-csafap-config-package) and [Customization](https://github.com/FNScence/CSAFAP-config-package?tab=readme-ov-file#customization) chapters. If you don't press the keybinds of the features, they will never be called.<br />
   >
   > If you want to delete parts of the whole package, that's fine, but it has no upside (literally pointless) and I won't do it for you. You need to reverse engineer it yourself.
 
-- Q21: Why do I get `FATAL ERROR: -testscript requires -insecure`?
-	> On the 21st of May 2026, Valve patched `-testscript` to require the `-insecure` launch option (which would prevent you from joining official matchmaking servers). You are running an outdated version, which still uses the old launch option.
+- Q20: Why do I get `FATAL ERROR: -testscript requires -insecure`?
+	> On the 21st of May 2026, Valve patched `-testscript` to require the `-insecure` launch option (which would prevent you from joining official matchmaking servers), and on 14th of July 2026 they did the same to the workaround launch option (using `_inline`).
 	>
-	> **Fix:** Replace your local [`csafap/addons/.vtest`](https://github.com/FNScence/CSAFAP-config-package/blob/main/csafap/addons/.vtest) file with the updated one from this repo (it is the only file that needed updating — no need to re-download the whole package), and replace the old launch option:
-	>
-	> `+exec csafap/main -testscript "../../csgo/cfg/csafap/addons/.vtest"`
-	>
-	> with the new launch option:
-	>
-	> `+exec csafap/main -testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"`
- 	>
-	> Also make sure to check if your `../cfg/csafap/addons/.vtest"` file is actually file type `vtest` without a name. If it is file type `file` and name `.vtest` for example, you need to redownload or convert it.
+	> **Fix:** Remove this from your launch options: `-testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"`
 
-- Q22: How to uninstall the config package?
+- Q21: How to uninstall the config package?
   > Simply overwrite the keybinds used by this config package (`1, 2, 3, N, H, J, K, M, space, Q, W, A, S, D`) and don't use the launch options `+exec csafap/main -testscript_inline "Test_Run ../../csgo/cfg/csafap/addons/.vtest"` anymore.
   >
   > To make right-click work on scoreboard again after using ticker features, you need to use this command once: `cl_scoreboard_mouse_enable_binding +attack2`
