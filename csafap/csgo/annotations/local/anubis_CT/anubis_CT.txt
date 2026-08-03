@@ -1786,7 +1786,6 @@
 		MasterNodeId = "0d281100-d36f-4a30-aeea-102c6fe2b195"
 		DistanceThreshold = 80.0
 	}
-
 	MapAnnotationNode173 = 
 	{
 		Enabled = true
@@ -2080,68 +2079,6 @@
 		}
 		MasterNodeId = "3c7ab3e4-0cc3-4a5e-afad-f1005e0af986"
 		DistanceThreshold = 80.0
-	}
-	MapAnnotationNode217 = 
-	{
-		Enabled = true
-		Type = "line"
-		Id = "401e2566-985e-4691-9ed7-7c20c45499d3"
-		SubType = "main"
-		Position = [ 398.689545, 504.775726, 65.477783 ]
-		Angles = [ 0.0, 270.0, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "b4fc1779-515a-41f2-95f5-3d7359f4dca5"
-	}
-	MapAnnotationNode218 = 
-	{
-		Enabled = true
-		Type = "line"
-		Id = "b4fc1779-515a-41f2-95f5-3d7359f4dca5"
-		SubType = "aim_target"
-		Position = [ 398.649689, 504.775726, 19.952738 ]
-		Angles = [ 0.0, 270.0, 0.0 ]
-		VisiblePfx = true
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
 	}
 	MapAnnotationNode219 = 
 	{
@@ -3397,7 +3334,7 @@
 		Position = [ -973.67285, 657.3281, 108.38979 ]
 		Angles = [ -28.61345, -98.98096, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
+		TextPositionOffset = [ 0.0, 22.0, -12.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
@@ -3555,8 +3492,8 @@
 		Type = "grenade"
 		Id = "29f5a400-a587-4ae4-9726-051fe8303a12"
 		SubType = "main"
-		Position = [ 391.965271, 1477.014282, -4.992371 ]
-		Angles = [ 0.0, -105.439568, 0.0 ]
+		Position = [ 391.97028, 1477.0465, -5.0009155 ]
+		Angles = [ 0.0, -118.280525, 0.0 ]
 		VisiblePfx = true
 		Color = [ 60, 150, 230 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -3590,24 +3527,24 @@
 		Type = "grenade"
 		Id = "dd01e506-cb8f-4f66-8fd8-46bbcefc2e9b"
 		SubType = "aim_target"
-		Position = [ 354.661316, 1386.345215, 39.267441 ]
-		Angles = [ 11.35326, -112.363708, 0.0 ]
+		Position = [ 345.5281, 1391.4424, 81.35037 ]
+		Angles = [ -13.117595, -118.48085, 0.0 ]
 		VisiblePfx = true
-		TextPositionOffset = [ 0.0, -30.0, 15.0 ]
+		TextPositionOffset = [ 0.0, -25.0, -12.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
 			Text = "Window break flash"
-			FontSize = 125
+			FontSize = 100
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
 		Desc = 
 		{
-			Text = "go back, then right, then \n crouched Jumpthrow"
+			Text = "crouch, then \n crouched throw"
 			FontSize = 60
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -3621,8 +3558,8 @@
 		Type = "grenade"
 		Id = "240e2a28-cc9c-4908-9a62-9fc33b72db29"
 		SubType = "destination"
-		Position = [ -69.212219, 586.756714, 16.554661 ]
-		Angles = [ 11.35326, -112.363708, 0.0 ]
+		Position = [ -105.92344, 559.306, 24.645504 ]
+		Angles = [ -13.117595, -118.48085, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -3646,194 +3583,6 @@
 		}
 		MasterNodeId = "29f5a400-a587-4ae4-9726-051fe8303a12"
 		DistanceThreshold = 80.0
-	}
-	MapAnnotationNode314 = 
-	{
-		Enabled = true
-		Type = "spot"
-		Id = "26e0ac61-f120-479d-8354-be156d62202b"
-		SubType = "main"
-		Position = [ 357.40585, 1625.2509, -27.030823 ]
-		Angles = [ 0.0, -112.33925, 0.0 ]
-		VisiblePfx = false
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-	}
-	MapAnnotationNode315 = 
-	{
-		Enabled = true
-		Type = "spot"
-		Id = "3125a738-1bd6-435c-890f-aa247af23642"
-		SubType = "aim_target"
-		Position = [ 320.11777, 1534.5101, -2.8676891 ]
-		Angles = [ 11.176817, -112.33925, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "26e0ac61-f120-479d-8354-be156d62202b"
-	}
-	MapAnnotationNode316 = 
-	{
-		Enabled = true
-		Type = "position"
-		Id = "12852467-9260-485b-9df6-4d6f13aaf774"
-		SubType = "main"
-		Position = [ 357.218353, 1624.598145, -27.355896 ]
-		Angles = [ 0.0, -112.363701, 0.0 ]
-		VisiblePfx = true
-		Color = [ 60, 150, 230 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
-		TextFacePlayer = true
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = "Window break flash"
-			FontSize = 125
-			FadeInDist = 600.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 300.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-	}
-	MapAnnotationNode317 = 
-	{
-		Enabled = true
-		Type = "line"
-		Id = "d5d6126f-0c77-4ec8-aec9-fdece803c639"
-		SubType = "main"
-		Position = [ 356.938354, 1623.86377, -26.000156 ]
-		Angles = [ 90.0, 0.0, 0.0 ]
-		VisiblePfx = true
-		Color = [ 60, 150, 230 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "1019fde8-5696-4560-bd75-d602357f12ab"
-	}
-	MapAnnotationNode318 = 
-	{
-		Enabled = true
-		Type = "line"
-		Id = "1019fde8-5696-4560-bd75-d602357f12ab"
-		SubType = "aim_target"
-		Position = [ 391.592072, 1622.976807, -26.000156 ]
-		Angles = [ 90.0, 0.0, 0.0 ]
-		VisiblePfx = true
-		Color = [ 60, 150, 230 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "237448da-a377-4800-9677-b731cd0933d5"
-	}
-	MapAnnotationNode319 = 
-	{
-		Enabled = true
-		Type = "line"
-		Id = "237448da-a377-4800-9677-b731cd0933d5"
-		SubType = "aim_target"
-		Position = [ 391.668396, 1476.293945, 7.051643 ]
-		Angles = [ 89.323853, 359.886658, 0.0 ]
-		VisiblePfx = true
-		Color = [ 60, 150, 230 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
 	}
 	MapAnnotationNode320 = 
 	{
@@ -4625,7 +4374,7 @@
 		Type = "grenade"
 		Id = "dbcf36f1-4198-4f4e-814d-1f769c12bd72"
 		SubType = "main"
-		Position = [ -1289.968018, 1539.96875, -30.96875 ]
+		Position = [ -1289.968018, 1539.9688, -30.96875 ]
 		Angles = [ 0.0, -70.249329, 0.0 ]
 		VisiblePfx = true
 		Color = [ 60, 150, 230 ]
@@ -5073,4 +4822,5 @@
 		MasterNodeId = "ba0ad65f-3a4b-4932-8ea9-9e4e9d57a255"
 		DistanceThreshold = 80.0
 	}
+	WorkshopSubmissionID = "3777053510"
 }
