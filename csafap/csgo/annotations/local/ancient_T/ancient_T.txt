@@ -758,7 +758,7 @@
 		Type = "grenade"
 		Id = "93cbb603-a636-4fa7-b6df-790ab85d290a"
 		SubType = "main"
-		Position = [ -2143.96875, -1003.968262, -2.855286 ]
+		Position = [ -2143.9688, -1003.968262, -2.855286 ]
 		Angles = [ 0.0, 42.776642, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
@@ -859,7 +859,7 @@
 		Position = [ -2143.970215, -1003.970459, -2.854187 ]
 		Angles = [ 0.0, 60.688141, 0.0 ]
 		VisiblePfx = true
-		Color = [ 70, 170, 10]
+		Color = [ 70, 170, 10 ]
 		TextPositionOffset = [ 0.0, 0.0, 70.0 ]
 		TextFacePlayer = true
 		TextHorizontalAlign = "center"
@@ -954,7 +954,7 @@
 		Type = "grenade"
 		Id = "faa9f932-bd4b-4f02-baf5-74a671d7ce89"
 		SubType = "main"
-		Position = [ -2143.96875, -1003.96875, -2.855164 ]
+		Position = [ -2143.9688, -1003.96875, -2.855164 ]
 		Angles = [ 0.0, 72.37587, 0.0 ]
 		VisiblePfx = true
 		Color = [ 70, 170, 10 ]
@@ -1052,7 +1052,7 @@
 		Type = "grenade"
 		Id = "53e2d444-24cb-47e4-9b23-19be573baedc"
 		SubType = "main"
-		Position = [ -2143.96875, -1003.96875, -2.855164 ]
+		Position = [ -2143.9688, -1003.96875, -2.855164 ]
 		Angles = [ 0.0, 75.224762, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
@@ -3590,7 +3590,7 @@
 		Type = "grenade"
 		Id = "807beaa0-fd78-4376-909a-bd2be86195dd"
 		SubType = "main"
-		Position = [ -216.031799, -2443.96875, -152.105347 ]
+		Position = [ -216.031799, -2443.9688, -152.105347 ]
 		Angles = [ 0.0, 89.005066, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
@@ -5322,8 +5322,8 @@
 		Type = "grenade"
 		Id = "a1d4b02d-d6c1-48c6-aa52-fb7b3308b4bb"
 		SubType = "main"
-		Position = [ 759.966431, -1636.03125, -59.132568 ]
-		Angles = [ 0.0, 89.637787, 0.0 ]
+		Position = [ 759.9711, -1636.0312, -59.131287 ]
+		Angles = [ 0.0, 93.94939, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
 		TextPositionOffset = [ 0.0, 0.0, 50.0 ]
@@ -5357,8 +5357,8 @@
 		Type = "grenade"
 		Id = "7e9c95fc-3e71-43df-97db-33402d8f3d20"
 		SubType = "aim_target"
-		Position = [ 760.532776, -1546.431885, 37.016033 ]
-		Angles = [ -26.361301, 89.637848, 0.0 ]
+		Position = [ 754.0184, -1549.8086, 42.43572 ]
+		Angles = [ -30.199594, 93.94939, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, -12.0, 10.0 ]
 		TextFacePlayer = false
@@ -5388,8 +5388,8 @@
 		Type = "grenade"
 		Id = "b945f808-c063-4671-aafd-ddc4f0817e00"
 		SubType = "destination"
-		Position = [ 673.717407, 454.301941, 125.54303 ]
-		Angles = [ -26.361301, 89.637848, 0.0 ]
+		Position = [ 704.002, 535.0222, 127.13028 ]
+		Angles = [ -30.199594, 93.94939, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -5417,78 +5417,13 @@
 	MapAnnotationNode194 = 
 	{
 		Enabled = true
-		Type = "grenade"
-		Id = "c74bb6a0-d314-494f-96d1-ab6031764ccf"
+		Type = "spot"
+		Id = "af100c22-5f23-4ee4-a139-c7d23fd9e315"
 		SubType = "main"
-		Position = [ 759.965759, -1636.031128, -59.132629 ]
-		Angles = [ 0.0, 93.90976, 0.0 ]
-		VisiblePfx = true
-		Color = [ 250, 230, 3 ]
-		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
-		TextFacePlayer = true
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 600.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 300.0
-			FadeOutDist = 40.0
-			ShowBackground = true
-		}
-		StreakLimitGuidesOn = 2
-		StreakLimitGuidesOff = 2
-		JumpThrow = false
-		GrenadeType = "smoke"
-	}
-	MapAnnotationNode195 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "ec9f3ce5-c38e-4758-a980-a2c744e1810a"
-		SubType = "aim_target"
-		Position = [ 754.056091, -1549.559448, 42.490288 ]
-		Angles = [ -29.918741, 93.909653, 0.0 ]
-		VisiblePfx = true
-		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		Desc = 
-		{
-			Text = ""
-			FontSize = 75
-			FadeInDist = 50.0
-			FadeOutDist = -1.0
-			ShowBackground = true
-		}
-		MasterNodeId = "c74bb6a0-d314-494f-96d1-ab6031764ccf"
-	}
-	MapAnnotationNode196 = 
-	{
-		Enabled = true
-		Type = "grenade"
-		Id = "a7ccc4be-fa91-40e6-b438-9b453e0f5e96"
-		SubType = "destination"
-		Position = [ 700.976746, 534.009583, 127.319466 ]
-		Angles = [ -29.918741, 93.909653, 0.0 ]
-		VisiblePfx = true
+		Position = [ 759.96826, -1636.0295, -59.130432 ]
+		Angles = [ 0.0, 89.5072, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 255, 255 ]
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
 		TextHorizontalAlign = "center"
@@ -5496,6 +5431,36 @@
 		Title = 
 		{
 			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode195 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "68bd57bd-24c5-4caf-9495-9f848e890dbd"
+		SubType = "aim_target"
+		Position = [ 760.7394, -1546.3748, 36.423058 ]
+		Angles = [ -26.287695, 89.5072, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -5509,8 +5474,7 @@
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
-		MasterNodeId = "c74bb6a0-d314-494f-96d1-ab6031764ccf"
-		DistanceThreshold = 80.0
+		MasterNodeId = "af100c22-5f23-4ee4-a139-c7d23fd9e315"
 	}
 	MapAnnotationNode197 = 
 	{
@@ -5518,7 +5482,7 @@
 		Type = "grenade"
 		Id = "320bbe06-45a1-45fe-9ac4-770b4d2c89ca"
 		SubType = "main"
-		Position = [ 759.967834, -1636.03125, -59.132141 ]
+		Position = [ 759.967834, -1636.0312, -59.132141 ]
 		Angles = [ 0.0, 72.885712, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
@@ -5616,8 +5580,8 @@
 		Type = "grenade"
 		Id = "337d0823-4db2-4128-8cd5-bb2925d2f422"
 		SubType = "main"
-		Position = [ 759.96875, -1636.031616, -59.132263 ]
-		Angles = [ 0.0, 102.058533, 0.0 ]
+		Position = [ 759.9633, -1636.0312, -59.133423 ]
+		Angles = [ 0.0, 102.004074, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
@@ -5651,8 +5615,8 @@
 		Type = "grenade"
 		Id = "9cb279fa-27e6-4d20-a926-7d357e49756c"
 		SubType = "aim_target"
-		Position = [ 741.812317, -1551.038574, 42.075081 ]
-		Angles = [ -29.644957, 102.058434, 0.0 ]
+		Position = [ 741.93195, -1551.2301, 41.968266 ]
+		Angles = [ -29.891598, 102.004074, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 20.0, -12.0 ]
 		TextFacePlayer = false
@@ -5682,8 +5646,8 @@
 		Type = "grenade"
 		Id = "c3f53357-194c-4dd0-a4d5-4027eccf2d4d"
 		SubType = "destination"
-		Position = [ 540.17218, 239.245865, 154.654755 ]
-		Angles = [ -29.644957, 102.058434, 0.0 ]
+		Position = [ 540.6002, 231.5677, 154.65475 ]
+		Angles = [ -29.891598, 102.004074, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -5910,8 +5874,8 @@
 		Type = "grenade"
 		Id = "a988778e-c2bc-4fcc-8911-529d0a09dd04"
 		SubType = "main"
-		Position = [ 309.968781, -607.981873, 172.03125 ]
-		Angles = [ 0.0, 62.519073, 0.0 ]
+		Position = [ 309.9579, -607.9884, 172.03125 ]
+		Angles = [ 0.0, 63.135242, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -5945,8 +5909,8 @@
 		Type = "grenade"
 		Id = "2dac598f-04fc-4962-bf60-ec41d328d268"
 		SubType = "aim_target"
-		Position = [ 352.968353, -525.313416, 181.073639 ]
-		Angles = [ 21.278393, 62.519032, 0.0 ]
+		Position = [ 352.12616, -524.74335, 179.71056 ]
+		Angles = [ 21.066849, 63.135242, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 20.0 ]
 		TextFacePlayer = false
@@ -5976,8 +5940,8 @@
 		Type = "grenade"
 		Id = "1cf79dec-e82b-4e57-81f5-bc20e2447377"
 		SubType = "destination"
-		Position = [ 464.683685, -308.369141, 181.841904 ]
-		Angles = [ 21.278393, 62.519032, 0.0 ]
+		Position = [ 462.54648, -305.95673, 178.24765 ]
+		Angles = [ 21.066849, 63.135242, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -6008,8 +5972,8 @@
 		Type = "grenade"
 		Id = "c7e33a93-dc2f-4748-8ce3-f8d181b420f5"
 		SubType = "main"
-		Position = [ 338.03125, -736.033875, 186.03125 ]
-		Angles = [ 0.0, -110.310631, 0.0 ]
+		Position = [ 338.0367, -736.03125, 186.03125 ]
+		Angles = [ 0.0, -97.15828, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -6043,8 +6007,8 @@
 		Type = "grenade"
 		Id = "161c1455-500c-4502-8815-2088ff82d587"
 		SubType = "aim_target"
-		Position = [ 326.072144, -832.452087, 273.546326 ]
-		Angles = [ -13.694848, -97.070503, 0.0 ]
+		Position = [ 329.52893, -832.64166, 274.37296 ]
+		Angles = [ -14.106772, -95.03265, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
 		TextFacePlayer = false
@@ -6074,8 +6038,8 @@
 		Type = "grenade"
 		Id = "44a709cd-6509-46e0-acb4-091fd0d5e841"
 		SubType = "destination"
-		Position = [ 269.364044, -581.757996, 188.821106 ]
-		Angles = [ -13.694848, -97.070503, 0.0 ]
+		Position = [ 289.08737, -579.48956, 188.02534 ]
+		Angles = [ -14.106772, -95.03265, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -6085,7 +6049,7 @@
 		{
 			Text = ""
 			FontSize = 60
-			FadeInDist = 10.0
+			FadeInDist = 1.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
@@ -6093,7 +6057,7 @@
 		{
 			Text = ""
 			FontSize = 60
-			FadeInDist = 10.0
+			FadeInDist = 1.0
 			FadeOutDist = -1.0
 			ShowBackground = true
 		}
@@ -6596,8 +6560,8 @@
 		Type = "position"
 		Id = "99979659-fe0c-4dc5-8c04-8625b97f54eb"
 		SubType = "main"
-		Position = [ 753.598206, -632.042664, 84.55114 ]
-		Angles = [ 0.0, 96.935455, 0.0 ]
+		Position = [ 763.317, -632.033, 83.595726 ]
+		Angles = [ 0.0, 96.63745, 0.0 ]
 		VisiblePfx = true
 		Color = [ 250, 230, 3 ]
 		TextPositionOffset = [ 0.0, 0.0, 20.0 ]
@@ -6627,8 +6591,8 @@
 		Type = "spot"
 		Id = "f01d9b44-26ec-428e-8552-3fa4e7e66bed"
 		SubType = "main"
-		Position = [ 753.598206, -632.042664, 84.55114 ]
-		Angles = [ 0.0, 92.92099, 0.0 ]
+		Position = [ 763.66785, -632.0677, 83.55763 ]
+		Angles = [ 0.0, 97.45358, 0.0 ]
 		VisiblePfx = false
 		Color = [ 255, 255, 255 ]
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
@@ -6658,8 +6622,8 @@
 		Type = "spot"
 		Id = "170055df-c562-4c0f-b712-e30d6e5a7a13"
 		SubType = "aim_target"
-		Position = [ 747.966187, -532.217163, 146.693176 ]
-		Angles = [ -1.016435, 93.229141, 0.0 ]
+		Position = [ 750.6985, -532.93506, 146.54068 ]
+		Angles = [ -1.2168621, 97.45358, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
 		TextFacePlayer = false
@@ -9774,4 +9738,5 @@
 		MasterNodeId = "1855df53-91ee-49cd-83c7-ac18b5ddffca"
 		DistanceThreshold = 80.0
 	}
+	WorkshopSubmissionID = "3387870747"
 }

@@ -206,7 +206,7 @@
 		Type = "grenade"
 		Id = "3e59512c-6ed6-4453-aa87-d1e649d0a8d9"
 		SubType = "main"
-		Position = [ -1273.96875, -252.03302, 106.03125 ]
+		Position = [ -1273.9688, -252.03302, 106.03125 ]
 		Angles = [ 0.0, 136.786987, 0.0 ]
 		VisiblePfx = true
 		Color = [ 60, 150, 230 ]
@@ -587,8 +587,8 @@
 		Type = "spot"
 		Id = "b8419ffa-fd1e-4f0e-a444-18594d50d643"
 		SubType = "main"
-		Position = [ -1254.039062, 273.801422, 135.242783 ]
-		Angles = [ 0.0, 124.996277, 0.0 ]
+		Position = [ -1254.0746, 273.49387, 135.55031 ]
+		Angles = [ 0.0, 125.034164, 0.0 ]
 		VisiblePfx = false
 		Color = [ 255, 255, 255 ]
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
@@ -618,8 +618,8 @@
 		Type = "spot"
 		Id = "ea08b8a9-70f5-4bcf-b8f1-01f96a3ab6fc"
 		SubType = "aim_target"
-		Position = [ -1310.432983, 354.350952, 171.663544 ]
-		Angles = [ 10.490759, 124.996384, 0.0 ]
+		Position = [ -1310.5181, 354.00134, 174.15479 ]
+		Angles = [ 10.509157, 125.034164, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, -10.0 ]
 		TextFacePlayer = false
@@ -1117,7 +1117,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2403,8 +2403,8 @@
 		Type = "grenade"
 		Id = "41e97936-1748-4d2a-b326-062a1f4ac8b8"
 		SubType = "main"
-		Position = [ -312.459778, -689.970947, 34.021923 ]
-		Angles = [ 0.0, 123.913757, 0.0 ]
+		Position = [ -312.03284, -689.96875, 38.91333 ]
+		Angles = [ 0.0, 124.18809, 0.0 ]
 		VisiblePfx = true
 		Color = [ 60, 150, 230 ]
 		TextPositionOffset = [ 0.0, 0.0, 60.0 ]
@@ -2438,8 +2438,8 @@
 		Type = "grenade"
 		Id = "65bf1e5a-c9c3-483c-b340-4eb696df5a2d"
 		SubType = "aim_target"
-		Position = [ -362.753387, -615.165405, 139.893387 ]
-		Angles = [ -25.656576, 123.913902, 0.0 ]
+		Position = [ -363.48724, -614.222, 140.75504 ]
+		Angles = [ -23.694172, 124.18809, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
 		TextFacePlayer = false
@@ -2469,8 +2469,8 @@
 		Type = "grenade"
 		Id = "16bb525e-8d93-4562-a2a7-87bd140b264a"
 		SubType = "destination"
-		Position = [ -1971.065552, 368.390076, 80.03125 ]
-		Angles = [ -25.656576, 123.913902, 0.0 ]
+		Position = [ -2001.6256, 382.3567, 75.05555 ]
+		Angles = [ -23.694172, 124.18809, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -4521,7 +4521,7 @@
 		Type = "grenade"
 		Id = "eede6df0-8956-418a-a298-7ba67de7b5d1"
 		SubType = "main"
-		Position = [ -66.03125, 1771.96875, 37.465809 ]
+		Position = [ -66.03125, 1771.9688, 37.465809 ]
 		Angles = [ 0.0, -147.005646, 0.0 ]
 		VisiblePfx = true
 		Color = [ 60, 150, 230 ]
@@ -5979,8 +5979,8 @@
 		Type = "grenade"
 		Id = "f3e5eb3b-a9bc-44c3-9c99-c581af651839"
 		SubType = "main"
-		Position = [ 723.513916, 678.11853, 125.571159 ]
-		Angles = [ 0.0, -94.88102, 0.0 ]
+		Position = [ 722.75757, 669.4367, 124.428825 ]
+		Angles = [ 0.0, -94.86627, 0.0 ]
 		VisiblePfx = true
 		Color = [ 50, 220, 190 ]
 		TextPositionOffset = [ 0.0, 0.0, 40.0 ]
@@ -6014,8 +6014,8 @@
 		Type = "grenade"
 		Id = "5979b68d-2362-4832-b909-2a9037280b82"
 		SubType = "aim_target"
-		Position = [ 715.018555, 578.635376, 181.138031 ]
-		Angles = [ 3.188509, -94.880943, 0.0 ]
+		Position = [ 714.2863, 569.9354, 180.53815 ]
+		Angles = [ 3.018414, -94.86627, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 15.0 ]
 		TextFacePlayer = false
@@ -6045,8 +6045,8 @@
 		Type = "grenade"
 		Id = "da4e3380-4339-466f-a031-a4b5e79bf1c3"
 		SubType = "destination"
-		Position = [ 588.43457, -825.19696, 192.483292 ]
-		Angles = [ 3.188509, -94.880943, 0.0 ]
+		Position = [ 586.9761, -827.3659, 197.08261 ]
+		Angles = [ 3.018414, -94.86627, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
 		TextFacePlayer = false
@@ -6642,7 +6642,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = ""
 			FontSize = 60
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -8052,4 +8052,5 @@
 		MasterNodeId = "ae4a1088-1fb2-4b26-92c9-5fb55ad04ea0"
 		DistanceThreshold = 80.0
 	}
+	WorkshopSubmissionID = "3778077042"
 }
