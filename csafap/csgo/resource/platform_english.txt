@@ -271,6 +271,8 @@
 	"CFG_TRAIN_SMOKE_14"                    "T \n INSTANT ☁ smoke \n LEFT SMOKEWALL \n SPAWN 5 \n  \n  \n  \n  \n "
 	"CFG_TRAIN_SMOKE_15"                    "T \n INSTANT ☁ smoke \n RIGHT SMOKEWALL \n SPAWN 5 \n  \n  \n  \n  \n "
 	
+	"CFG_CACHE_MOLLY_1"                    "T \n INSTANT molotov \n SANDBAGS \n  \n  \n  \n  \n "
+	
 	"CFG_OVERPASS_WALLBANG_1"                    "CT \n WALLBANG \n FLOWER to T-STAIRS \n \n SHOOT AT 1:49 \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_WALLBANG_2"                    "T \n WALLBANG \n T-STAIRS to HEAVEN \n \n SHOOT AT 1:48 \n  \n  \n  \n  \n "
 	"CFG_OVERPASS_WALLBANG_3"                    "CT \n WALLBANG \n B to CONNECTOR \n  \n  \n  \n  \n "
