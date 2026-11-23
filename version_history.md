@@ -290,3 +290,12 @@
        - Rapid Fire pistols
        - Release nades on reload key
        - Crouch-jump bind
+
+- ***New with version 3.23:*** (11th September 2026)
+	- Adjusted Cache Spawn Teleports in prac mode (after recent changes)
+	- Added various line-ups to prac mode
+	- Restructured Mirage practice mode to make T-side file fit all line-ups
+	- Fixed a bug with WJT with active faceitAC which caused you to run forward indefinitely
+
+- ***New with version 3.24:*** (23rd November 2026)
+	- Added Cache Instant Sandbags Molotov Auto Line-up
